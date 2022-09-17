@@ -1,0 +1,88 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+:root {
+  --brand-color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-box {
+  width: 50%;
+}
+
+.brand-box {
+  width: 50%;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  font: 3em Arial, sans-serif;
+  font-weight: bold;
+}
+
+.ad-box {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  background-color: grey;
+}
+
+
+.search-btns {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.search-btn {
+  width: 200px;
+  margin: 11px 4px;
+  padding: 0 3px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+  
+footer {
+  background-color: var(--brand-color);
+  padding-top: 50px;
+  text-align: center;
+  font: small;
+}
+
+@media screen and (max-width: 640px){
+    .brand-box {
+       font-size: 2.5em;
+    }    
+}

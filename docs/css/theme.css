@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent
+}
+
+/* Style the header */
+header {
+  background-color: transparent;
+  padding: 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: transparent;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.listing-item,
+.listing-btn,
+.listing-btn:link,
+.listing-btn:visited {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.listing-item {
+  padding: 8px 16px;
+  text-align: center;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+  margin: 10px 5px 0 0;
+}
+
+.listing-category {
+  padding: 8px 16px;
+  text-align: center;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+  margin: 10px 5px 0 0;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+
+.ad-box {
+  position: relative;
+}
+
+h2 {
+  background-color: grey;
+}
+
+.text-block {
+  position: absolute;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav,
+  article,
+  .center {
+    width: 100%;
+    height: auto;
+  }
+}

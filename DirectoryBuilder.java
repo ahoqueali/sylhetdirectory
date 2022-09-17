@@ -1,0 +1,629 @@
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.lang.StringBuilder;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class DirectoryBuilder {
+
+    private static char [] alphabet = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
+    
+    public static void main(String[] args) {
+
+        if(args.length == 0){
+            System.out.println("Enter file name");
+            return;
+        }
+
+        List<Listing> listings = new ArrayList<>();
+        for(String fileName: args){
+            listings.addAll(loadListings(fileName));
+        }
+
+        if(System.getenv("deleteListings") != null){
+            deleteListings(listings);
+            System.exit(0);
+        }
+
+        Map<String, Listing> listingDir = new HashMap<>();
+        listings.stream()
+            .forEach(listing -> listingDir.put(listing.getPath(), listing));
+
+        Collections.sort(listings);
+        generateListingHtmlFiles(listings);
+        generateSitemap(listings);
+        generateDirIndex(listings, listingDir);
+        generateCategoryIndex(listingDir);
+
+        System.out.println("Root directory: " + getDirRoot());
+        System.out.printf("generated %d listings... ", listings.size());
+    }
+
+    private static void deleteListings(List<Listing> listings){
+
+        listings.stream().forEach(listing -> {
+            try{
+                Path dir = Paths.get(getDirRoot(), listing.getPath());
+                Path indexFile = Paths.get(dir.toString() + "/index.html");
+                Files.deleteIfExists(indexFile);
+                Files.deleteIfExists(dir);
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+        });
+    }
+
+    private static String getDirRoot(){
+        String rootDir = System.getenv("rootDir");
+        return rootDir;
+    }
+
+    private static void generateCategoryIndex(Map<String, Listing> listingDir){
+
+        var listingsMap = new HashMap<String, List<Listing>>();
+        var categoryMap = new HashMap<>();
+
+        listingDir.values().stream()
+            .forEach(listing -> {
+
+                String category = listing.getCategory();
+                String [] categories = category.split(",");
+
+                for(String cat: categories){
+                    String key = getCategoryPath(cat);
+                    categoryMap.putIfAbsent(key, cat);
+                    listingsMap.putIfAbsent(key, new ArrayList<Listing>());
+                    var categoryList = listingsMap.get(key);
+                    categoryList.add(listing);
+                }
+            });
+
+            listingsMap.entrySet().stream().forEach(e -> {
+                generateCategoryPage(e.getKey(), e.getValue(), listingDir);
+            });
+
+            try{
+
+                Path dir = Paths.get(getDirRoot(), "category");
+                Path indexFile = Paths.get(dir.toString() + "/index.html");
+                Files.deleteIfExists(indexFile);
+
+                StringBuilder builder = new StringBuilder();
+                builder.append(getHtmlHead());
+                builder.append("<ul class='list-group'>");
+                listingsMap.entrySet().stream().sorted((e1, e2) -> e1.getKey().compareTo(e2.getKey())).forEach(e -> {
+                    builder.append("<li class='list-group-item'>");
+                    builder.append("<a class='btn btn-primary btn-block' role='button' href='" + e.getKey() + "/'/>" +  categoryMap.get(e.getKey())  + "</a>");
+                    builder.append("</li>");
+                    builder.append("\n");
+                });
+                builder.append("</ul>");
+                builder.append(getFooterHtml());
+
+                BufferedWriter writer = new BufferedWriter(new FileWriter(indexFile.toString()));
+                writer.write(builder.toString());
+                writer.close();
+            
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+    }
+
+    private static void generateCategoryPage(String categoryPath, List<Listing> listings, Map<String, Listing> listingDir) {
+
+        try {
+            
+            Path dir = Paths.get(getDirRoot(), "category/" + categoryPath);
+            Path indexFile = Paths.get(dir.toString() + "/index.html");
+            Files.deleteIfExists(indexFile);
+            Files.deleteIfExists(dir);
+            Files.createDirectories(dir);
+            createCategoryFile(indexFile, listings, listingDir);
+                
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    private static void createCategoryFile(Path indexFile, List<Listing> listings, Map<String, Listing> listingDir) throws IOException{
+
+        Collections.sort(listings);
+
+        Files.createFile(indexFile);
+        
+        try{         
+            
+            StringBuilder builder = new StringBuilder();
+            builder.append(getHtmlHead());
+            builder.append("<ul class='list-group'>");
+
+            for (Listing listing : listings) {
+                builder.append("<li class='list-group-item'>");
+                builder.append("<div class='card'/>");
+                builder.append("<div class='card-header'><a href='/" + listing.getPath() + "'/>" + listingDir.get(listing.getPath()) + "</a></div>");
+                builder.append("<div class='card-body'>" + listing.getAddress() + "</div");
+                builder.append("</div>");
+                builder.append("</li>");
+                builder.append("\n");
+            }
+
+            builder.append("</ul>");
+            builder.append(getFooterHtml());
+            BufferedWriter writer = new BufferedWriter(new FileWriter(indexFile.toString()));
+            writer.write(builder.toString());
+            writer.close();
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
+    }
+
+    private static String getCategoryPath(String category){
+        return category.replaceAll(",", "-")
+        .replaceAll("/", "-")
+        .replaceAll(" &", "")
+        .replaceAll(" ", "-")
+        .toLowerCase();
+
+    }
+
+    private static String getFooterHtml(){
+        return """      
+
+        </div>
+        </main>
+
+            <footer>
+                <a href="/">Sylhet Directory</a> | <a href="/register">Register your business</a>
+            </footer>
+
+            <script async src="https://cse.google.com/cse.js?cx=007980103649380296102:ecfrqseytps"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+                integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+            </body>
+
+            </html> """;
+
+    }
+
+    private static String getHtmlHead(){
+
+        return """
+        <!DOCTYPE html>
+        <html lang="en">
+        
+        <head>
+            <title>Sylhet Directory</title>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+            <link rel="stylesheet" href="/css/main.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+                integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+            
+                 <!-- Global site tag (gtag.js) - Google Analytics -->
+                 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-27081730-1"></script>
+                 <script>
+                         window.dataLayer = window.dataLayer || [];
+                         function gtag(){dataLayer.push(arguments);}
+                         gtag('js', new Date());
+                         gtag('config', 'UA-27081730-1');
+                         </script>
+                 <script>
+                         function gtag_report_conversion(value) {
+                         gtag('event', 'clicks', {
+                             'event_category': 'Phone Number',
+                             'event_action':'Clicked',
+                             'event_label': value
+                         });
+                         return false;
+                         }
+                         </script>
+        </head> 
+        
+        <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/">Sylhet Directory</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+        
+        """;
+    }
+    
+
+private static void generateDirIndex(List<Listing> listings, Map<String, Listing> listingDir) {
+
+        try {
+
+            StringBuilder builder = new StringBuilder();
+            builder.append(getHtmlHead());
+            builder.append("<ul class='list-group flex-row flex-wrap'>");
+
+
+            for(int i = 0; i < alphabet.length; i++){
+
+                char letter = alphabet[i];
+
+                Path dir = Paths.get(getDirRoot(), "a-z/" + letter);
+                Path indexFile = Paths.get(dir.toString() + "/index.html");
+                Files.deleteIfExists(indexFile);
+                Files.deleteIfExists(dir);                
+                Files.createDirectories(dir);
+
+                builder.append(String.format("<li class='list-group-item'><a href='/a-z/%s' class='btn btn-primary btn-block' role='button'>%s</a></li>", letter, letter));
+
+                createFile(
+                    indexFile, letter, 
+                    listings.stream()
+                        .filter(listing -> letter == listing.getTitle().charAt(0)).collect(Collectors.toList()), 
+                    listingDir);
+            }
+            
+                
+            Path dirIndex = Paths.get(getDirRoot(), "a-z/");
+            Path indexFile = Paths.get(dirIndex.toString() + "/index.html");
+            Files.deleteIfExists(indexFile);
+
+
+            builder.append("</ul>");
+            builder.append("<div style='margin:20px'>");
+            builder.append("</div>");
+            builder.append(getFooterHtml());
+
+            BufferedWriter writer = new BufferedWriter(new FileWriter(indexFile.toString()));
+            writer.write(builder.toString());
+            writer.close();
+
+                
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+private static void createFile(Path indexFile, char letter, List<Listing> listings, Map<String, Listing> listingDir) throws IOException{
+   
+
+        Files.createFile(indexFile);
+        
+        try{ 
+            Comparator<Listing> pathComparator = (h1, h2) -> h1.getPath().compareTo(h2.getPath());
+            listings = listings.stream().sorted(pathComparator).collect(Collectors.toList());
+            
+            StringBuilder builder = new StringBuilder();
+
+            builder.append(getHtmlHead());
+            builder.append("<ul class='list-group'>");
+
+            for (Listing listing : listings) {
+                builder.append("<li class='list-group-item'>");
+                builder.append("<div class='card'/>");
+                builder.append("<div class='card-header'><a href='/" + listing.getPath() + "'/>" + listingDir.get(listing.getPath()) + "</a></div>");
+                builder.append("<div class='card-body'>" + listing.getAddress() + "</div>");
+                builder.append("<div class='card-footer'><small>" + listing.getCategory() + "</small></div>");
+                builder.append("</div>");
+                builder.append("</li>");
+                builder.append("\n");
+            }
+
+            builder.append("</ul>");
+            builder.append("<div style='margin:20px'>");
+            builder.append("</div>");
+            builder.append(getFooterHtml());
+            
+            BufferedWriter writer = new BufferedWriter(new FileWriter(indexFile.toString()));
+            writer.write(builder.toString());
+            writer.close();
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
+    }
+
+    private static String capitalise(String text){
+
+        StringBuilder builder = new StringBuilder();
+        String [] tokens = text.split(" ");
+
+        for(String token: tokens){
+
+            if(token.length() < 2){
+                builder.append(token);
+                builder.append("\n");
+            } else {
+                builder.append(token.substring(0,1).toUpperCase() + token.substring(1));
+                builder.append("\n");
+            }           
+        }
+
+        return builder.toString().trim();
+    }
+
+    public static void generateListingHtmlFiles(List<Listing> listings) {
+
+        listings.stream().forEach(listing -> {
+
+            try {
+
+                Path dir = Paths.get(getDirRoot(), listing.getPath());
+                Path indexFile = Paths.get(dir.toString() + "/index.html");
+                Files.deleteIfExists(indexFile);
+                Files.deleteIfExists(dir);
+                Files.createDirectories(dir);
+                
+                Path source = Paths.get("listingTemplate.html");
+                Path target = indexFile;
+                Files.copy(source, target, StandardCopyOption.REPLACE_EXISTING);
+
+                    Stream<String> lines = Files.lines(target);
+                    List<String> replaced = lines
+                            .map(line -> line.replaceAll("listing-meta-description", getDescriptionMeta(listing.getAddress())))
+                            .map(line -> line.replaceAll("listing-title", listing.getTitle()))
+                            .map(line -> line.replaceAll("listing-address", listing.getAddress()))
+                            .map(line -> line.replaceAll("listing-contact", getContactsWithTracking(listing.getContact())))
+                            .map(line -> line.replaceAll("listing-facebook", getFacebookHtml(listing.getFacebook())))
+                            .map(line -> line.replaceAll("listing-category", getCategoryHtml(listing.getCategory())))
+                            .map(line -> line.replace("listing-meta-category", getCategoryMeta(listing.getCategory())))
+                            .collect(Collectors.toList());
+
+                    Files.write(target, replaced);
+                    lines.close();
+            } catch (Exception ex) {
+                ex.printStackTrace();
+            }
+        });
+    }
+
+    private static String getCategoryMeta(String category){
+        String html = "";
+        if(!category.isEmpty()){
+            html = "<meta name='category' content='" + category + "'>";
+        }
+        return html;
+    }
+
+    private static String getDescriptionMeta(String description){
+        String html = "";
+        if(!description.isEmpty()){
+            html = "<meta name='description' content='" + description +"'>";
+        }
+        return html;
+    }
+
+    private static String getContactsWithTracking(String contacts) {
+
+        String html = "";
+
+        StringBuilder builder = new StringBuilder();
+
+        String[] numbers = contacts.split(",");
+        for (String number : numbers) {
+            if (!number.isEmpty()) {
+                builder.append("<div class='listing-item'><a class='btn btn-info btn-lg' href=\\\"tel:" + number + "\\\" onclick=\\\"gtag_report_conversion('" + number + "')\\\"> <span class='glyphicon glyphicon-earphone'></span> " + number.replaceFirst("\\+88", "") + "</a></div>");
+                builder.append("\n");
+            }
+        }
+        
+        return builder.toString();
+    }
+
+    private static String getCategoryHtml(String category){
+        String html = "";
+        if(!category.isEmpty()){
+            html = "<div class='listing-category'><span class='glyphicon glyphicon-tag'></span> " + category + "<div>";
+        }
+        return html;
+    }
+
+    private static String getFacebookHtml(String facebook){
+        String html = "";
+        if(!facebook.isEmpty()){
+            html = "<div class='listing-item '><a class='btn btn-info btn-lg' href='" + facebook +"'><span class='glyphicon glyphicon-thumbs-up'> facebook</a></div>";
+        }
+        return html;
+    }
+
+    public static List<Listing> loadListings(final String listingsCsv) {
+
+        List<Listing> listings = new ArrayList<>();
+
+        try (BufferedReader csvReader = new BufferedReader(new FileReader(listingsCsv))) {
+
+            String row = "";
+            while ((row = csvReader.readLine()) != null) {
+                //System.out.println(row);
+                
+                if(row.isBlank()){
+                    continue;
+                }
+
+                row = row.replaceAll("&amp;", "&");
+                row = row.replaceAll("\\\"", "");
+                row = row.replaceAll("NULL", "");
+                row = row.replaceAll("\n", "");
+                String[] cols = row.split("\t");
+
+                Listing listing = new Listing(
+                        cols[1].replaceAll("\\\"", ""),
+                        cols[2],
+                        cols[3].replaceAll("\\\"", ""),
+                        cols[4].replaceAll("\\\"", ""),
+                        cols[5],
+                        cols[6].contains("facebook.com")? cols[6]: "",
+                        cols[7],
+                        cols[8],
+                        cols[9],
+                        cols[10]);
+
+               // System.out.println("facebook " + listing.getFacebook());
+
+                listings.add(listing);
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        List<Listing> filtered = listings.stream()
+            .filter(listing -> !listing.getPath().equals("Path"))
+            .collect(Collectors.toList());
+
+        return filtered;
+    }
+
+    public static void generateSitemap(List<Listing> listings) {
+
+        try {
+
+            Path listingsXml = Paths.get(getDirRoot(), "listings.xml");
+            Files.deleteIfExists(listingsXml);
+
+            StringBuilder builder = new StringBuilder();
+            builder.append("<?xml version='1.0' encoding='UTF-8'?>");
+            builder.append("\n");
+            builder.append("<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>");
+            builder.append("\n");
+
+            for (Listing listing : listings) {
+
+                String path = listing.getPath();
+                builder.append("<url><loc>https://sylhetdirectory.com/"
+                        + path.toString().replace("./", "").replaceAll("&", "&amp;") + "</loc></url>");
+                builder.append("\n");
+            }
+            builder.append("</urlset>");
+
+            BufferedWriter writer = new BufferedWriter(new FileWriter(listingsXml.toAbsolutePath().toString()));
+            writer.write(builder.toString());
+            writer.close();
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
+    }
+}
+
+class Listing implements Comparable<Listing> {
+    private final String title;
+    private final String contact;
+    private final String address;
+    private final String email;
+    private final String web;
+    private final String facebook;
+    private final String service;
+    private final String openingHrs;
+    private final String category;
+    private final String path;
+
+
+
+    public Listing(final String title,
+                   final String contact,
+                   final String address,
+                   final String email,
+                   final String web,
+                   final String facebook,
+                   final String service,
+                   final String openingHrs,
+                   final String category,
+                   final String path ) {
+        this.title = title;
+        this.contact = contact;
+        this.address = address;
+        this.email = email;
+        this.web = web;
+        this.facebook = facebook;
+        this.service = service;
+        this.openingHrs = openingHrs;
+        this.category = category;
+        this.path = path;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getContact() {
+        List<String> contacts = Arrays.asList(contact.split(","));
+        return contacts.stream()
+        .map(contact -> contact.replace(" ", ""))
+        .filter(contact -> contact.length() > 9)
+        .map(contact -> contact.replace("+88", ""))
+        .map(contact -> contact.replace("0088", ""))
+        .map(contact -> contact.replaceFirst("0", ""))
+        .map(contact -> "+880" + contact)
+        .collect(Collectors.joining(","));
+        
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getWeb() {
+        return web;
+    }
+
+    public String getFacebook() {
+        return facebook;
+    }
+
+    public String getService() {
+        return service;
+    }
+
+    public String getOpeningHrs() {
+        return openingHrs;
+    }
+
+public String getCategory() {
+        return category;
+    }
+
+    public String getPath() {
+        return path;
+    }
+
+    @Override
+    public int compareTo(Listing listing) {
+        return this.path.split("-")[0]
+                .compareTo(listing.path.split("-")[0]);
+    }
+
+    @Override
+    public String toString(){
+        return this.title;
+    }
+}
