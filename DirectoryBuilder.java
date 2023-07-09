@@ -460,8 +460,7 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
 
             String row = "";
             while ((row = csvReader.readLine()) != null) {
-                //System.out.println(row);
-                
+//                System.out.println(row);
                 if(row.isBlank()){
                     continue;
                 }
