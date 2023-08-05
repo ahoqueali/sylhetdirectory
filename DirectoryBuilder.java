@@ -268,7 +268,7 @@ private static void generateDirIndex(List<Listing> listings, Map<String, Listing
 
             StringBuilder builder = new StringBuilder();
             builder.append(getHtmlHead());
-            builder.append("<ul class='list-group flex-row flex-wrap'>");
+            builder.append("<ul class='list-group'>");
 
 
             for(int i = 0; i < alphabet.length; i++){
