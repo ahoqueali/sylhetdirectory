@@ -394,7 +394,10 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
                             .map(line -> line.replaceAll("listing-contact", getContactsWithTracking(listing.getContact())))
                             .map(line -> line.replaceAll("listing-facebook", getFacebookHtml(listing.getFacebook())))
                             .map(line -> line.replaceAll("listing-category", listing.getCategory()))
-                            .map(line -> line.replaceAll("category-slug", listing.getCategory().replace(" ", "-").toLowerCase()))
+                            .map(line -> line.replaceAll("category-slug", listing.getCategory()
+                                    .replace(" &", "")
+                                    .replace(" ", "-")
+                                    .toLowerCase()))
                             .map(line -> line.replace("listing-meta-category", getCategoryMeta(listing.getCategory())))
                             .collect(Collectors.toList());
 
