@@ -1,3 +1,6 @@
 *.tsv
 !dataset-2.tsv
 *.class
+*.idea
+node_modules
+sylhetdirectory.iml
