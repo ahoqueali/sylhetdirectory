@@ -420,18 +420,18 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
 
     private static String getContactsWithTracking(String contacts) {
 
-        String html = "";
-
         StringBuilder builder = new StringBuilder();
+        builder.append("<ul class='list-group'");
 
         String[] numbers = contacts.split(",");
         for (String number : numbers) {
             if (!number.isEmpty()) {
-                builder.append("<div class='listing-item'><a class='btn btn-info btn-lg' href=\\\"tel:" + number + "\\\" onclick=\\\"gtag_report_conversion('" + number + "')\\\"> <span class='glyphicon glyphicon-earphone'></span> " + number.replaceFirst("\\+88", "") + "</a></div>");
-                builder.append("\n");
+                builder.append("<li class='list-group'><a role='button' class='btn btn-primary' href=\\\"tel:" + number + "\\\" onclick=\\\"gtag_report_conversion('" + number + "')\\\"> " + number.replaceFirst("\\+88", "") + "</a></li>");
             }
         }
-        
+
+        builder.append("</ul>");
+
         return builder.toString();
     }
 
