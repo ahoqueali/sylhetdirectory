@@ -393,7 +393,8 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
                             .map(line -> line.replaceAll("listing-address", listing.getAddress()))
                             .map(line -> line.replaceAll("listing-contact", getContactsWithTracking(listing.getContact())))
                             .map(line -> line.replaceAll("listing-facebook", getFacebookHtml(listing.getFacebook())))
-                            .map(line -> line.replaceAll("listing-category", getCategoryHtml(listing.getCategory())))
+                            .map(line -> line.replaceAll("listing-category", listing.getCategory()))
+                            .map(line -> line.replaceAll("category-slug", listing.getCategory().replace(" ", "-").toLowerCase()))
                             .map(line -> line.replace("listing-meta-category", getCategoryMeta(listing.getCategory())))
                             .collect(Collectors.toList());
 
@@ -424,34 +425,18 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
     private static String getContactsWithTracking(String contacts) {
 
         StringBuilder builder = new StringBuilder();
-        builder.append("<ul class='list-group'");
-
         String[] numbers = contacts.split(",");
         for (String number : numbers) {
             if (!number.isEmpty()) {
-                builder.append("<li class='list-group'><a role='button' class='btn btn-primary' href=\\\"tel:" + number + "\\\" onclick=\\\"gtag_report_conversion('" + number + "')\\\"> " + number.replaceFirst("\\+88", "") + "</a></li>");
+                builder.append("<p><a role='button' class='btn btn-primary' href=\\\"tel:" + number + "\\\" onclick=\\\"gtag_report_conversion('" + number + "')\\\"> " + number.replaceFirst("\\+88", "") + "</a><p>");
             }
         }
-
-        builder.append("</ul>");
-
         return builder.toString();
     }
 
-    private static String getCategoryHtml(String category){
-        String html = "";
-        if(!category.isEmpty()){
-            html = "<div class='listing-category'><span class='glyphicon glyphicon-tag'></span> " + category + "<div>";
-        }
-        return html;
-    }
-
     private static String getFacebookHtml(String facebook){
-        String html = "";
-        if(!facebook.isEmpty()){
-            html = "<div class='listing-item '><a class='btn btn-info btn-lg' href='" + facebook +"'><span class='glyphicon glyphicon-thumbs-up'> facebook</a></div>";
-        }
-        return html;
+        if(!facebook.isEmpty()) return "<p><a role='button' class='btn btn-primary' href=\""+ facebook +"\" class=\"badge badge-primary\">Facebook</a><p>";
+        return "";
     }
 
     public static List<Listing> loadListings(final String listingsCsv) {

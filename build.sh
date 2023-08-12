@@ -5,3 +5,4 @@ export rootDir=docs
 rm -rf docs/categories
 ./compile.sh
 $JAVA_HOME/bin/java --enable-preview DirectoryBuilder /Users/abdulhoque/Downloads/sylhetdirectory.tsv
+#$JAVA_HOME/bin/java --enable-preview DirectoryBuilder dataset-2.tsv
