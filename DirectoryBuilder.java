@@ -332,7 +332,11 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
                 builder.append("<div class='card'/>");
                 builder.append("<div class='card-header'><a href='/" + listing.getPath() + "'/>" + listingDir.get(listing.getPath()) + "</a></div>");
                 builder.append("<div class='card-body'>" + listing.getAddress() + "</div>");
-                builder.append("<div class='card-footer'><small>" + listing.getCategory() + "</small></div>");
+                builder.append("<div class='card-footer'><small>Category: <a class='badge badge-secondary' href='/category/" + listing.getCategory()
+                        .replace(" &", "")
+                        .replace(" ", "-")
+                        .toLowerCase()
+                        + "'>" + listing.getCategory() + "</a></small></div>");
                 builder.append("</div>");
                 builder.append("</li>");
                 builder.append("\n");
