@@ -4,3 +4,4 @@
 *.idea
 node_modules
 sylhetdirectory.iml
+.DS_Store
