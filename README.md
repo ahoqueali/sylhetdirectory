@@ -1,5 +1,4 @@
-Sylhet Directory
---
+# Sylhet Directory
 Sylhet Directory is a local business index for Sylhet city in Bangladesh.
 
 The directory is hosted using github static website feature. 
@@ -20,4 +19,4 @@ The site can also be run using [Node.js](https://nodejs.org/en/).
 # How to build the site using Java 8+
 * Add data int file dataset-2.tsv
 * Execute file ```./build.sh```
- # sylhetdirectory
+
