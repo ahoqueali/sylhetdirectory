@@ -21,7 +21,7 @@ import java.util.stream.Stream;
 
 public class DirectoryBuilder {
 
-    private static char [] alphabet = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
+    private static final char [] alphabet = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
     
     public static void main(String[] args) {
 
@@ -105,14 +105,12 @@ public class DirectoryBuilder {
 
                 StringBuilder builder = new StringBuilder();
                 builder.append(getHtmlHead());
-                builder.append("<ul class='list-group'>");
+                builder.append("<div class='container'>");
+                builder.append("<div class='d-grid gap-2 d-md-block'>");
                 listingsMap.entrySet().stream().sorted((e1, e2) -> e1.getKey().compareTo(e2.getKey())).forEach(e -> {
-                    builder.append("<li class='list-group-item'>");
-                    builder.append("<a class='btn btn-primary btn-block' role='button' href='" + e.getKey() + "/'/>" +  categoryMap.get(e.getKey())  + "</a>");
-                    builder.append("</li>");
-                    builder.append("\n");
+                    builder.append("<a style='margin:10px' class='btn btn-primary role='button' href='" + e.getKey() + "/'/>" +  categoryMap.get(e.getKey())  + "</a>");
                 });
-                builder.append("</ul>");
+                builder.append("</div></div>");
                 builder.append(getFooterHtml());
 
                 BufferedWriter writer = new BufferedWriter(new FileWriter(indexFile.toString()));
