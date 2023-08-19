@@ -262,37 +262,31 @@ private static void generateDirIndex(List<Listing> listings, Map<String, Listing
 
             StringBuilder builder = new StringBuilder();
             builder.append(getHtmlHead());
-            builder.append("<ul class='list-group'>");
+            builder.append("<div class='container'>");
+            builder.append("<div class='d-grid gap-2 d-md-block'>");
 
-
-            for(int i = 0; i < alphabet.length; i++){
-
-                char letter = alphabet[i];
+            for (char letter : alphabet) {
 
                 Path dir = Paths.get(getDirRoot(), "a-z/" + letter);
                 Path indexFile = Paths.get(dir.toString() + "/index.html");
                 Files.deleteIfExists(indexFile);
-                Files.deleteIfExists(dir);                
+                Files.deleteIfExists(dir);
                 Files.createDirectories(dir);
 
-                builder.append(String.format("<li class='list-group-item'><a href='/a-z/%s' class='btn btn-primary btn-block' role='button'>%s</a></li>", letter, letter));
+                builder.append(String.format("<a style='margin:10px' href='/a-z/%s' class='btn btn-primary' role=\"button\"> %s </a>", letter, letter));
 
                 createFile(
-                    indexFile, letter, 
-                    listings.stream()
-                        .filter(listing -> letter == listing.getTitle().charAt(0)).collect(Collectors.toList()), 
-                    listingDir);
+                        indexFile, letter,
+                        listings.stream()
+                                .filter(listing -> letter == listing.getTitle().charAt(0)).collect(Collectors.toList()),
+                        listingDir);
             }
-            
-                
+
             Path dirIndex = Paths.get(getDirRoot(), "a-z/");
             Path indexFile = Paths.get(dirIndex.toString() + "/index.html");
             Files.deleteIfExists(indexFile);
 
-
-            builder.append("</ul>");
-            builder.append("<div style='margin:20px'>");
-            builder.append("</div>");
+            builder.append("</div></div></div>");
             builder.append(getFooterHtml());
 
             BufferedWriter writer = new BufferedWriter(new FileWriter(indexFile.toString()));
