@@ -183,16 +183,18 @@ public class DirectoryBuilder {
 
     private static String getFooterHtml(){
         return """      
+                    </div>
+                    </main>
+    
+                        <footer>
+                            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.01);">
+                                <small> Established since 2007 </small>
+                            </div>
+                        </footer>
+    
+                    </body>
 
-        </div>
-        </main>
-
-            <footer>
-            </footer>
-
-            </body>
-
-            </html> """;
+                </html>""";
 
     }
 
