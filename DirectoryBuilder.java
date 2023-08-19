@@ -8,6 +8,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -498,8 +499,11 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
             for (Listing listing : listings) {
 
                 String path = listing.getPath();
-                builder.append("<url><loc>https://sylhetdirectory.com/"
-                        + path.toString().replace("./", "").replaceAll("&", "&amp;") + "</loc></url>");
+                builder.append("<url>");
+                builder.append("<loc>https://sylhetdirectory.com/"
+                        + path.toString().replace("./", "").replaceAll("&", "&amp;") + "</loc>");
+                builder.append("<lastmod>" + LocalDate.now() + "</lastmod>");
+                builder.append("</url>");
                 builder.append("\n");
             }
             builder.append("</urlset>");
