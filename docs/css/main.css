@@ -26,7 +26,7 @@ main {
 
 .brand-box, .title-box {
   width: 50%;
-  margin: 5px;
+  margin-top: 50px;
   padding: 5px;
   text-align: center;
   font: 3em Arial, sans-serif;
@@ -87,5 +87,9 @@ footer {
 @media screen and (max-width: 640px){
     .brand-box, .title-box {
        font-size: 2.0em;
+    }
+
+    .brand-box{
+        margin-top: 15px;
     }
 }
