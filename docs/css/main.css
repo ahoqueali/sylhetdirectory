@@ -85,7 +85,7 @@ footer {
 }
 
 @media screen and (max-width: 640px){
-    .brand-box {
+    .brand-box, .title-box {
        font-size: 2.0em;
     }
 }
