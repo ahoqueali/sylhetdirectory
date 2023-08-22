@@ -186,8 +186,9 @@ public class DirectoryBuilder {
     
                         <footer>
                             <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.01);">
-                                <small> Established since 2007 </small>
-                            </div>
+                                    <small> © 2023 Copyright:
+                                    <a class="text-reset fw-bold" href="https://sylhetdirectory.com/">sylhetdirectory.com</a></small>
+                                </div>
                         </footer>
     
                     </body>
