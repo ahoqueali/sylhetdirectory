@@ -294,7 +294,6 @@ private static void generateDirIndex(List<Listing> listings, Map<String, Listing
             writer.write(builder.toString());
             writer.close();
 
-                
         } catch (Exception e){
             e.printStackTrace();
         }
@@ -331,8 +330,8 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
             }
 
             builder.append("</ul>");
-            builder.append("<div style='margin:20px'>");
-            builder.append("</div>");
+//            builder.append("<div style='margin:20px'>");
+//            builder.append("</div>");
             builder.append(getFooterHtml());
             
             BufferedWriter writer = new BufferedWriter(new FileWriter(indexFile.toString()));
