@@ -243,6 +243,9 @@ public class DirectoryBuilder {
                                        <li class="nav-item">
                                            <a class="nav-link" href="/contact/">Contact us</a>
                                        </li>
+                                       <li class="nav-item">
+                                           <a class="nav-link" href="https://sylhetdirectory-com.translate.goog/?_x_tr_sl=auto&_x_tr_tl=bn&_x_tr_hl=en-US&_x_tr_pto=wapp">বাংলা দেখুন</a>
+                                       </li>
                                    </ul>
                                </div>
                            </nav>
