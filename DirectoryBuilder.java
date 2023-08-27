@@ -314,7 +314,7 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
             for (Listing listing : listings) {
                 builder.append("<li class='list-group-item'>");
                 builder.append("<div class='card'/>");
-                builder.append("<div class='card-header'><a href='/" + listing.getPath() + "'/>" + listingDir.get(listing.getPath()) + "</a></div>");
+                builder.append("<div class='card-header'><a href='/" + listing.getPath() + "'>" + listingDir.get(listing.getPath()) + "</a></div>");
                 builder.append("<div class='card-body'>" + listing.getAddress() + "</div>");
                 builder.append("<div class='card-footer'><small>Category: <a class='badge badge-primary' href='/category/" + listing.getCategory()
                         .replace(" &", "")
