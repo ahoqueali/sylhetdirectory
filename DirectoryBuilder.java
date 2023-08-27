@@ -108,7 +108,7 @@ public class DirectoryBuilder {
                 builder.append("<div class='container'>");
                 builder.append("<div class='d-grid gap-2 d-md-block'>");
                 listingsMap.entrySet().stream().sorted((e1, e2) -> e1.getKey().compareTo(e2.getKey())).forEach(e -> {
-                    builder.append("<a style='margin:10px' class='btn btn-primary role='button' href='" + e.getKey() + "/'/>" +  categoryMap.get(e.getKey())  + "</a>");
+                    builder.append("<a style='margin:10px' class='btn btn-primary' role='button' href='" + e.getKey() + "/'/>" +  categoryMap.get(e.getKey())  + "</a>");
                 });
                 builder.append("</div></div>");
                 builder.append(getFooterHtml());
@@ -462,7 +462,6 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
                         cols[10]);
 
                // System.out.println("facebook " + listing.getFacebook());
-
                 listings.add(listing);
             }
 
@@ -473,7 +472,6 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
         List<Listing> filtered = listings.stream()
             .filter(listing -> !listing.getPath().equals("Path"))
             .collect(Collectors.toList());
-
         return filtered;
     }
 
