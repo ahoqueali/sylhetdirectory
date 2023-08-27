@@ -271,7 +271,7 @@ private static void generateDirIndex(List<Listing> listings, Map<String, Listing
                 Files.deleteIfExists(dir);
                 Files.createDirectories(dir);
 
-                builder.append(String.format("<a style='margin:10px' href='/a-z/%s' class='btn btn-primary' role=\"button\"> %s </a>", letter, letter));
+                builder.append(String.format("<a style='margin:10px' href='/a-z/%s' class='btn btn-primary' role='button'> %s </a>", letter, letter));
 
                 createFile(
                         indexFile, letter,
@@ -419,14 +419,14 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
         String[] numbers = contacts.split(",");
         for (String number : numbers) {
             if (!number.isEmpty()) {
-                builder.append("<p><a role='button' class='btn btn-primary' href=\\\"tel:" + number + "\\\" onclick=\\\"gtag_report_conversion('" + number + "')\\\"> " + number.replaceFirst("\\+88", "") + "</a><p>");
+                builder.append("<p><a role='button' class='btn btn-primary' href='tel:" + number + "' onclick='gtag_report_conversion('" + number + "')'> " + number.replaceFirst("\\+88", "") + "</a><p>");
             }
         }
         return builder.toString();
     }
 
     private static String getFacebookHtml(String facebook){
-        if(!facebook.isEmpty()) return "<p><a role='button' class='btn btn-primary' href=\""+ facebook +"\" class=\"badge badge-primary\">Facebook</a><p>";
+        if(!facebook.isEmpty()) return "<p><a role='button' class='btn btn-primary' href='"+ facebook +"' class='badge badge-primary'>Facebook</a><p>";
         return "";
     }
 
