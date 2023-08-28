@@ -386,6 +386,7 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
                                     .replace(" ", "-")
                                     .toLowerCase()))
                             .map(line -> line.replace("listing-meta-category", getCategoryMeta(listing.getCategory())))
+                            .map(line -> line.replace("listing-slug", getListingSlug(listing.getPath())))
                             .collect(Collectors.toList());
 
                     Files.write(target, replaced);
@@ -472,6 +473,11 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
             .filter(listing -> !listing.getPath().equals("Path"))
             .collect(Collectors.toList());
         return filtered;
+    }
+
+
+    public static String getListingSlug(String path){
+        return "https://sylhetdirectory.com/" + path.toString().replace("./", "").replaceAll("&", "&amp;") + "/";
     }
 
     public static void generateSitemap(List<Listing> listings) {
