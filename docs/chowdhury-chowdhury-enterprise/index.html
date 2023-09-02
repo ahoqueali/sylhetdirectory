@@ -21,7 +21,17 @@
           function gtag() { dataLayer.push(arguments); }
           gtag('js', new Date());
           gtag('config', 'UA-27081730-1');
-      </script>
+    </script>
+    <script>
+       function gtag_report_conversion(value) {
+       gtag('event', 'clicks', {
+           'event_category': 'Phone Number',
+           'event_action':'Clicked',
+           'event_label': value
+       });
+       return false;
+       }
+    </script>
   </head>
   <body>
     <header>
@@ -57,7 +67,7 @@
           <p>9, Parijat (1st Floor), Housing Estate, Sylhet</p>
         </div>
         <div class='container-fluid bg-2 text-center'>
-          <p><a role='button' class='btn btn-primary' href='tel:+8801712880625' onclick='gtag_report_conversion('+8801712880625')'> 01712880625</a><p><p><a role='button' class='btn btn-primary' href='tel:+8801823060655' onclick='gtag_report_conversion('+8801823060655')'> 01823060655</a><p>
+          <p><a role='button' class='btn btn-primary' href='tel:+8801712880625' onclick='gtag_report_conversion(+8801712880625)'> 01712880625</a><p><p><a role='button' class='btn btn-primary' href='tel:+8801823060655' onclick='gtag_report_conversion(+8801823060655)'> 01823060655</a><p>
           
         </div>
       </div>

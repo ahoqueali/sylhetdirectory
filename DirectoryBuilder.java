@@ -419,7 +419,7 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
         String[] numbers = contacts.split(",");
         for (String number : numbers) {
             if (!number.isEmpty()) {
-                builder.append("<p><a role='button' class='btn btn-primary' href='tel:" + number + "' onclick='gtag_report_conversion('" + number + "')'> " + number.replaceFirst("\\+88", "") + "</a><p>");
+                builder.append("<p><a role='button' class='btn btn-primary' href='tel:" + number + "' onclick='gtag_report_conversion(" + number + ")'> " + number.replaceFirst("\\+88", "") + "</a><p>");
             }
         }
         return builder.toString();

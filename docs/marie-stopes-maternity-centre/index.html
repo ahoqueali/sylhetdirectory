@@ -21,7 +21,17 @@
           function gtag() { dataLayer.push(arguments); }
           gtag('js', new Date());
           gtag('config', 'UA-27081730-1');
-      </script>
+    </script>
+    <script>
+       function gtag_report_conversion(value) {
+       gtag('event', 'clicks', {
+           'event_category': 'Phone Number',
+           'event_action':'Clicked',
+           'event_label': value
+       });
+       return false;
+       }
+    </script>
   </head>
   <body>
     <header>
@@ -57,7 +67,7 @@
           <p>154 Suvechcha, Fazil Chisha Road, East Subid Bazar</p>
         </div>
         <div class='container-fluid bg-2 text-center'>
-          <p><a role='button' class='btn btn-primary' href='tel:+8808212830241' onclick='gtag_report_conversion('+8808212830241')'> 08212830241</a><p><p><a role='button' class='btn btn-primary' href='tel:+8801911100837' onclick='gtag_report_conversion('+8801911100837')'> 01911100837</a><p><p><a role='button' class='btn btn-primary' href='tel:+8801716643691' onclick='gtag_report_conversion('+8801716643691')'> 01716643691</a><p>
+          <p><a role='button' class='btn btn-primary' href='tel:+8808212830241' onclick='gtag_report_conversion(+8808212830241)'> 08212830241</a><p><p><a role='button' class='btn btn-primary' href='tel:+8801911100837' onclick='gtag_report_conversion(+8801911100837)'> 01911100837</a><p><p><a role='button' class='btn btn-primary' href='tel:+8801716643691' onclick='gtag_report_conversion(+8801716643691)'> 01716643691</a><p>
           
         </div>
       </div>

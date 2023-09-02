@@ -21,7 +21,17 @@
           function gtag() { dataLayer.push(arguments); }
           gtag('js', new Date());
           gtag('config', 'UA-27081730-1');
-      </script>
+    </script>
+    <script>
+       function gtag_report_conversion(value) {
+       gtag('event', 'clicks', {
+           'event_category': 'Phone Number',
+           'event_action':'Clicked',
+           'event_label': value
+       });
+       return false;
+       }
+    </script>
   </head>
   <body>
     <header>
@@ -57,7 +67,7 @@
           <p>Rangdhanu - 1, Airport Road, Chowkidekhi</p>
         </div>
         <div class='container-fluid bg-2 text-center'>
-          <p><a role='button' class='btn btn-primary' href='tel:+880821720472' onclick='gtag_report_conversion('+880821720472')'> 0821720472</a><p><p><a role='button' class='btn btn-primary' href='tel:+8801715719932' onclick='gtag_report_conversion('+8801715719932')'> 01715719932</a><p>
+          <p><a role='button' class='btn btn-primary' href='tel:+880821720472' onclick='gtag_report_conversion(+880821720472)'> 0821720472</a><p><p><a role='button' class='btn btn-primary' href='tel:+8801715719932' onclick='gtag_report_conversion(+8801715719932)'> 01715719932</a><p>
           
         </div>
       </div>

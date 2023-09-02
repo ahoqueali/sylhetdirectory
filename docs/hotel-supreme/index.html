@@ -21,7 +21,17 @@
           function gtag() { dataLayer.push(arguments); }
           gtag('js', new Date());
           gtag('config', 'UA-27081730-1');
-      </script>
+    </script>
+    <script>
+       function gtag_report_conversion(value) {
+       gtag('event', 'clicks', {
+           'event_category': 'Phone Number',
+           'event_action':'Clicked',
+           'event_label': value
+       });
+       return false;
+       }
+    </script>
   </head>
   <body>
     <header>
@@ -57,7 +67,7 @@
           <p>Foyez Ludhi Empire Jafflong Road, Mirabazar</p>
         </div>
         <div class='container-fluid bg-2 text-center'>
-          <p><a role='button' class='btn btn-primary' href='tel:+880821720751' onclick='gtag_report_conversion('+880821720751')'> 0821720751</a><p>
+          <p><a role='button' class='btn btn-primary' href='tel:+880821720751' onclick='gtag_report_conversion(+880821720751)'> 0821720751</a><p>
           
         </div>
       </div>

@@ -21,7 +21,17 @@
           function gtag() { dataLayer.push(arguments); }
           gtag('js', new Date());
           gtag('config', 'UA-27081730-1');
-      </script>
+    </script>
+    <script>
+       function gtag_report_conversion(value) {
+       gtag('event', 'clicks', {
+           'event_category': 'Phone Number',
+           'event_action':'Clicked',
+           'event_label': value
+       });
+       return false;
+       }
+    </script>
   </head>
   <body>
     <header>
@@ -57,7 +67,7 @@
           <p>JC Trust House (2nd floor), Fazil Chist, Subidbazar (East), Sylhet, 3100</p>
         </div>
         <div class='container-fluid bg-2 text-center'>
-          <p><a role='button' class='btn btn-primary' href='tel:+880+821710321(Telephone)01958417657(Admission/FrontDesk)01958417658(Office)' onclick='gtag_report_conversion('+880+821710321(Telephone)01958417657(Admission/FrontDesk)01958417658(Office)')'> 0+821710321(Telephone)01958417657(Admission/FrontDesk)01958417658(Office)</a><p>
+          <p><a role='button' class='btn btn-primary' href='tel:+880+821710321(Telephone)01958417657(Admission/FrontDesk)01958417658(Office)' onclick='gtag_report_conversion(+880+821710321(Telephone)01958417657(Admission/FrontDesk)01958417658(Office))'> 0+821710321(Telephone)01958417657(Admission/FrontDesk)01958417658(Office)</a><p>
           <p><a role='button' class='btn btn-primary' href='https://www.facebook.com/tkhmibd/' class='badge badge-primary'>Facebook</a><p>
         </div>
       </div>

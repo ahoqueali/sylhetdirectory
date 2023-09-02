@@ -21,7 +21,17 @@
           function gtag() { dataLayer.push(arguments); }
           gtag('js', new Date());
           gtag('config', 'UA-27081730-1');
-      </script>
+    </script>
+    <script>
+       function gtag_report_conversion(value) {
+       gtag('event', 'clicks', {
+           'event_category': 'Phone Number',
+           'event_action':'Clicked',
+           'event_label': value
+       });
+       return false;
+       }
+    </script>
   </head>
   <body>
     <header>
@@ -57,7 +67,7 @@
           <p>Pirojpur, South Surma, Sylhet</p>
         </div>
         <div class='container-fluid bg-2 text-center'>
-          <p><a role='button' class='btn btn-primary' href='tel:+8801787481461' onclick='gtag_report_conversion('+8801787481461')'> 01787481461</a><p><p><a role='button' class='btn btn-primary' href='tel:+8801858109259' onclick='gtag_report_conversion('+8801858109259')'> 01858109259</a><p>
+          <p><a role='button' class='btn btn-primary' href='tel:+8801787481461' onclick='gtag_report_conversion(+8801787481461)'> 01787481461</a><p><p><a role='button' class='btn btn-primary' href='tel:+8801858109259' onclick='gtag_report_conversion(+8801858109259)'> 01858109259</a><p>
           
         </div>
       </div>

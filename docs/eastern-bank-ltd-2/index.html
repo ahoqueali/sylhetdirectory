@@ -21,7 +21,17 @@
           function gtag() { dataLayer.push(arguments); }
           gtag('js', new Date());
           gtag('config', 'UA-27081730-1');
-      </script>
+    </script>
+    <script>
+       function gtag_report_conversion(value) {
+       gtag('event', 'clicks', {
+           'event_category': 'Phone Number',
+           'event_action':'Clicked',
+           'event_label': value
+       });
+       return false;
+       }
+    </script>
   </head>
   <body>
     <header>
@@ -57,7 +67,7 @@
           <p>Firoz Center (1st Floor), 891/Ka, Chouhatta, Sylhet 3100</p>
         </div>
         <div class='container-fluid bg-2 text-center'>
-          <p><a role='button' class='btn btn-primary' href='tel:+880821-723242' onclick='gtag_report_conversion('+880821-723242')'> 0821-723242</a><p><p><a role='button' class='btn btn-primary' href='tel:+8801717282561' onclick='gtag_report_conversion('+8801717282561')'> 01717282561</a><p>
+          <p><a role='button' class='btn btn-primary' href='tel:+880821-723242' onclick='gtag_report_conversion(+880821-723242)'> 0821-723242</a><p><p><a role='button' class='btn btn-primary' href='tel:+8801717282561' onclick='gtag_report_conversion(+8801717282561)'> 01717282561</a><p>
           
         </div>
       </div>

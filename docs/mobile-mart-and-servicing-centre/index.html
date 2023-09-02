@@ -21,7 +21,17 @@
           function gtag() { dataLayer.push(arguments); }
           gtag('js', new Date());
           gtag('config', 'UA-27081730-1');
-      </script>
+    </script>
+    <script>
+       function gtag_report_conversion(value) {
+       gtag('event', 'clicks', {
+           'event_category': 'Phone Number',
+           'event_action':'Clicked',
+           'event_label': value
+       });
+       return false;
+       }
+    </script>
   </head>
   <body>
     <header>
@@ -57,7 +67,7 @@
           <p>Al Falah shopping Complex, Kumar Gao Bus Stand</p>
         </div>
         <div class='container-fluid bg-2 text-center'>
-          <p><a role='button' class='btn btn-primary' href='tel:+8801723696954' onclick='gtag_report_conversion('+8801723696954')'> 01723696954</a><p><p><a role='button' class='btn btn-primary' href='tel:+8801925244146' onclick='gtag_report_conversion('+8801925244146')'> 01925244146</a><p>
+          <p><a role='button' class='btn btn-primary' href='tel:+8801723696954' onclick='gtag_report_conversion(+8801723696954)'> 01723696954</a><p><p><a role='button' class='btn btn-primary' href='tel:+8801925244146' onclick='gtag_report_conversion(+8801925244146)'> 01925244146</a><p>
           
         </div>
       </div>

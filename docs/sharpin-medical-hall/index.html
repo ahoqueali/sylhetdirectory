@@ -21,7 +21,17 @@
           function gtag() { dataLayer.push(arguments); }
           gtag('js', new Date());
           gtag('config', 'UA-27081730-1');
-      </script>
+    </script>
+    <script>
+       function gtag_report_conversion(value) {
+       gtag('event', 'clicks', {
+           'event_category': 'Phone Number',
+           'event_action':'Clicked',
+           'event_label': value
+       });
+       return false;
+       }
+    </script>
   </head>
   <body>
     <header>
@@ -57,7 +67,7 @@
           <p>New  Osmani Medical Road , Kajolshah , Sylhet.</p>
         </div>
         <div class='container-fluid bg-2 text-center'>
-          <p><a role='button' class='btn btn-primary' href='tel:+8801716207446' onclick='gtag_report_conversion('+8801716207446')'> 01716207446</a><p><p><a role='button' class='btn btn-primary' href='tel:+8801674865511' onclick='gtag_report_conversion('+8801674865511')'> 01674865511</a><p>
+          <p><a role='button' class='btn btn-primary' href='tel:+8801716207446' onclick='gtag_report_conversion(+8801716207446)'> 01716207446</a><p><p><a role='button' class='btn btn-primary' href='tel:+8801674865511' onclick='gtag_report_conversion(+8801674865511)'> 01674865511</a><p>
           
         </div>
       </div>

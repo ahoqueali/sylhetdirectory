@@ -21,7 +21,17 @@
           function gtag() { dataLayer.push(arguments); }
           gtag('js', new Date());
           gtag('config', 'UA-27081730-1');
-      </script>
+    </script>
+    <script>
+       function gtag_report_conversion(value) {
+       gtag('event', 'clicks', {
+           'event_category': 'Phone Number',
+           'event_action':'Clicked',
+           'event_label': value
+       });
+       return false;
+       }
+    </script>
   </head>
   <body>
     <header>
@@ -57,7 +67,7 @@
           <p>Kuti Bhabon, 5 no shop, Bandor, Sylhet 3100</p>
         </div>
         <div class='container-fluid bg-2 text-center'>
-          <p><a role='button' class='btn btn-primary' href='tel:+8801916245647' onclick='gtag_report_conversion('+8801916245647')'> 01916245647</a><p><p><a role='button' class='btn btn-primary' href='tel:+8801919504099' onclick='gtag_report_conversion('+8801919504099')'> 01919504099</a><p>
+          <p><a role='button' class='btn btn-primary' href='tel:+8801916245647' onclick='gtag_report_conversion(+8801916245647)'> 01916245647</a><p><p><a role='button' class='btn btn-primary' href='tel:+8801919504099' onclick='gtag_report_conversion(+8801919504099)'> 01919504099</a><p>
           
         </div>
       </div>

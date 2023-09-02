@@ -21,7 +21,17 @@
           function gtag() { dataLayer.push(arguments); }
           gtag('js', new Date());
           gtag('config', 'UA-27081730-1');
-      </script>
+    </script>
+    <script>
+       function gtag_report_conversion(value) {
+       gtag('event', 'clicks', {
+           'event_category': 'Phone Number',
+           'event_action':'Clicked',
+           'event_label': value
+       });
+       return false;
+       }
+    </script>
   </head>
   <body>
     <header>
@@ -57,7 +67,7 @@
           <p>Galleria Complex (3rd Floor), West Zindabazar, Sylhet</p>
         </div>
         <div class='container-fluid bg-2 text-center'>
-          <p><a role='button' class='btn btn-primary' href='tel:+8808212832684' onclick='gtag_report_conversion('+8808212832684')'> 08212832684</a><p><p><a role='button' class='btn btn-primary' href='tel:+880821283268' onclick='gtag_report_conversion('+880821283268')'> 0821283268</a><p>
+          <p><a role='button' class='btn btn-primary' href='tel:+8808212832684' onclick='gtag_report_conversion(+8808212832684)'> 08212832684</a><p><p><a role='button' class='btn btn-primary' href='tel:+880821283268' onclick='gtag_report_conversion(+880821283268)'> 0821283268</a><p>
           
         </div>
       </div>
