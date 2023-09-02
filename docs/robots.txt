@@ -4,4 +4,4 @@ Disallow: /a-z/
 
 Sitemap: https://sylhetdirectory.com/sitemap_index.xml
 Sitemap: https://sylhetdirectory.com/listings.xml
-Sitemap: https://sylhetdirectory.com/articles.xml
+
