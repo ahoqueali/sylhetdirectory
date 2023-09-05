@@ -5,3 +5,5 @@
 node_modules
 sylhetdirectory.iml
 .DS_Store
+build.sh
+package-lock.json
