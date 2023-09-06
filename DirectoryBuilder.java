@@ -153,7 +153,7 @@ public class DirectoryBuilder {
             for (Listing listing : listings) {
                 builder.append("<li class='list-group-item'>");
                 builder.append("<div class='card'>");
-                builder.append("<div class='card-header'><a href='/" + listing.getPath() + "'>" + listingDir.get(listing.getPath()) + "</a></div>");
+                builder.append("<div class='card-header'><a href='/" + listing.getPath() + "/'>" + listingDir.get(listing.getPath()) + "</a></div>");
                 builder.append("<div class='card-body'>" + listing.getAddress() + "</div");
                 builder.append("</div>");
                 builder.append("</li>");
@@ -273,7 +273,7 @@ private static void generateDirIndex(List<Listing> listings, Map<String, Listing
                 Files.deleteIfExists(dir);
                 Files.createDirectories(dir);
 
-                builder.append(String.format("<a style='margin:10px' href='/a-z/%s' class='btn btn-primary' role='button'> %s </a>", letter, letter));
+                builder.append(String.format("<a style='margin:10px' href='/a-z/%s/' class='btn btn-primary' role='button'> %s </a>", letter, letter));
 
                 createFile(
                         indexFile, letter,
@@ -315,13 +315,13 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
             for (Listing listing : listings) {
                 builder.append("<li class='list-group-item'>");
                 builder.append("<div class='card'>");
-                builder.append("<div class='card-header'><a href='/" + listing.getPath() + "'>" + listingDir.get(listing.getPath()) + "</a></div>");
+                builder.append("<div class='card-header'><a href='/" + listing.getPath() + "/'>" + listingDir.get(listing.getPath()) + "</a></div>");
                 builder.append("<div class='card-body'>" + listing.getAddress() + "</div>");
                 builder.append("<div class='card-footer'><small>Category: <a class='badge badge-primary' href='/category/" + listing.getCategory()
                         .replace(" &", "")
                         .replace(" ", "-")
                         .toLowerCase()
-                        + "'>" + listing.getCategory() + "</a></small>" +
+                        + "/'>" + listing.getCategory() + "</a></small>" +
                         "</div>");
                 builder.append("</div>");
                 builder.append("</li>");
@@ -498,7 +498,7 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
                 String path = listing.getPath();
                 builder.append("<url>");
                 builder.append("<loc>https://sylhetdirectory.com/"
-                        + path.toString().replace("./", "").replaceAll("&", "&amp;") + "</loc>");
+                        + path.toString().replace("./", "").replaceAll("&", "&amp;") + "/</loc>");
                 builder.append("<lastmod>" + LocalDate.now() + "</lastmod>");
                 builder.append("</url>");
                 builder.append("\n");
