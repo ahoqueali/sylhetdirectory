@@ -369,7 +369,7 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
                 Files.deleteIfExists(dir);
                 Files.createDirectories(dir);
                 
-                Path source = Paths.get("listingTemplate.html");
+                Path source = Paths.get("site/listingTemplate.html");
                 Path target = indexFile;
                 Files.copy(source, target, StandardCopyOption.REPLACE_EXISTING);
 
