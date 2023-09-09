@@ -185,7 +185,7 @@ public class DirectoryBuilder {
     
                         <footer>
                             <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.01);">
-                                    <small>Copyright © 2023</small>
+                                    <small>Copyright © 2023 Sylhet Directory</small>
                                 </div>
                         </footer>
     
