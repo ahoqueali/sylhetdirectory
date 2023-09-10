@@ -237,7 +237,7 @@ public class DirectoryBuilder {
                                            <a class="nav-link" href="/about/">About<span class="sr-only">(current)</span></a>
                                        </li>
                                        <li class="nav-item">
-                                           <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLScYHs_JktxOMwxYG00Sg3j_s6uFMOOiqTdLBednautxgIEu7g/viewform">Register business</a>
+                                           <a class="nav-link" href="/register/">Register business</a>
                                        </li>
                                        <li class="nav-item">
                                            <a class="nav-link" href="/contact/">Contact us</a>
