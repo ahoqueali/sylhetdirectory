@@ -31,8 +31,14 @@ public class DirectoryBuilder {
         }
 
         List<Listing> listings = new ArrayList<>();
-        for(String fileName: args){
-            listings.addAll(loadListings(fileName));
+        String fileName = "";
+        try (BufferedReader txtReader = new BufferedReader(new FileReader(args[0]))) {
+            while ((fileName = txtReader.readLine()) != null) {
+                System.out.println(fileName);
+                listings.addAll(loadListings(fileName));
+            }
+        }catch (Exception e){
+            e.printStackTrace();
         }
 
         if(System.getenv("deleteListings") != null){
@@ -185,7 +191,7 @@ public class DirectoryBuilder {
     
                         <footer>
                             <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.01);">
-                                    <small>Copyright © 2023 Sylhet Directory</small>
+                                    <small>Copyright © 2024 Sylhet Directory</small>
                                 </div>
                         </footer>
     
@@ -526,8 +532,6 @@ class Listing implements Comparable<Listing> {
     private final String category;
     private final String path;
 
-
-
     public Listing(final String title,
                    final String contact,
                    final String address,
@@ -564,7 +568,6 @@ class Listing implements Comparable<Listing> {
         .map(contact -> contact.replaceFirst("0", ""))
         .map(contact -> "+880" + contact)
         .collect(Collectors.joining(","));
-        
     }
 
     public String getAddress() {
@@ -604,7 +607,6 @@ public String getCategory() {
         return this.path.split("-")[0]
                 .compareTo(listing.path.split("-")[0]);
     }
-
     @Override
     public String toString(){
         return this.title;
