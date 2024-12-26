@@ -455,6 +455,10 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
                 row = row.replaceAll("\n", "");
                 String[] cols = row.split("\t");
 
+                if(cols[1].equals("Title")){
+                    continue;
+                }
+
                 Listing listing = new Listing(
                         cols[1].replaceAll("\\\"", ""),
                         cols[2],
