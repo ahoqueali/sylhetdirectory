@@ -87,6 +87,8 @@ footer {
 .btn-same-dimensions {
   width: 150px; /* Set a fixed width */
   height: 50px; /* Set a fixed height */
+  margin-right: 10px;
+  margin-bottom: 10px;
   display: flex; /* Flexbox for perfect alignment */
   align-items: center; /* Vertical alignment */
   justify-content: center; /* Horizontal alignment */

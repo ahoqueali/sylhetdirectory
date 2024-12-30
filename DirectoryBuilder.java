@@ -114,7 +114,7 @@ public class DirectoryBuilder {
                 builder.append("<div class='container mt-5'>");
                 builder.append("<div class='col-auto'>");
                 listingsMap.entrySet().stream().sorted((e1, e2) -> e1.getKey().compareTo(e2.getKey())).forEach(e -> {
-                    builder.append("<a style='margin:10px' class='btn btn-primary btn-same-dimensions' role='button' href='" + e.getKey() + "/'>" +  categoryMap.get(e.getKey())  + "</a>");
+                    builder.append("<a class='btn btn-primary btn-same-dimensions' href='" + e.getKey() + "/'>" +  categoryMap.get(e.getKey())  + "</a>");
                 });
                 builder.append("</div></div>");
                 builder.append(getFooterHtml());
@@ -279,7 +279,7 @@ private static void generateDirIndex(List<Listing> listings, Map<String, Listing
                 Files.deleteIfExists(dir);
                 Files.createDirectories(dir);
 
-                builder.append(String.format("<div class='col-auto'><button href='/a-z/%s/' class='btn btn-primary btn-square'> %s </button></div>", letter, letter));
+                builder.append(String.format("<div class='col-auto'><a href='/a-z/%s/' class='btn btn-primary btn-square'> %s </a></div>", letter, letter));
 
                 createFile(
                         indexFile, letter,
