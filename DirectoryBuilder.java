@@ -114,7 +114,11 @@ public class DirectoryBuilder {
                 builder.append("<div class='container mt-5'>");
                 builder.append("<div class='col-auto'>");
                 listingsMap.entrySet().stream().sorted((e1, e2) -> e1.getKey().compareTo(e2.getKey())).forEach(e -> {
-                    builder.append("<a class='btn btn-primary btn-same-dimensions' href='" + e.getKey() + "/'>" +  categoryMap.get(e.getKey())  + "</a>");
+                    String style ="";
+                    if (categoryMap.get(e.getKey()).toString().length() > 12){
+                        style ="style='font-size: 0.90em'";
+                    }
+                    builder.append("<a " + style + " class='btn btn-primary btn-same-dimensions' href='" + e.getKey() + "/'>" +  categoryMap.get(e.getKey())  + "</a>");
                 });
                 builder.append("</div></div>");
                 builder.append(getFooterHtml());
