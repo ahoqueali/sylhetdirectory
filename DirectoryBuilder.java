@@ -111,10 +111,10 @@ public class DirectoryBuilder {
 
                 StringBuilder builder = new StringBuilder();
                 builder.append(getHtmlHead());
-                builder.append("<div class='container'>");
-                builder.append("<div class='d-grid gap-2 d-md-block'>");
+                builder.append("<div class='container mt-5'>");
+                builder.append("<div class='col-auto'>");
                 listingsMap.entrySet().stream().sorted((e1, e2) -> e1.getKey().compareTo(e2.getKey())).forEach(e -> {
-                    builder.append("<a style='margin:10px' class='btn btn-primary' role='button' href='" + e.getKey() + "/'>" +  categoryMap.get(e.getKey())  + "</a>");
+                    builder.append("<a style='margin:10px' class='btn btn-primary btn-same-dimensions' role='button' href='" + e.getKey() + "/'>" +  categoryMap.get(e.getKey())  + "</a>");
                 });
                 builder.append("</div></div>");
                 builder.append(getFooterHtml());
@@ -268,8 +268,8 @@ private static void generateDirIndex(List<Listing> listings, Map<String, Listing
 
             StringBuilder builder = new StringBuilder();
             builder.append(getHtmlHead());
-            builder.append("<div class='container'>");
-            builder.append("<div class='d-grid gap-2 d-md-block'>");
+            builder.append("<div class='container mt-5'>");
+            builder.append("<div class='row g-3 justify-content-center'>");
 
             for (char letter : alphabet) {
 
@@ -279,7 +279,7 @@ private static void generateDirIndex(List<Listing> listings, Map<String, Listing
                 Files.deleteIfExists(dir);
                 Files.createDirectories(dir);
 
-                builder.append(String.format("<a style='margin:10px' href='/a-z/%s/' class='btn btn-primary' role='button'> %s </a>", letter, letter));
+                builder.append(String.format("<div class='col-auto'><button href='/a-z/%s/' class='btn btn-primary btn-square'> %s </button></div>", letter, letter));
 
                 createFile(
                         indexFile, letter,

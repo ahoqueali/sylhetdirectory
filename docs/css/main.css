@@ -84,6 +84,27 @@ footer {
   font: small;
 }
 
+.btn-same-dimensions {
+  width: 150px; /* Set a fixed width */
+  height: 50px; /* Set a fixed height */
+  display: flex; /* Flexbox for perfect alignment */
+  align-items: center; /* Vertical alignment */
+  justify-content: center; /* Horizontal alignment */
+}
+.btn-square {
+  width: 50px; /* Set fixed width */
+  height: 50px; /* Set fixed height */
+  margin-bottom: 10px;
+  display: inline-flex; /* Flex for centering text */
+  align-items: center; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  font-size: 18px; /* Adjust text size */
+}
+.btn-square:hover {
+  background-color: #0056b3; /* Darker color on hover */
+  color: #fff; /* Ensure white text on hover */
+}
+
 @media screen and (max-width: 640px){
     .brand-box, .title-box {
        font-size: 2.0em;
