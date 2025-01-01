@@ -506,7 +506,7 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
                 String path = listing.getPath();
                 builder.append("<url>");
                 builder.append("<loc>https://sylhetdirectory.com/"
-                        + path.toString().replace("./", "").replaceAll("&", "&amp;") + "/</loc>");
+                        + path.toString().replace("./", "").replaceAll("&", "&amp;") + "</loc>");
                 builder.append("<lastmod>" + LocalDate.now() + "</lastmod>");
                 builder.append("</url>");
                 builder.append("\n");
