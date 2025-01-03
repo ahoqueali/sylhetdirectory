@@ -163,7 +163,7 @@ public class DirectoryBuilder {
             for (Listing listing : listings) {
                 builder.append("<li class='list-group-item'>");
                 builder.append("<div class='card'>");
-                builder.append("<div class='card-header'><a href='/" + listing.getPath() + "/'>" + listingDir.get(listing.getPath()) + "</a></div>");
+                builder.append("<div class='card-header'><a href='/" + listing.getPath() + "'>" + listingDir.get(listing.getPath()) + "</a></div>");
                 builder.append("<div class='card-body'>" + listing.getAddress() + "</div");
                 builder.append("</div>");
                 builder.append("</li>");
@@ -244,13 +244,13 @@ public class DirectoryBuilder {
                                <div class="collapse navbar-collapse" id="navbarNav">
                                    <ul class="navbar-nav active">
                                        <li class="nav-item">
-                                           <a class="nav-link" href="/about/">About<span class="sr-only">(current)</span></a>
+                                           <a class="nav-link" href="/about">About<span class="sr-only">(current)</span></a>
                                        </li>
                                        <li class="nav-item">
-                                           <a class="nav-link" href="/register/">Register business</a>
+                                           <a class="nav-link" href="/register">Register business</a>
                                        </li>
                                        <li class="nav-item">
-                                           <a class="nav-link" href="/contact/">Contact us</a>
+                                           <a class="nav-link" href="/contact">Contact us</a>
                                        </li>
                                        <li class="nav-item">
                                            <a class="nav-link" href="https://sylhetdirectory-com.translate.goog/?_x_tr_sl=auto&_x_tr_tl=bn&_x_tr_hl=en-US&_x_tr_pto=wapp">বাংলা দেখুন</a>
@@ -283,7 +283,7 @@ private static void generateDirIndex(List<Listing> listings, Map<String, Listing
                 Files.deleteIfExists(dir);
                 Files.createDirectories(dir);
 
-                builder.append(String.format("<div class='col-auto'><a href='/a-z/%s/' class='btn btn-primary btn-square'> %s </a></div>", letter, letter));
+                builder.append(String.format("<div class='col-auto'><a href='/a-z/%s' class='btn btn-primary btn-square'> %s </a></div>", letter, letter));
 
                 createFile(
                         indexFile, letter,
