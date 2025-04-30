@@ -448,7 +448,7 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
 
             String row = "";
             while ((row = csvReader.readLine()) != null) {
-//                System.out.println(row);
+
                 if(row.isBlank()){
                     continue;
                 }
@@ -459,9 +459,12 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
                 row = row.replaceAll("\n", "");
                 String[] cols = row.split("\t");
 
-                if(cols[1].equals("Title")){
+                if(cols[1].equals("Title")
+                        || cols[1].equals("Business name") ){
                     continue;
                 }
+
+                System.out.println(row);
 
                 Listing listing = new Listing(
                         cols[1].replaceAll("\\\"", ""),
