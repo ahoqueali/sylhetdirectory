@@ -77,6 +77,10 @@ section:after {
   width: 50%;
   padding: 10px;
 }
+.btn{
+    width: 100%;
+}
+
 
 
 .ad-box {

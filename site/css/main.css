@@ -107,6 +107,16 @@ footer {
   color: #fff; /* Ensure white text on hover */
 }
 
+.btn {
+    width: 100%;
+}
+
+.card a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
 @media screen and (max-width: 640px){
     .brand-box, .title-box {
        font-size: 2.0em;
