@@ -107,10 +107,6 @@ footer {
   color: #fff; /* Ensure white text on hover */
 }
 
-.btn {
-    width: 100%;
-}
-
 .card a {
   font-weight: 600;
   text-decoration: none;
@@ -124,5 +120,9 @@ footer {
 
     .brand-box{
         margin-top: 15px;
+    }
+
+    .btn {
+        width: 100%;
     }
 }
