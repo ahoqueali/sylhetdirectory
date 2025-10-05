@@ -112,6 +112,61 @@ footer {
   text-decoration: none;
 }
 
+/* Hero / banner */
+min-height:320px;
+    display:flex;
+    align-items:center;
+    color:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 6px 22px rgba(0,0,0,0.12);
+}
+
+.hero::after{
+    content:'';
+    position:absolute;
+    inset:0;
+    background:linear-gradient(180deg, rgba(0,0,0,0.18), rgba(0,0,0,0.48));
+    mix-blend-mode:multiply;
+}
+
+
+.hero .content{
+    position:relative; /* above overlay */
+    z-index:2;
+}
+
+
+.hero .eyebrow{
+    display:inline-block;
+    background:rgba(255,255,255,0.12);
+    padding:6px 10px;
+    border-radius:999px;
+    font-weight:600;
+    margin-bottom:12px;
+}
+
+
+.hero h1{
+    font-size:1.6rem;
+    line-height:1.05;
+    margin-bottom:8px;
+}
+
+
+.hero p.lead{
+    font-size:1rem;
+    opacity:0.96;
+    margin-bottom:16px;
+    max-width:620px;
+}
+
+
+.cta-phone{
+    --btn-color:var(--accent);
+    font-weight:700;
+}
+
 
 @media screen and (max-width: 640px){
     .brand-box, .title-box {
@@ -125,4 +180,20 @@ footer {
     .btn {
         width: 100%;
     }
+
+    .hero{min-height:380px}
+    .hero h1{font-size:2.1rem}
+    .hero p.lead{font-size:1.05rem}
+}
+
+/* smaller screens adjustments */
+@media(min-width:768px){
+    .hero{min-height:380px}
+    .hero h1{font-size:2.1rem}
+    .hero p.lead{font-size:1.05rem}
+}
+
+
+@media(min-width:992px){
+    .hero h1{font-size:2.4rem}
 }
