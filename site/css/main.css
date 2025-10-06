@@ -113,21 +113,19 @@ footer {
 }
 
 /* Hero / banner */
-min-height:320px;
-    display:flex;
-    align-items:center;
-    color:white;
-    border-radius:12px;
-    overflow:hidden;
-    box-shadow:0 6px 22px rgba(0,0,0,0.12);
+
+.hero {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */
+  text-align: center;      /* center the inner text */
+  position: relative;       /* in case you have overlays or absolute children */
 }
 
 .hero::after{
     content:'';
     position:absolute;
     inset:0;
-    background:linear-gradient(180deg, rgba(0,0,0,0.18), rgba(0,0,0,0.48));
-    mix-blend-mode:multiply;
 }
 
 
@@ -139,7 +137,6 @@ min-height:320px;
 
 .hero .eyebrow{
     display:inline-block;
-    background:rgba(255,255,255,0.12);
     padding:6px 10px;
     border-radius:999px;
     font-weight:600;
