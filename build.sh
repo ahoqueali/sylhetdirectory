@@ -6,4 +6,3 @@ rm -rf docs
 cp -r site docs
 ./compile.sh
 $JAVA_HOME/bin/java --enable-preview DirectoryBuilder listings.txt
-#$JAVA_HOME/bin/java --enable-preview DirectoryBuilder dataset-2.tsv
