@@ -579,6 +579,7 @@ class Listing implements Comparable<Listing> {
         List<String> contacts = Arrays.asList(contact.split(","));
         return contacts.stream()
         .map(contact -> contact.replace(" ", ""))
+                .map(contact -> contact.replaceAll("-", ""))
         .filter(contact -> contact.length() > 9)
         .map(contact -> contact.replace("+88", ""))
         .map(contact -> contact.replace("0088", ""))
