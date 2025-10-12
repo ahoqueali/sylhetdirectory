@@ -1,4 +1,4 @@
-Timestamp	Business Name	Contact numbers	Business address	Email address	Web Address	Facebook Address	Service provided	Opening hours	Category	Path	Column 4	Column 5	Column 6	Column 7	Column 8	Column 9	Column 10	Column 11	Column 12	Column 13	Column 14	Column 15	Column 16	Column 17	Column 18	Column 19	Column 20
+Timestamp	Business Name	Contact numbers	Business address	Email address	Web Address	Facebook Address	Service provided	Opening hours	Category	Path	LastUpdate Timestamp	Column 5	Column 6	Column 7	Column 8	Column 9	Column 10	Column 11	Column 12	Column 13	Column 14	Column 15	Column 16	Column 17	Column 18	Column 19	Column 20
 07/10/2025 15:31:36	CIBA - Uposohor	0821 2830761, 01732 049404	House 4, Block D, Main Road, Shahjalal Uposhohor, Sylhet						Accountant	ciba-uposohor																	
 07/10/2025 15:31:36	School of Accounting & Finance Studies	01711361689	Al-Hamra (6th Floor), Zindabazar, Sylhet						Accountant	school-of-accounting-finance-studies																	
 07/10/2025 15:31:36	Amin Accounting Service	01712 523979	Sonatula, Jhornarpar						Accountant	amin-accounting-service																	
@@ -77,7 +77,7 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	The Surma Associates, Architects & Engineers	+880 1722-380217	The Surma Associates, Architects & Engineers, 120(Ground Floor), Niamah Tower, Chondipul point, Sylhet, Bangladesh						Architect	the-surma-associates-architects-engineers																	
 07/10/2025 15:31:36	Imarat Construction Architect & Engineering	+880 1819-084667	Imarat Construction Architect & Engineering, Sylhet, Bangladesh						Architect	imarat-construction-architect-engineering																	
 07/10/2025 15:31:36	Quality Builders & Consultant	+880 1686-163977	Ground Floor Shop#10, Star Plaza, Sylhet, Bangladesh						Architect	quality-builders-consultant																	
-07/10/2025 15:31:36	Future Plan Engineering Consultancy FPEC	+8801723441442; +8801711033028	05 saodagor Tola Sylhet 3100	futureplan.syl@gmail.com		https://www.facebook.com/@futureplanengineeringconsultancy	Yes	10:00	Architect	future-plan-engineering-consultancy-fpec																	
+07/10/2025 15:31:36	Future Plan Engineering Consultancy FPEC	+8801723441442; +8801711033028	05 saodagor Tola Sylhet 3100	futureplan.syl@gmail.com		https://www.facebook.com/@futureplanengineeringconsultancy		10:00	Architect	future-plan-engineering-consultancy-fpec																	
 07/10/2025 15:31:36	Aarong	9678444777	413 Nayasarak Rd, Sylhet						Arts & Crafts	aarong																	
 07/10/2025 15:31:36	Ashik Arts	01723646525	252 City Super Market, Bondorbazar						Arts & Crafts	ashik-arts																	
 07/10/2025 15:31:36	Lucky Kutir Shilpo	0821 715347	Station Road						Arts & Crafts	lucky-kutir-shilpo																	
@@ -103,6 +103,33 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Shilpi Art	+880 1673-367637	Shilpi Art, Waves, Sylhet 3100, Bangladesh						Arts & Crafts	shilpi-art																	
 07/10/2025 15:31:36	Sylhet Sign		10 Airport Rd, Sylhet, Bangladesh						Arts & Crafts	sylhet-sign																	
 07/10/2025 15:31:36	Artistry	+880 1736-149746	Artistry, Sylhet, Bangladesh						Arts & Crafts	artistry																	
+07/10/2025 15:31:36	Hason Raja Museum	0821 714323	Raja Kunjo, Jallar Par Road, Zindabazar						Attraction	hason-raja-museum																	
+07/10/2025 15:31:36	Muktijoddah Songshad		Zindabazar						Attraction	muktijoddah-songshad																	
+07/10/2025 15:31:36	Osmani Museum		Nur Manjil, Noya Sorak						Attraction	osmani-museum																	
+07/10/2025 15:31:36	Khadimnagar National Park		Khadim Nagar						Attraction	khadimnagar-national-park																	
+07/10/2025 15:31:36	Lawachara National Park		Lawachara, Kamalganj Upazila, Moulvibazar, Sylhet Division, Bangladesh						Attraction	lawachara-national-park																	
+07/10/2025 15:31:36	Rema-Kelenga Wildlife Sanctuary		Rema Kalenge, Habiganj, Bangladesh						Attraction	remakelenga-wildlife-sanctuary																	
+07/10/2025 15:31:36	Maloni Chora Tea Estate	0821 719133, 0821 719144	Maloni Chora						Attraction	maloni-chora-tea-estate																	
+07/10/2025 15:31:36	Ahmed Tea Company	0821 716552, 0821 718815	Sylhet						Attraction	ahmed-tea-company																	
+07/10/2025 15:31:36	Ali Bahar Tea Estates	0821 713395, 0821 720122	Sylhet						Attraction	ali-bahar-tea-estates																	
+07/10/2025 15:31:36	Kali Tea Estates	0821 716660	Sylhet						Attraction	kali-tea-estates																	
+07/10/2025 15:31:36	Gobindo Pur Tea Estates	0821 714605	Sylhet						Attraction	gobindo-pur-tea-estates																	
+07/10/2025 15:31:36	Gems Finlay Tea Estates	0821 715245	Sylhet						Attraction	gems-finlay-tea-estates																	
+07/10/2025 15:31:36	Dawondi Tea Estates	0821 715206	Sylhet						Attraction	dawondi-tea-estates																	
+07/10/2025 15:31:36	Tara Pur Tea Estates	0821 713479	Sylhet						Attraction	tara-pur-tea-estates																	
+07/10/2025 15:31:36	Fulbari Tea Estates	0821 718815	Sylhet						Attraction	fulbari-tea-estates																	
+07/10/2025 15:31:36	Borojan Tea Estates	0821 760947	Sylhet						Attraction	borojan-tea-estates																	
+07/10/2025 15:31:36	Mathiura Tea Company 	0821 761082, 01711800360	Sylhet						Attraction	mathiura-tea-company																	
+07/10/2025 15:31:36	Maloni Chora	0821 717177	Srimongol						Attraction	maloni-chora																	
+07/10/2025 15:31:36	Lakkatura Tea Estates	0821 716216	Lakkatura						Attraction	lakkatura-tea-estates																	
+07/10/2025 15:31:36	Siraj Nogor Tea Estates	0821 714204	Sylhet						Attraction	siraj-nogor-tea-estates																	
+07/10/2025 15:31:36	Mumin Chora Tea Estates	0821 761082	Sylhet						Attraction	mumin-chora-tea-estates																	
+07/10/2025 15:31:36	Adventure World Amusement Park		Salutikor Rd, Sylhet						Attraction	adventure-world-amusement-park																	
+07/10/2025 15:31:36	Dreamland Amusement & Water Park	0821 840727	Dreamland Park Rd, Sylhet						Attraction	dreamland-amusement-water-park																	
+07/10/2025 15:31:36	Bonani Tea 	0821 718381	Amjad Ali Road, Kalighat						Attraction	bonani-tea																	
+07/10/2025 15:31:36	Burjan Tea Estate 	0821 715519	Khadimnagr						Attraction	burjan-tea-estate																	
+07/10/2025 15:31:36	Jafflong Tea Garden	0821 715219	Goainghat, Howapara						Attraction	jafflong-tea-garden																	
+07/10/2025 15:31:36	M. Ahmed Tea & Lands Co. 	0821 716552	Dargamoholla						Attraction	m-ahmed-tea-lands-co																	
 07/10/2025 15:31:36	AB Bank - Garden Tower		Garden Tower, Biswa Road, Shahjalal Upashahar						Bank	ab-bank-garden-tower																	
 07/10/2025 15:31:36	AB Bank - Modhuban		Modhuban Super Market, Bondar Bazar						Bank	ab-bank-modhuban																	
 07/10/2025 15:31:36	Arab Bangladesh Bank	0872 356057	Madaris Mansion, Bagbari						Bank	arab-bangladesh-bank																	
@@ -154,6 +181,24 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	AB Bank - Upashahar		Garden Tower, Biswa Road, Shahjalal Upashahar						Bank	ab-bank-upashahar																	
 07/10/2025 15:31:36	AB Bank- Bondor Bazar		Modhuban Super Market, Bondar Bazar						Bank	ab-bank-bondor-bazar																	
 07/10/2025 15:31:36	Arab Bangladesh Bank - Bagbari	0872 356057	Madaris Mansion, Bagbari						Bank	arab-bangladesh-bank-bagbari																	
+07/10/2025 15:31:36	Jalalabad Auto Care & Servicing Centre		Plot A/1, Block B, Kumarpara Point						Bank ATM	jalalabad-auto-care-servicing-centre																	
+07/10/2025 15:31:36	Dutch Bangla Bank ATM		Osmani Medical Road, Kazolshah						Bank ATM	dutch-bangla-bank-atm																	
+07/10/2025 15:31:36	Standard Chartered Bank ATM		Mirzajungal						Bank ATM	standard-chartered-bank-atm																	
+07/10/2025 15:31:36	Islami Bank ATM		mirzajungal						Bank ATM	islami-bank-atm																	
+07/10/2025 15:31:36	Standard Chartered ATM		Hazrat Shahjalal Rd, Dorga Gate						Bank ATM	standard-chartered-atm																	
+07/10/2025 15:31:36	AB Bank Limited	0821715736	Raj Manjil, Dargah Gate, Sylhet						Bank ATM	ab-bank-limited																	
+07/10/2025 15:31:36	HSBC ATM		Hazrat Shahjalal Rd, Sylhet						Bank ATM	hsbc-atm																	
+07/10/2025 15:31:36	BRAC Bank Limited ATM	01736935650	BRAC Bank ATM,Pallabi Trade Center,Subidbazar,Sunamganj Road,Sylhet						Bank ATM	brac-bank-limited-atm																	
+07/10/2025 15:31:36	Dutch-Bangla Bank Limited ATM		Hazrat Shahjalal Rd, Sylhet						Bank ATM	dutchbangla-bank-limited-atm																	
+07/10/2025 15:31:36	Dhaka Bank Limited ATM		West World Shopping City, Zindabazar, Jallarpar Rd, Sylhet						Bank ATM	dhaka-bank-limited-atm																	
+07/10/2025 15:31:36	Dutch-Bangla Bank Limited Fast Track		Mobarak Monjil, Dargah Gate, Sylhet						Bank ATM	dutchbangla-bank-limited-fast-track																	
+07/10/2025 15:31:36	Rupali Bank Limited ATM		Rikabi Bazar Rd, Sylhet						Bank ATM	rupali-bank-limited-atm																	
+07/10/2025 15:31:36	City Bank ATM		Ideal Hospital and Cardiac Centre Building, Lamabazar Rd, Sylhet						Bank ATM	city-bank-atm																	
+07/10/2025 15:31:36	AB Bank  ATM		Lamabazar Rd, Sylhet						Bank ATM	ab-bank-atm																	
+07/10/2025 15:31:36	United Commercial Bank Limited ATM		Lamabazar Rd, Sylhet						Bank ATM	united-commercial-bank-limited-atm																	
+07/10/2025 15:31:36	Southeast Bank Limited ATM		Lamabazar Rd, Sylhet						Bank ATM	southeast-bank-limited-atm																	
+07/10/2025 15:31:36	Eastern Bank Limited ATM		Dargah Gate, Sylhet						Bank ATM	eastern-bank-limited-atm																	
+07/10/2025 15:31:36	AB Bank Limited ATM		Medical College Rd, Sylhet						Bank ATM	ab-bank-limited-atm																	
 07/10/2025 15:31:36	Cycle Republic	01673226068	Ajgor Square, Baruthkhana, Sylhet						Bicycle Store	cycle-republic																	
 07/10/2025 15:31:36	Bike Venture	01712047217	Shop 2, Manik Pirer Tila Road, Kumarpara, Sylhet						Bicycle Store	bike-venture																	
 07/10/2025 15:31:36	Sima Library & Stationary	0821 718340	2 Raja Mansion (1st Floor), Zindabazar						Book Store	sima-library-stationary																	
@@ -166,17 +211,14 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Rajokio Library		Puran Bazar						Book Store	rajokio-library																	
 07/10/2025 15:31:36	Shahjalal Library & Stationary		Madania Madrasha Market, Notun Bazar						Book Store	shahjalal-library-stationary																	
 07/10/2025 15:31:36	Baatighar	+880 1842-304344	Golden City Complex, 1st Floor, 682 East, Sylhet, Bangladesh						Book Store	baatighar																	
-07/10/2025 15:31:36	Classic Rent-A Car	01971581776, 01726603053	block-B, Road-16, House-14, Shahjalal Uposohor						Car Rental	classic-renta-car																	
+07/10/2025 15:31:36	Classic Rent-A-Car	01971581776, 01726603053	block-B, Road-16, House-14, Shahjalal Uposohor						Car Rental	classic-rentacar																	
 07/10/2025 15:31:36	Subid Bazar Car Rental	01749013697	Sylhet						Car Rental	subid-bazar-car-rental																	
 07/10/2025 15:31:36	Ananda Rent-A-Car	0821 722930, 01711921437	Dorga Mohalla, West Chowhatta, Sylhet						Car Rental	ananda-rentacar																	
 07/10/2025 15:31:36	Sumaiya Transport 	01780592508	Zindabazar, Sylhet						Car Rental	sumaiya-transport																	
 07/10/2025 15:31:36	Maa Rent-A-Car	+8801742105470, +8801711069588	Subid Bazar, Sylhet						Car Rental	maa-rentacar																	
 07/10/2025 15:31:36	Amelia Rent-A-Car & Driving Training School	01711040447, 01671994644	Burhan Uddin Road, Mendibagh, Shahjalal Uposhohor, Sylhet						Car Rental	amelia-rentacar-driving-training-school																	
 07/10/2025 15:31:36	Pathao	+8809678100800	Pathao, Sylhet						Car Rental	pathao																	
-07/10/2025 15:31:36	Tour Sylhet | Rent a car and tour	09611820893	4, azadi, Miroboxtula	manager.tsbd@gmail.com	tour-sylhet.com	fb.com/tour2sylhet	Package tour, Rent a car, Hotel booking	10:00:00	Car Rental	tour-sylhet-rent-a-car-and-tour																	
 07/10/2025 15:31:36	Al Mobaraka Enterprise	+880 1730-877848	Al Mobaraka Enterprise, Sylhet, Bangladesh						Car Rental	al-mobaraka-enterprise																	
-07/10/2025 15:31:36	Rent A Car Sylhet- Tour Guide BD	+880 1726-700193	203, First Floor, Rent A Car Sylhet- Tour Guide BD, Rangmahal Tower, Sylhet 3100, Bangladesh		https://sylhet-rent-a-car-tgbd.business.site/?utm_source=gmb&utm_medium=referral				Car Rental	rent-a-car-sylhet-tour-guide-bd																	
-07/10/2025 15:31:36	Sylhet Rent a Bus	01718010266	Garden Tower, Sylhet	Sylhetrentabus@gmail.com		https://www.facebook.coylhetrentabus?mibextid=ZbWKwL		24 hours	Car Rental	sylhet-rent-a-bus																	
 07/10/2025 15:31:36	Abdul Gafur Choudhury Womens College	01712248841	Sylhet						College	abdul-gafur-choudhury-womens-college																	
 07/10/2025 15:31:36	Balaganj College	01711152959	Sylhet						College	balaganj-college																	
 07/10/2025 15:31:36	Barohal College	01819959642	Sylhet						College	barohal-college																	
@@ -305,7 +347,6 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Friends Computer	01721663552	Shop-13, Galleria Shopping Complex (ground floor), Zindabazar, Sylhet						Computer Store	friends-computer																	
 07/10/2025 15:31:36	Latifia Computer & Internet Service	01734606500	Lalabazar, Dakshin Surma, Sylhet						Computer Store	latifia-computer-internet-service																	
 07/10/2025 15:31:36	Tulip Computers	01712824465, 01715072963	102-103 Planet Araf (1st floor), Zindabazar						Computer Store	tulip-computers																	
-07/10/2025 15:31:36	Techno Treats	1887343636	kumarpara, Jhornar par, jorna-55, sylhet	shajedahmedbd@gmail.com	technotreats.com	https://www.facebook.com/technotreatsbd/	Local Area	09:00 am - 05:00 pm	Computer Store	techno-treats																	
 07/10/2025 15:31:36	Achka Brick Field	01733907353	Jahid Pur						Construction & Building Material	achka-brick-field																	
 07/10/2025 15:31:36	C.M.S Construction Material Suppliers	+880 1716-295114	Mitali Complex, Subid Bazar, Point, Sylhet 3100, Bangladesh						Construction & Building Material	cms-construction-material-suppliers																	
 07/10/2025 15:31:36	 Shahjalal Traders	+880 1711-913551	Sylhet 3100, Bangladesh						Construction & Building Material	shahjalal-traders																	
@@ -372,7 +413,7 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Mohammad Machinery & Tools	+880 1305-045701	Sylhet, Bangladesh						Construction & Building Material	mohammad-machinery-tools																	
 07/10/2025 15:31:36	Hafizul Enterprise	+880 1768-325323	3 No, Hafizul Enterprise, Abdul Bari Mansion, Sylhet 3100, Bangladesh						Construction & Building Material	hafizul-enterprise																	
 07/10/2025 15:31:36	 Northeast Thai Aluminium RFL Exclusive BBML Classic Showroom	+880 1711-364095	13/14 Al Kaja Market, Mohajon Potti Rd, Sylhet, Bangladesh						Construction & Building Material	northeast-thai-aluminium-rfl-exclusive-bbml-classic-showroom																	
-07/10/2025 15:31:36	Al Amana Stone Crusher	01755673963	Upazila: Sylhet Sadar, Union: Khadimnagor, PO: Shayeb Bazar, PS: Airport, Sylhet, Bangladesh	alamanastonecrusher@gmail.com	https://alamanatradingcompany.com/	https://www.facebook.com/alamanastonecrusher	no	08.00am	Construction & Building Material	al-amana-stone-crusher																	
+07/10/2025 15:31:36	Al Amana Stone Crusher	01755673963	Upazila: Sylhet Sadar, Union: Khadimnagor, PO: Shayeb Bazar, PS: Airport, Sylhet, Bangladesh	alamanastonecrusher@gmail.com	https://alamanatradingcompany.com/	https://www.facebook.com/alamanastonecrusher		08.00am	Construction & Building Material	al-amana-stone-crusher																	
 07/10/2025 15:31:36	Namaz Traders	01711348593	Tuker Bazar, Sunamganj Road, Sylhet	nazmatraders93@gmail.com					Construction & Building Material	namaz-traders																	
 07/10/2025 15:31:36	Ensol Enterprise	+8801331062247	1st Floor, Shamim Plaza, Shahi Eidgah to Kumar Para Road, Sylhet	sakibensol@gmail.com	www.rebarcouplerbangladesh.com		One stop rebar coupler support service at Sylhet City	9:00 AM to 6:00 PM (except Friday)	Construction & Building Material	ensol-enterprise																	
 07/10/2025 15:31:36	Professional On-Board Couriers	01670291854, 01718316742	2/4 Koti Bhaban (Ground Floor), Bandar Bazar						Courier service	professional-onboard-couriers																	
@@ -394,7 +435,6 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Sonar Courier Service 	01714097509	Motalib Villa, Zindabazar, Sylhet						Courier service	sonar-courier-service																	
 07/10/2025 15:31:36	Sylhet Post Office	0821 716337	Postmaster Sylhet Head Office, Sylhet						Courier service	sylhet-post-office																	
 07/10/2025 15:31:36	Torrent Express	01712622659	31 City Banijik Baban, Bondor Bazar, Sylhet						Courier service	torrent-express																	
-07/10/2025 15:31:36	Sylpoint & Co	01712660666	Lal Dighir Par, Sylhet	admin|@sylpoint.com	www.sylpoint.com	https://www.facebook.com/pg/sylpointstore/about/	grocery home delivery service	09:00	Courier service	sylpoint-co																	
 07/10/2025 15:31:36	Omex Courier & Logistics .	+880 1992-086020	Omex Courier & Logistics ., Gotatikor Branch, Nagar Mansion, Gotatikor Point, Jokigonj Road,, R250, Sylhet, Bangladesh		http://www.omexcourier.com/				Courier service	omex-courier-logistics																	
 07/10/2025 15:31:36	Rainbow Express Parcel Service	+880 1870-746075	Shyamoli Paribahan, N208, Sylhet, Bangladesh						Courier service	rainbow-express-parcel-service																	
 07/10/2025 15:31:36	Sundarban Courier Service - Zindabazar	+880 1917-230660	Main Road Hazrat Shahjalal Rd Sylhet 3100 Hazrat Shahjalal Rd, Sylhet 3100, Bangladesh						Courier service	sundarban-courier-service-zindabazar																	
@@ -689,7 +729,7 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Dr Sofikul Alom Shopon	01834 863906, 01723331217, 01672586256	Bondhu Dental Surgery (Ground Floor Of Ideal Hospital)Rikabi Bazar, Sylhet						Doctor	dr-sofikul-alom-shopon																	
 07/10/2025 15:31:36	Dr Md. Ajijur Rohman Ruman	0176166 6912, 01711 905 035,01717 935306, 01711 389260	Ideal Diganostic Center, Rikabi Bazar, Sylhet						Doctor	dr-md-ajijur-rohman-ruman																	
 07/10/2025 15:31:36	Dr Lala Shourav Das	01763990044	Oasis Hospital, Subhanighat, Sylhet						Doctor	dr-lala-shourav-das																	
-07/10/2025 15:31:36	Prof Dr. Md Shah JML Hossain	01745672262	Lab Aid  Diagnostic, Medical Road, Sylhet				Saturday - Thursday	4pm - 9pm	Doctor	prof-dr-md-shah-jml-hossain																	
+07/10/2025 15:31:36	Prof Dr. Md Shah JML Hossain	01745672262	Lab Aid  Diagnostic, Medical Road, Sylhet					Saturday - Thursday 4pm - 9pm	Doctor	prof-dr-md-shah-jml-hossain																	
 07/10/2025 15:31:36	Dr Rizwan Ahmed Chowdhury (GP)	+880 1993-773505	The Medinova Diagnostic and Consultation Center, Near Madan Mahan College, Rikabibazar, Sylhet 3100, Bangladesh						Doctor	dr-rizwan-ahmed-chowdhury-gp																	
 07/10/2025 15:31:36	Odhyapok Dr. Shamim Anwarul Haque	+880 1915-842922	2 Housing Estate Road, Sylhet 3100, Bangladesh						Doctor	odhyapok-dr-shamim-anwarul-haque																	
 07/10/2025 15:31:36	Dr. Rafiul Azam Ghoree (ENT)	+880 1747-298867	Ideal diagnostic center, Madan mohon college, road Rikabi Bazar Rd, Sylhet 3100, Bangladesh						Doctor	dr-rafiul-azam-ghoree-ent																	
@@ -996,12 +1036,11 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Shaheen Paint and Hardware Store	0821 717174, 01711335262	Mohajon Patty, Bondor Bazar						Hardware Store	shaheen-paint-and-hardware-store																	
 07/10/2025 15:31:36	Core Vista Stone Industry	01711829739	806 Sylhet Millennium (7th floor), Zindabazar						Hardware Store	core-vista-stone-industry																	
 07/10/2025 15:31:36	Shishir Enterprise	0821 720472, 01715719932	Rangdhanu - 1, Airport Road, Chowkidekhi						Hardware Store	shishir-enterprise																	
-07/10/2025 15:31:36	Gaham &amp; Company	0088 0821 710177, 01711336423	East Zindabazar, Sylhet						Hardware Store	gaham-amp-company																	
 07/10/2025 15:31:36	Shahjahan Hardware Store	01711700540	Mohajonpotri, Sylhet						Hardware Store	shahjahan-hardware-store																	
 07/10/2025 15:31:36	Bahar Enterprise	01711358085	Kastoghar Rd, Sylhet						Hardware Store	bahar-enterprise																	
-07/10/2025 15:31:36	M A Hardware & Paint Store		Sylhet						Hardware Store	m-a-hardware-paint-store																	
-07/10/2025 15:31:36	M/H Hossain Traders	01712262112	8 Shahib Shopping Complex Zindabazar						Hardware Store	mh-hossain-traders																	
-07/10/2025 15:31:36	Maa Machinary Corporation	+8801772954516	Mohajon Potti Bondor Bazar Sylhet	Suhedk19@gmail.com		Maa Machinary Corporation	Bangladesh		Hardware Store	maa-machinary-corporation																	
+07/10/2025 15:31:36	MA Hardware & Paint Store		Sylhet						Hardware Store	ma-hardware-paint-store																	
+07/10/2025 15:31:36	Hossain Traders	01712262112	8 Shahib Shopping Complex Zindabazar						Hardware Store	hossain-traders																	
+07/10/2025 15:31:36	Maa Machinary Corporation	+8801772954516	Mohajon Potti Bondor Bazar Sylhet	Suhedk19@gmail.com		Maa Machinary Corporation			Hardware Store	maa-machinary-corporation																	
 07/10/2025 15:31:36	Nishorgo Nirob Eco Cottage	01715041207	Srimongol						Holiday Resort	nishorgo-nirob-eco-cottage																	
 07/10/2025 15:31:36	Nazimgarh Resort	0821 2870338,0821 2870339	Nazimgarh, Khadimnagar						Holiday Resort	nazimgarh-resort																	
 07/10/2025 15:31:36	Shuktara Nature Retreat		Uddin Hills, Khadimnagar, Sylhet						Holiday Resort	shuktara-nature-retreat																	
@@ -1018,7 +1057,6 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Sylhet Eye Hospital and Laser Centre	01793 673094	Syed Plaza D/1 , Multiplan Shahjalal City, Upashahar, Sylhet						Hospital & Clinic	sylhet-eye-hospital-and-laser-centre																	
 07/10/2025 15:31:36	VARD Eye Hospital	01712650779	Ilashpur, Usmaninagor, Balagonj, Sylhet						Hospital & Clinic	vard-eye-hospital																	
 07/10/2025 15:31:36	Al Haramain Hospital	+88 0821 729981, +88 019 3122 5555	Kazi Tower, Samato-30, Chali Bandar, Bishwa Road, Subhani Ghat, Sylhet						Hospital & Clinic	al-haramain-hospital																	
-07/10/2025 15:31:36	Brighton Hospital Sylhet	01706080905	Sebok-15/1. Mirabazar, Sylhet						Hospital & Clinic	brighton-hospital-sylhet																	
 07/10/2025 15:31:36	Marie Stopes Maternity Centre	0821 2830241, 01911100837, 01716643691	154 Suvechcha, Fazil Chisha Road, East Subid Bazar						Hospital & Clinic	marie-stopes-maternity-centre																	
 07/10/2025 15:31:36	Safeway Clinic	0821 721272	Mirjajungal Road, Jamtola						Hospital & Clinic	safeway-clinic																	
 07/10/2025 15:31:36	Family Planning Health Clinic	0821 721307, 0821 725207	Taltola						Hospital & Clinic	family-planning-health-clinic																	
@@ -1026,17 +1064,12 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Saleha Eye Care	01762414444	Rikabi Bazar						Hospital & Clinic	saleha-eye-care																	
 07/10/2025 15:31:36	North East Medical	0821 724441	South Surma, Sylhet						Hospital & Clinic	north-east-medical																	
 07/10/2025 15:31:36	Labaid Diagnostic	0821 723259, 01766660135	189 East Dargah Gate, Hazrat Shahjalal Rd, Sylhet						Hospital & Clinic	labaid-diagnostic																	
-07/10/2025 15:31:36	Digital Desh Xray & Computerised Diagnostic Center	0821 720728, 01711700069, 01683044640	Jugol tila Iskon Mondir Market (1st Floor), New Medical Road, Kajol Shah, Sylhet						Hospital & Clinic	digital-desh-xray-computerised-diagnostic-center																	
-07/10/2025 15:31:36	Dr Quddus Clinic	01711 896293	Biswanath, Sylhet						Hospital & Clinic	dr-quddus-clinic																	
-07/10/2025 15:31:36	Marie Stopes Lamabazar	08212830241, 01716643691, 01715341083	Ali Complex (1st & 2nd Floor), VIP Road, Lamabazar						Hospital & Clinic	marie-stopes-lamabazar																	
-07/10/2025 15:31:36	Marie Stopes Bishwanath	01732660022, 01750114145	Jagannathpur Road, Biswanath						Hospital & Clinic	marie-stopes-bishwanath																	
-07/10/2025 15:31:36	Marie Stopes Fulbari	01732660023	9 Shecheton Residential Area, College Road, Fulbari, Golapgong						Hospital & Clinic	marie-stopes-fulbari																	
-07/10/2025 15:31:36	JB Medical Center	0821 761196, 01965544401	House # 40/1 Nabarun, Khan Complex, Upashahar Main Road, Sonarpara, Sylhet						Hospital & Clinic	jb-medical-center																	
-07/10/2025 15:31:36	GAMCA Sylhet	0821 725822	Airport Rd, Sylhet, Bangladesh						Hospital & Clinic	gamca-sylhet																	
+07/10/2025 15:31:36	Desh Xray & Computerised Diagnostic Center	0821 720728, 01711700069, 01683044640	Jugol tila Iskon Mondir Market (1st Floor), New Medical Road, Kajol Shah, Sylhet						Hospital & Clinic	desh-xray-computerised-diagnostic-center																	
+07/10/2025 15:31:36	JB Medical Center	0821 761196, 01965544401	House 40/1 Nabarun, Khan Complex, Upashahar Main Road, Sonarpara, Sylhet						Hospital & Clinic	jb-medical-center																	
 07/10/2025 15:31:36	Al-Hamad Medical Center	0821 722258, 01712 745161	Malik House, 86 Amberkhana, Sylhet						Hospital & Clinic	alhamad-medical-center																	
-07/10/2025 15:31:36	NJL ENT Centre	01767228844	15 Kajolshah, Sylhet						Hospital & Clinic	njl-ent-centre																	
+07/10/2025 15:31:36	NJL ENT Centre	01767228844	15 Kajolshah, Sylhet		https://drnayeemnjlent.com/				Hospital & Clinic	njl-ent-centre																	
 07/10/2025 15:31:36	Upazila Health Complex	01730324879	Khalermukh Bazar, Dakshin Surma, Sylhet						Hospital & Clinic	upazila-health-complex																	
-07/10/2025 15:31:36	Creacen Medical Centre	+8801715744244, +8801612744244	Kazalsha, Medical Road, Sylhet						Hospital & Clinic	creacen-medical-centre																	
+07/10/2025 15:31:36	Cresent Medical Centre	01766878787	Kazalsha, Medical Road, Sylhet						Hospital & Clinic	cresent-medical-centre																	
 07/10/2025 15:31:36	Sylhet Pet Clinic	01776214373	House-05,Road -24, Block-D, Shahjalal Upasahar, Sylhet						Hospital & Clinic	sylhet-pet-clinic																	
 07/10/2025 15:31:36	Al-Nur Eye Clinic	0821 715620, 01716753657	House 7, Road 8, Block A, Uposhahar						Hospital & Clinic	alnur-eye-clinic																	
 07/10/2025 15:31:36	Arogyo Poly Clinic	0821 712311, 0821 714744	10 Modhushohid						Hospital & Clinic	arogyo-poly-clinic																	
@@ -1044,10 +1077,9 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Aziz Medical Center	0821 718830	Amborkhana						Hospital & Clinic	aziz-medical-center																	
 07/10/2025 15:31:36	Central Poly Clinic	0821 713838, 0821 714849	Hawa Para						Hospital & Clinic	central-poly-clinic																	
 07/10/2025 15:31:36	City Poly Clinic	0821 715433	Puran Medical Road, Stadium Market						Hospital & Clinic	city-poly-clinic																	
-07/10/2025 15:31:36	G.C.C. Approved Medical Centres Association	0821 725822	Hotel Polash Building (Ground Floor), Amberkhana						Hospital & Clinic	gcc-approved-medical-centres-association																	
 07/10/2025 15:31:36	Jalalabad Clinic	0821 712460	Modhushohid, Medical College Rd, Sylhet						Hospital & Clinic	jalalabad-clinic																	
 07/10/2025 15:31:36	Mamoni Clinic	0821 713211	Puran Medical Road, Stadium Market						Hospital & Clinic	mamoni-clinic																	
-07/10/2025 15:31:36	Marie Stopes Amberkhana	00821710272, 01711995019	Darshan Dewri, Ambarkhana						Hospital & Clinic	marie-stopes-amberkhana																	
+07/10/2025 15:31:36	Marie Stopes - Amberkhana	00821710272, 01711995019	Darshan Dewri, Ambarkhana						Hospital & Clinic	marie-stopes-amberkhana																	
 07/10/2025 15:31:36	Medi-Aid Diagnostic Center	0821815864, 01711275902	Medical College Rd, Sylhet						Hospital & Clinic	mediaid-diagnostic-center																	
 07/10/2025 15:31:36	Medinova Medical Services	0821 815110, 0821 815111	98 Medical College Rd, Kajalshah, Sylhet						Hospital & Clinic	medinova-medical-services																	
 07/10/2025 15:31:36	Metropolitan Poly Clinic	0821 712311	Rikabibajar						Hospital & Clinic	metropolitan-poly-clinic																	
@@ -1077,7 +1109,6 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Modern General Hospital	0821 723633	Subid Bazar						Hospital & Clinic	modern-general-hospital																	
 07/10/2025 15:31:36	Mohanagar Hospital	0821 720431, 0821 720432	Dorgah Mohollah						Hospital & Clinic	mohanagar-hospital																	
 07/10/2025 15:31:36	Noorjahan Hospital	0821 714123, 0821 712975, 01792141414	Dargah Gate, Sylhet						Hospital & Clinic	noorjahan-hospital																	
-07/10/2025 15:31:36	Nurjahan Hospital	0821 714123	Dorgah Gate						Hospital & Clinic	nurjahan-hospital																	
 07/10/2025 15:31:36	Popular General Hospital	0821 723362	Mirboxtola						Hospital & Clinic	popular-general-hospital																	
 07/10/2025 15:31:36	Royal Hospital and Research Center	0821 714850	Zindabazar						Hospital & Clinic	royal-hospital-and-research-center																	
 07/10/2025 15:31:36	Sadar Hospital	0821 713506	Chowhatta						Hospital & Clinic	sadar-hospital																	
@@ -1093,8 +1124,7 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Marie Stopes - Lamabazar	08212830241, 01716643691, 01715341083	Ali Complex (1st & 2nd Floor), VIP Road, Lamabazar						Hospital & Clinic	marie-stopes-lamabazar																	
 07/10/2025 15:31:36	Marie Stopes - Bishwanath	01732660022, 01750114145	Jagannathpur Road, Biswanath						Hospital & Clinic	marie-stopes-bishwanath																	
 07/10/2025 15:31:36	Marie Stopes - Fulbari	01732660023	9 Shecheton Residential Area, College Road, Fulbari, Golapgong						Hospital & Clinic	marie-stopes-fulbari																	
-07/10/2025 15:31:36	Professor Moslehuddin Ahmed Chowdhury Veterinary Teaching Hospital	01742824654, 01734985773	Alurtol Road, Sylhet						Hospital & Clinic	professor-moslehuddin-ahmed-chowdhury-veterinary-teaching-hospital																	
-07/10/2025 15:31:36	Sylhet Imperial Hospital	+880 1325-064701	13, Bongobir, Naiorpul, 3100	emon.savasaachi@gmail.com	info@imperial.hospital	https://www.facebook.com/imperialhospital.sylhet/	This is a general hospital with 120+ bed including medical facilities i.e. ICU, CCU, NICU, PICU, MRI, CT Scan, USG, X-Ray and Diagnostic Lab.	24 Hours Open	Hospital & Clinic	sylhet-imperial-hospital																	
+07/10/2025 15:31:36	Sylhet Imperial Hospital	+880 1325 064701	13, Bongobir, Naiorpul, Sylhet	imperialhospital.sylhet@gmail.com	info@imperial.hospital	https://www.facebook.com/imperialhospital.sylhet/	This is a general hospital with 120+ bed including medical facilities i.e. ICU, CCU, NICU, PICU, MRI, CT Scan, USG, X-Ray and Diagnostic Lab.	24 Hours Open	Hospital & Clinic	sylhet-imperial-hospital	12/10/2025 06:50:21																
 07/10/2025 15:31:36	Anurag 	0821 715717	Dhupadighi North						Hotel	anurag																	
 07/10/2025 15:31:36	Britannia Hotel	0821 711013, 0821 2832419	Shahjalal Road, Ambarkhana						Hotel	britannia-hotel																	
 07/10/2025 15:31:36	Gazi Empire Hotel	0821 712326, 01731 724162	Airport Road, Airport Gate, Borosholla						Hotel	gazi-empire-hotel																	
@@ -1140,9 +1170,9 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	The Modern Rest House	0821 717713	Bandar Bazar						Hotel	the-modern-rest-house																	
 07/10/2025 15:31:36	Hotel Shapla	00821727116, 01735218927	New Medical Road, Kazolshah						Hotel	hotel-shapla																	
 07/10/2025 15:31:36	Chatok Cement Factory Rest House		Subid Bazar						Hotel	chatok-cement-factory-rest-house																	
-07/10/2025 15:31:36	Hotel Golden Inn	+880 821 814507, 814500-06 (4001), 01711271185	Garden Tower, Shahjalal Bridge Link Road, Sylhet						Hotel	hotel-golden-inn																	
+07/10/2025 15:31:36	Hotel Golden Inn	0821 814507, 01711271185	Garden Tower, Shahjalal Bridge Link Road, Sylhet						Hotel	hotel-golden-inn																	
 07/10/2025 15:31:36	Khalisadar Holiday Home	+88 01767-744698	118- Poroshi R/A , Mirer Moidan, Sylhet.						Hotel	khalisadar-holiday-home																	
-07/10/2025 15:31:36	Hillside Holiday Homes	01922-099991-2/01733-627929	67 Airport Road (Near Parjatan Motel), Barshala, Sylhet-3100						Hotel	hillside-holiday-homes																	
+07/10/2025 15:31:36	Hillside Holiday Homes	01922-099991,01733-627929	67 Airport Road (Near Parjatan Motel), Barshala, Sylhet-3100						Hotel	hillside-holiday-homes																	
 07/10/2025 15:31:36	Hotel Noorjahan Grand	+8801930111666	1 Ritz Tower, Dargah Gate, Sylhet						Hotel	hotel-noorjahan-grand																	
 07/10/2025 15:31:36	Hotel Grand Akther	01766555106	7th Floor, Akther shopping city, Modina Market, Pathantula, Sylhet	hotelgrandakther@gmail.com		https://www.facebook.com/hotelgrandakther?mibextid=ZbWKwL		24/7	Hotel	hotel-grand-akther																	
 07/10/2025 15:31:36	Ahana Net & Cyber Cafe	0821 721034	Shair Plaza, East Zindabazar						Internet Cafe	ahana-net-cyber-cafe																	
@@ -1175,8 +1205,8 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Manor IT	0821 725682	Galleria Shopping Complex, Level-5, Jallarpar Road, West Zindabazar, Sylhet						Internet Service Provider	manor-it																	
 07/10/2025 15:31:36	NReach Net	0821 2832116	Sylhet Millenium (9th Floor), Zindabazar						Internet Service Provider	nreach-net																	
 07/10/2025 15:31:36	SOL-BD - Zindabazar	09611200042, 01199308391	50/A Polashi, Nasrin Garden, Kazi Ellias, Zindabazar, Sylhet						Internet Service Provider	solbd-zindabazar																	
-07/10/2025 15:31:36	SOL-BD - Modina Market	01749902521	Modina Market Road, Bagbari, Sylhet	Keshob@sol-bd.com	www.sol-bd.com		Internet Service Provider	10:00	Internet Service Provider	solbd-modina-market																	
-07/10/2025 15:31:36	ArrowNet Sylhet	09639350350	Abid Mansion (4th Floor) Zindabazar, Sylhet	arrownetsylhet@gmail.com	https://www.arrownetsylhet.com/	https://www.facebook.com/Arrownet.sylhet	Internet Service Providers		Internet Service Provider	arrownet-sylhet																	
+07/10/2025 15:31:36	SOL-BD - Modina Market	01749902521	Modina Market Road, Bagbari, Sylhet	Keshob@sol-bd.com	www.sol-bd.com			10:00	Internet Service Provider	solbd-modina-market																	
+07/10/2025 15:31:36	ArrowNet Sylhet	09639350350	Abid Mansion (4th Floor) Zindabazar, Sylhet	arrownetsylhet@gmail.com	https://www.arrownetsylhet.com/	https://www.facebook.com/Arrownet.sylhet			Internet Service Provider	arrownet-sylhet																	
 07/10/2025 15:31:36	Ashalota Shorno Shilpalow	01712744268, 01911662492	6 Ayub Mentuon, Laldighir Par						Jeweller	ashalota-shorno-shilpalow																	
 07/10/2025 15:31:36	Bijoy Jewellers	01716548857	All Islam Hotel (Ground Floor), Bondor Bazar						Jeweller	bijoy-jewellers																	
 07/10/2025 15:31:36	Dalia Jewels	01196068037, 01670609736	295 Shuveccha, Shekhghat						Jeweller	dalia-jewels																	
@@ -1204,7 +1234,7 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Aziz Jewellers		463 Al-Hamra Shopping City (4th Floor), Zindabazar						Jeweller	aziz-jewellers																	
 07/10/2025 15:31:36	Nusrat Jewellers		305 Blue Water Shopping City (4th Floor), Zindabazar						Jeweller	nusrat-jewellers																	
 07/10/2025 15:31:36	Khan Jewellers	+880 821-711668, 01720521025	7 Haque Super Market, East Zindabazar, Sylhet 3100						Jeweller	khan-jewellers																	
-07/10/2025 15:31:36	Gold Garden	+880 821-2830019	420-422, Al Hamra Shopping City, Zindabazar, Sylhet 3100						Jeweller	gold-garden																	
+07/10/2025 15:31:36	Gold Garden	#ERROR!	420-422, Al Hamra Shopping City, Zindabazar, Sylhet 3100						Jeweller	gold-garden																	
 07/10/2025 15:31:36	Derai Shamoly Jewelers	+8801722338899	416-417, Al hamra shopping city (3rd floor) zinda bazar .sylhet						Jeweller	derai-shamoly-jewelers																	
 07/10/2025 15:31:36	Sylhet Sanonda Jewellers	0821 713019, 01711844454	A/1 (2nd Floor), Sylhet Plaza, Zindabazar, Sylhet						Jeweller	sylhet-sanonda-jewellers																	
 07/10/2025 15:31:36	Nila Jewellers	0861 62139, 01712533923	13 Old Hospital Road, Moulvibazar						Jeweller	nila-jewellers																	
@@ -1212,12 +1242,6 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Samia Imitation		112 City Center, Zindabazar						Jeweller	samia-imitation																	
 07/10/2025 15:31:36	Fancy Fair		111 City Center, Zindabazar						Jeweller	fancy-fair																	
 07/10/2025 15:31:36	Black		105-106 Kakoli Shopping Center (Ground Floor), Zindabazar						Jeweller	black																	
-07/10/2025 15:31:36	Alif Enterprise	01722593940, 01912416624	Shah Nimatra Market, Upojilla Chottor						Kitchenware	alif-enterprise																	
-07/10/2025 15:31:36	Monno Creamic	0821 710226	230-231 Lotif Center (2nd Floor), Zindabazar						Kitchenware	monno-creamic																	
-07/10/2025 15:31:36	Mumu Crockeries	01712044597	Latif Centre, Zindabazar						Kitchenware	mumu-crockeries																	
-07/10/2025 15:31:36	Noor Traders	0821 718491	Naya Sarak, Manikpir Road						Kitchenware	noor-traders																	
-07/10/2025 15:31:36	Lamico Ceramics		140-142 Al-Hamra Shopping City, Zindabazar						Kitchenware	lamico-ceramics																	
-07/10/2025 15:31:36	Barakah Crockeries & Gift	01723409555	Sunamgonj Road, Darson Dewry, Amberkhana, Sylhet						Kitchenware	barakah-crockeries-gift																	
 07/10/2025 15:31:36	Advocate Md. Mainul Islam	+880 821 727272, +880 821 711438, +8801712285754	Fatema Villa, 40 Mowban R/A, Jatarpur						Legal	advocate-md-mainul-islam																	
 07/10/2025 15:31:36	Advocate Mr Chowdhury Ataur Rahman Azad	0821 813928, 01711920186	Supreme Court of Bangladesh,Room 6, Bar Hall 2,District Bar Association Building,Sylhet Judges Court,Sylhet Courts Premises,Sylhet City						Legal	advocate-mr-chowdhury-ataur-rahman-azad																	
 07/10/2025 15:31:36	Advocate Abdul Khalique	01712451000	Sylhet						Legal	advocate-abdul-khalique																	
@@ -1236,15 +1260,15 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Advocate Abu Solman Chowdhury	0821 717546	Sylhet						Legal	advocate-abu-solman-chowdhury																	
 07/10/2025 15:31:36	Advocate Abdur Rokib	0821 713955	Sylhet						Legal	advocate-abdur-rokib																	
 07/10/2025 15:31:36	Advocate Abdur Roshid Lal Mia	01711983921	Sylhet						Legal	advocate-abdur-roshid-lal-mia																	
-07/10/2025 15:31:36	Advocate Abdur Rahman	00821721286	Sylhet						Legal	advocate-abdur-rahman																	
-07/10/2025 15:31:36	Advocate Abdur Rohim	00821716792	Sylhet						Legal	advocate-abdur-rohim																	
-07/10/2025 15:31:36	Advocate Abdul Goffar	00821717697	Sylhet						Legal	advocate-abdul-goffar																	
-07/10/2025 15:31:36	Advocate Abdul Gofur	00821713371	Sylhet						Legal	advocate-abdul-gofur																	
-07/10/2025 15:31:36	Advocate Abdul Basit Choudhury	00821714345	Sylhet						Legal	advocate-abdul-basit-choudhury																	
-07/10/2025 15:31:36	Advocate Abdul Motin M.	00821713816	Sylhet						Legal	advocate-abdul-motin-m																	
-07/10/2025 15:31:36	Advocate Abdul Malek	00821714720	Sylhet						Legal	advocate-abdul-malek																	
-07/10/2025 15:31:36	Advocate Abdul Mukit Choudhury	00821713404	Sylhet						Legal	advocate-abdul-mukit-choudhury																	
-07/10/2025 15:31:36	Advocate Abdul Muktadir M.	00821719057	Sylhet						Legal	advocate-abdul-muktadir-m																	
+07/10/2025 15:31:36	Advocate Abdur Rahman	0821721286	Sylhet						Legal	advocate-abdur-rahman																	
+07/10/2025 15:31:36	Advocate Abdur Rohim	0821716792	Sylhet						Legal	advocate-abdur-rohim																	
+07/10/2025 15:31:36	Advocate Abdul Goffar	0821717697	Sylhet						Legal	advocate-abdul-goffar																	
+07/10/2025 15:31:36	Advocate Abdul Gofur	0821713371	Sylhet						Legal	advocate-abdul-gofur																	
+07/10/2025 15:31:36	Advocate Abdul Basit Choudhury	0821714345	Sylhet						Legal	advocate-abdul-basit-choudhury																	
+07/10/2025 15:31:36	Advocate Abdul Motin M.	0821713816	Sylhet						Legal	advocate-abdul-motin-m																	
+07/10/2025 15:31:36	Advocate Abdul Malek	0821714720	Sylhet						Legal	advocate-abdul-malek																	
+07/10/2025 15:31:36	Advocate Abdul Mukit Choudhury	0821713404	Sylhet						Legal	advocate-abdul-mukit-choudhury																	
+07/10/2025 15:31:36	Advocate Abdul Muktadir M.	0821719057	Sylhet						Legal	advocate-abdul-muktadir-m																	
 07/10/2025 15:31:36	Advocate Abdul Musobbir	0821718180	Sylhet						Legal	advocate-abdul-musobbir																	
 07/10/2025 15:31:36	Avocate Abdul Mubin A.S.M.	0821717728	Sylhet						Legal	avocate-abdul-mubin-asm																	
 07/10/2025 15:31:36	Advocate Abdul Hamid	0821713048	Sylhet						Legal	advocate-abdul-hamid																	
@@ -1283,7 +1307,7 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Advocate Nargis Sultana	0821710276	Sylhet						Legal	advocate-nargis-sultana																	
 07/10/2025 15:31:36	Advocate Nazim Uddin	0821717637	Sylhet						Legal	advocate-nazim-uddin																	
 07/10/2025 15:31:36	Advocate Nazim Uddin Chowdhury	0821713815	Sylhet						Legal	advocate-nazim-uddin-chowdhury																	
-07/10/2025 15:31:36	Advocate M. Nasiruzzaman	00821717745, 00821712769	Sylhet						Legal	advocate-m-nasiruzzaman																	
+07/10/2025 15:31:36	Advocate M. Nasiruzzaman	0821717745, 0821712769	Sylhet						Legal	advocate-m-nasiruzzaman																	
 07/10/2025 15:31:36	Advocate Nironjon Kumar Dey	0821714121	Sylhet						Legal	advocate-nironjon-kumar-dey																	
 07/10/2025 15:31:36	Advocate Nihar Ronjon Purkayosto	0821716728	Sylhet						Legal	advocate-nihar-ronjon-purkayosto																	
 07/10/2025 15:31:36	Advocate Numan Mahmud	0821722433	Sylhet						Legal	advocate-numan-mahmud																	
@@ -1303,8 +1327,8 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Advocate M. Faruque Chowdhury	0821 713141	Sylhet						Legal	advocate-m-faruque-chowdhury																	
 07/10/2025 15:31:36	Advocate Bodrul Hussain	0821717448	Sylhet						Legal	advocate-bodrul-hussain																	
 07/10/2025 15:31:36	Advocate Bonani Das Eva	0821722561	Sylhet						Legal	advocate-bonani-das-eva																	
-07/10/2025 15:31:36	Advocate Saleh Ahmed	00821760257, 00821760972	Sylhet						Legal	advocate-saleh-ahmed																	
-07/10/2025 15:31:36	Advocate M. Belal Uddin	00821718669, 00821721976	Sylhet						Legal	advocate-m-belal-uddin																	
+07/10/2025 15:31:36	Advocate Saleh Ahmed	0821760257, 0821760972	Sylhet						Legal	advocate-saleh-ahmed																	
+07/10/2025 15:31:36	Advocate M. Belal Uddin	0821718669, 0821721976	Sylhet						Legal	advocate-m-belal-uddin																	
 07/10/2025 15:31:36	Advocate Belayet Hussain	0821710088	Sylhet						Legal	advocate-belayet-hussain																	
 07/10/2025 15:31:36	Advocate Moklisur Rahman	0821723707	Sylhet						Legal	advocate-moklisur-rahman																	
 07/10/2025 15:31:36	Advocate Mofur Ali	0821723707	Sylhet						Legal	advocate-mofur-ali																	
@@ -1354,11 +1378,11 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Supta Das Gupta	0861 61417, 01712887524	Maya Villa, 77 Girja Para						Legal	supta-das-gupta																	
 07/10/2025 15:31:36	Syed Anwar Mahmud	0861 52084	Bar 1, Judge Court						Legal	syed-anwar-mahmud																	
 07/10/2025 15:31:36	Syed Azizur Rob Chowdhury	0861 54767	11 North Kolimabad						Legal	syed-azizur-rob-chowdhury																	
-07/10/2025 15:31:36	Advocate Gulam Kibria Raju	01717281775	Bar Hall No 5, Judge Court, Sylhet	Advgkraju1976@gmail.com			Legal Service	10:00	Legal	advocate-gulam-kibria-raju																	
-07/10/2025 15:31:36	Advocate Shuvankar Das	01716718389	Dariapara, Sylhet	adv.shuvankar@gmail.com	null	null	Legal Firm	10am - 10pm	Legal	advocate-shuvankar-das																	
+07/10/2025 15:31:36	Advocate Gulam Kibria Raju	01717281775	Bar Hall No 5, Judge Court, Sylhet	Advgkraju1976@gmail.com					Legal	advocate-gulam-kibria-raju																	
+07/10/2025 15:31:36	Advocate Shuvankar Das	01716718389	Dariapara, Sylhet	adv.shuvankar@gmail.com				10am - 10pm	Legal	advocate-shuvankar-das																	
 07/10/2025 15:31:36	HM Legal Advice	01796700361	Sydney Chamber, 2nd Floor, Taltola Rd	hmlegaladvicesylhet@gmail.com	https://hmlegaladvice.business.site/		Legal Matters such as Civil Litigation, Criminal Defense, Divorce, Dower Litigation, Company Matters, Family Matters and Immigration	10.00 AM - 5.00 PM	Legal	hm-legal-advice																	
-07/10/2025 15:31:36	Jamia Tawakkulia Renga Madrasah	8212878027	Renga Hajigonj Bazar, Sylhet						Madrasah	jamia-tawakkulia-renga-madrasah																	
-07/10/2025 15:31:36	Madrasatul Hasanaine Al-Islamia	821813958	Shahjalal Upashahar, Sylhet						Madrasah	madrasatul-hasanaine-alislamia																	
+07/10/2025 15:31:36	Jamia Tawakkulia Renga Madrasah	08212878027	Renga Hajigonj Bazar, Sylhet						Madrasah	jamia-tawakkulia-renga-madrasah																	
+07/10/2025 15:31:36	Madrasatul Hasanaine Al-Islamia	0821813958	Shahjalal Upashahar, Sylhet						Madrasah	madrasatul-hasanaine-alislamia																	
 07/10/2025 15:31:36	Miftahul Quran Education Trust		Muktirchak, Sylhet						Madrasah	miftahul-quran-education-trust																	
 07/10/2025 15:31:36	Shahjalal Jamea Islamia Kamil Madrasah	0821 712492	Pathantula, Sylhet						Madrasah	shahjalal-jamea-islamia-kamil-madrasah																	
 07/10/2025 15:31:36	Sylhet Cadet Madrasah	0821 760541	House 44, Rd 15, Block B, Shahjalal Upashahar, Sylhet						Madrasah	sylhet-cadet-madrasah																	
@@ -1380,89 +1404,9 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Adfirm	+8801742305949	Mahmud Complex (2nd floor), East Dhupadighir par, Sylhet						Marketing	adfirm																	
 07/10/2025 15:31:36	Ekota Art & Digital Sign	01719426800, 01832280225	Shahi Eidgah Point, Sylhet						Marketing	ekota-art-digital-sign																	
 07/10/2025 15:31:36	ALB Printers	01788834224	New Market, Lal Dighirpar, Sylhet						Marketing	alb-printers																	
-07/10/2025 15:31:36	Surge Fly	01798328673	Amborkhana, Sylhet	surgefly@gmail.com	https://www.thesurgefly.com	https://www.facebook.courgefly	Digital Marketing, Web Development and Design, Graphics Design, Social Media Marketing, Brand Marketing, Advertising and Marketing	09:00	Marketing	surge-fly																	
-07/10/2025 15:31:36	AdITio - Hawapara	01675728858	Dishari 36, Hawapara, Sylhet	aditioagency@gmail.com	https://aditioagency.com/	https://www.facebook.com/AdITioagency	Digital Marketing Agency	11 am to 6 pm (Monday-Saturday)	Marketing	aditio-hawapara																	
-07/10/2025 15:31:36	AdITio - Subhanighat	01675-728858	1st Floor, Ali Brothers, 14 Mirabazar-Subhanighat Rd, Sylhet 3100		https://aditioagency.com/		Digital Marketing	4 PM to 10 PM	Marketing	aditio-subhanighat																	
-07/10/2025 15:31:36	Chieftain's Squad	01516742289	House: 1, Road: 34, Block: D, Khalil Bhaban, Sylhet-3100	chieftainssquad@gmail.com		https://www.facebook.com/chieftainssquad	Internet Marketing	09:30 AM	Marketing	chieftains-squad																	
-07/10/2025 15:31:36	SNP Sports	+880 821 721259, +8801711479478	5-6-7 London Mansion, Zindabazar, Sylhet 3100						Mens Clothing	snp-sports																	
-07/10/2025 15:31:36	Desh Panjabi House		Sukria Market (3rd Floor), Zindabazar						Mens Clothing	desh-panjabi-house																	
-07/10/2025 15:31:36	Panjabi Mela		239 Blue Water Shopping City (3rd Floor), Zindabazar						Mens Clothing	panjabi-mela																	
-07/10/2025 15:31:36	Emon Emporium	0821 719286	Sonarpara, Tamabil Road Shibgonj						Mens Clothing	emon-emporium																	
-07/10/2025 15:31:36	Khaled Fashion	01813651588	172 Madhban Super Market						Mens Clothing	khaled-fashion																	
-07/10/2025 15:31:36	Ema Fashion	01715141201, 01726307619	17A Kazi Mansion, Zindabazar						Mens Clothing	ema-fashion																	
-07/10/2025 15:31:36	Abdul kadir	01711575962	Miliplaza						Mens Clothing	abdul-kadir																	
-07/10/2025 15:31:36	D4U Gents	01711736169	211 Blue Water Shopping City(2nd flr), Zindabazar						Mens Clothing	d4u-gents																	
-07/10/2025 15:31:36	Desire	01715142817	303 Sylhet City Center (2nd Floor), Zindabazar						Mens Clothing	desire																	
-07/10/2025 15:31:36	Display	01811199959, 01714330525	Kazi Mansion						Mens Clothing	display																	
-07/10/2025 15:31:36	Farha Fashion for Man	03598877788, 01712124952	95 Sylhet Millennium (2nd Floor), Zindabazar						Mens Clothing	farha-fashion-for-man																	
-07/10/2025 15:31:36	Fashion Gallery	01711360823	4 Kaniz Plaza, Zindabazar						Mens Clothing	fashion-gallery																	
-07/10/2025 15:31:36	Gents Arts	01711983128	92, Sylhet Millennium (2nd Floor), Zindabazar						Mens Clothing	gents-arts																	
-07/10/2025 15:31:36	Gents Land	01716464823, 01916631014	323 Blue Water Shopping City(3rd floor),Zindabazar						Mens Clothing	gents-land																	
-07/10/2025 15:31:36	Gents World	01716469259	4/5 Wahid View, Zindabazar						Mens Clothing	gents-world																	
-07/10/2025 15:31:36	Golden Man		East Zindabazar						Mens Clothing	golden-man																	
-07/10/2025 15:31:36	Hoq's Fashion	01711700467, 01715465497	2A Kazi Manshion, Zindabazar						Mens Clothing	hoqs-fashion																	
-07/10/2025 15:31:36	Istiak T-Shirt Collection	01712082850	274,75 Madhoban Super Market, Bondar Bazar						Mens Clothing	istiak-tshirt-collection																	
-07/10/2025 15:31:36	Lubnan Ethnic Wear	0821 720157	304 Sylhet City Centre (2nd Floor), Zindabazar						Mens Clothing	lubnan-ethnic-wear																	
-07/10/2025 15:31:36	Man Mart	01716295495	Sukria Market, Zindabazar						Mens Clothing	man-mart																	
-07/10/2025 15:31:36	Men's Hut		14A Kazi Mansion, Zindabazar						Mens Clothing	mens-hut																	
-07/10/2025 15:31:36	One Touch Fashion Wear	01712042801, 0152427883	11A Kazi Mansion, Zindabazar						Mens Clothing	one-touch-fashion-wear																	
-07/10/2025 15:31:36	Rafin	017118994766	Kaji Mansion, Zindabazar						Mens Clothing	rafin																	
-07/10/2025 15:31:36	Time Fashion	01711355126	Wahid View, Zindabazar						Mens Clothing	time-fashion																	
-07/10/2025 15:31:36	Zero-2	01712769486	East Zindabazar						Mens Clothing	zero2																	
-07/10/2025 15:31:36	Golden Dice		303 Kakoli Shopping Centre (2nd Floor), Zindabazar						Mens Clothing	golden-dice																	
-07/10/2025 15:31:36	Maa Bostraloy		225 Kakoli Shopping Center (2nd floor), Zindabazar						Mens Clothing	maa-bostraloy																	
-07/10/2025 15:31:36	Regent Fashion	01715939991	318 Blue Water Shopping City (3rd Floor), Zindabazar						Mens Clothing	regent-fashion																	
-07/10/2025 15:31:36	Mad House		343-344 Blue Water Shopping City (3rd Floor), Zindabazar						Mens Clothing	mad-house																	
-07/10/2025 15:31:36	Playback		216 Blue Water Shopping Center (2nd Floor), Zindabazar						Mens Clothing	playback																	
-07/10/2025 15:31:36	Debenhams		340 Blue Water Shopping Center, Zindabazar						Mens Clothing	debenhams																	
-07/10/2025 15:31:36	Max Corner		214 Blue Water Shopping Center (2nd Floor), Zindabazar						Mens Clothing	max-corner																	
-07/10/2025 15:31:36	Model's		342 Blue Water Shopping Center (3rd Floor), Zindabazar						Mens Clothing	models																	
-07/10/2025 15:31:36	Robin Style		227 Blue Water Shopping Center (2nd Floor), Zindabazar						Mens Clothing	robin-style																	
-07/10/2025 15:31:36	Art Gallery		336 Blue Water Shopping Center (3rd Floor), Zindabazar						Mens Clothing	art-gallery																	
-07/10/2025 15:31:36	Next Wear		321 Blue Water Shopping Center (3rd Floor), Zindabazar						Mens Clothing	next-wear																	
-07/10/2025 15:31:36	Faster		244 Blue Water Shopping City, Zindabazar						Mens Clothing	faster																	
-07/10/2025 15:31:36	Satarupa Fabrics		105 City Center, Zindabazar						Mens Clothing	satarupa-fabrics																	
-07/10/2025 15:31:36	Rock Land		217 Blue Water Shopping City (2nd Floor), Zindabazar						Mens Clothing	rock-land																	
-07/10/2025 15:31:36	Shirt Touch		225 Blue Water Shopping City (2nd Floor), Zindabazar						Mens Clothing	shirt-touch																	
-07/10/2025 15:31:36	Hudson		230 Blue Water Shopping City (2ndFloor), Zindabazar						Mens Clothing	hudson																	
-07/10/2025 15:31:36	Blue Eye Fashion		243 Blue Water Shopping City (2nd Floor), Zindabazar						Mens Clothing	blue-eye-fashion																	
-07/10/2025 15:31:36	Life Style		234 Blue Water Shopping City (2nd Floor), Zindabazar						Mens Clothing	life-style																	
-07/10/2025 15:31:36	Top Shop		361 Al-Hamra Shopping City (2nd Floor), Zindabazar						Mens Clothing	top-shop																	
-07/10/2025 15:31:36	Fashion Palace		314-315 Blue Water Shopping City (4th Floor), Zindabazar						Mens Clothing	fashion-palace																	
-07/10/2025 15:31:36	River Island		226 Blue Water Shopping City (2nd Floor), Zindabazar						Mens Clothing	river-island																	
-07/10/2025 15:31:36	Bhs		201 Blue Water Shopping City (2nd Floor), Zindabazar						Mens Clothing	bhs																	
-07/10/2025 15:31:36	D2		316 City Center (2nd Floor), Zindabazar						Mens Clothing	d2																	
-07/10/2025 15:31:36	Uthso Fashion		246 Blue Water Shopping city (2nd Floor), Zindabazar						Mens Clothing	uthso-fashion																	
-07/10/2025 15:31:36	Cotton Line		313 City Center (2nd Floor), Zindabazar						Mens Clothing	cotton-line																	
-07/10/2025 15:31:36	Emporium		337 Blue Water Shopping City (3rd Floor), Zindabazar						Mens Clothing	emporium																	
-07/10/2025 15:31:36	Rich Man	0821 720157	Latif Center (2nd Floor), Zindabazar						Mens Clothing	rich-man																	
-07/10/2025 15:31:36	Signature Gallery		321 Blue Water Shopping City (3rd Floor), Zindabazar						Mens Clothing	signature-gallery																	
-07/10/2025 15:31:36	Nice Collection		322 Al-Hamra Shopping City (2nd Floor), Zindabazar						Mens Clothing	nice-collection																	
-07/10/2025 15:31:36	Manz Park		322 City Center (3rd Floor), Zindabazar						Mens Clothing	manz-park																	
-07/10/2025 15:31:36	S.K Collection		231 Blue Water Shopping City (3rd Floor), Zindabazar						Mens Clothing	sk-collection																	
-07/10/2025 15:31:36	New One Man		332 Al-Hmara Shopping City (2nd Floor), Zindabazar						Mens Clothing	new-one-man																	
-07/10/2025 15:31:36	Gents Museum		327 Al-Hamra Shopping City (2nd Floor), Zindabazar						Mens Clothing	gents-museum																	
-07/10/2025 15:31:36	Aero Mans World		343-345 Al-Hamra Shopping City (3rd Floor), Zindabazar						Mens Clothing	aero-mans-world																	
-07/10/2025 15:31:36	GAP		324 Al-Hamra Shopping City (2nd Floor), Zindabazar						Mens Clothing	gap																	
-07/10/2025 15:31:36	Nayeem's		373 Al-Hamra Shopping City (2nd Floor), Zindabazar						Mens Clothing	nayeems																	
-07/10/2025 15:31:36	Blue Fashion House	01710444943	Lotif Monjil, Modina Market, Sylhet						Mens Clothing	blue-fashion-house																	
-07/10/2025 15:31:36	Next Collection for Man & Kids	01715084255	187 Modhuban Super Market (1st floor)						Mens Clothing	next-collection-for-man-kids																	
-07/10/2025 15:31:36	Colours	01712987431	205 - 206, Shukria Market (1st Floor), Zinda Bazar, Sylhet						Mens Clothing	colours																	
-07/10/2025 15:31:36	New Jahurun's		301 City Center (4th Floor), Zindabazar						Mens Clothing	new-jahuruns																	
-07/10/2025 15:31:36	Apon		338-339 Al-Hamra Shopping City (2nd Floor), Zindabazar						Mens Clothing	apon																	
-07/10/2025 15:31:36	Asia		379 Al-Hamra Shopping City (3rd Floor), Zindabazar						Mens Clothing	asia																	
-07/10/2025 15:31:36	X-Plore		Zindabazar Road, Baruthkhana						Mens Clothing	xplore																	
-07/10/2025 15:31:36	Meharaj Panjabi		310 Blue Water Shopping Center (3rd Floor), Zindabazar						Mens Clothing	meharaj-panjabi																	
-07/10/2025 15:31:36	Max Kraft		354 Al-Hamra Shopping City (2nd Floor), Zindabazar						Mens Clothing	max-kraft																	
-07/10/2025 15:31:36	Nobabi Panjabi House		313 City Center (3rd Floor), Zindabazar						Mens Clothing	nobabi-panjabi-house																	
-07/10/2025 15:31:36	VIP Aarong		311-312 Blue Water Shopping City (4th Floor), Zindabazar						Mens Clothing	vip-aarong																	
-07/10/2025 15:31:36	Ibrahim Panjabi		371 Al-Hamra Shopping City (3rd Floor), Zindabazar						Mens Clothing	ibrahim-panjabi																	
-07/10/2025 15:31:36	Panjabi House	01717129523, 01715860596	216 Shukria Market (2nd floor), Zindabazar, Sylhet						Mens Clothing	panjabi-house																	
-07/10/2025 15:31:36	FINESSE Lifestyle	+8801998685230	Elegant Shopping Mall (1st floor), Zindabzar, Sylhet	finessebangladesh@gmail.com	www.finessebd.com	https://www.facebook.com/finessebyako/	Brand Clothing	10am - 8pm	Mens Clothing	finesse-lifestyle																	
-07/10/2025 15:31:36	Easy Fashion 	01759-882529	8/A Kumarpara main road,Naiorpool,Sylhet-3100	easyfashionsylhet@gmail.com	easyfashion.com.bd	https://www.facebook.com/easyfashion.bd/	Men's Clothing Store	9.30 AM	Mens Clothing	easy-fashion																	
-07/10/2025 15:31:36	Ruhama Collection	01781442249	shahporan uposhohor, road no-05, khadimnagar, Shahporan, Sylhet	ruhamacollection2022@gmail.com		www.facebook.com/ruhamacollection2022		10am-10pm	Mens Clothing	ruhama-collection																	
-07/10/2025 15:31:36	T-Shirt Maker	+8801670154652	6th Floor, Akther Shopping city, Modina Market, Pathantula, Sylhet	tshirtforsylhet@gmail.com	cozy-corner.xyz	fb.me/bdtshirtmaker	We do custom T-Shirts, Hoodie, Polo, Jersey	11am to 9pm	Mens Clothing	tshirt-maker																	
-07/10/2025 15:31:36	Jeans 4 U	01797862861	Lamabazar	Jeans4ulamabazar@gmail.com			Jeans, formal pants, sports trousers, twill pants, drop ahoulders, polo t shirts, zip polo t shirts, ribbed shirts,		Mens Clothing	jeans-4-u																	
+07/10/2025 15:31:36	AdITio - Hawapara	01675728858	Dishari 36, Hawapara, Sylhet	aditioagency@gmail.com	https://aditioagency.com/	https://www.facebook.com/AdITioagency		11 am to 6 pm (Monday-Saturday)	Marketing	aditio-hawapara																	
+07/10/2025 15:31:36	AdITio - Subhanighat	01675-728858	1st Floor, Ali Brothers, 14 Mirabazar-Subhanighat Rd, Sylhet 3100		https://aditioagency.com/			4 PM to 10 PM	Marketing	aditio-subhanighat																	
+07/10/2025 15:31:36	Chieftain's Squad	01516742289	House: 1, Road: 34, Block: D, Khalil Bhaban, Sylhet-3100	chieftainssquad@gmail.com		https://www.facebook.com/chieftainssquad		09:30 AM	Marketing	chieftains-squad																	
 07/10/2025 15:31:36	Alapon Telenet	01715827946	Nur Mansion, Shekhghat						Mobile Phone	alapon-telenet																	
 07/10/2025 15:31:36	Amin Mobile Center		Saleha Mansion, Jagganathpur Road						Mobile Phone	amin-mobile-center																	
 07/10/2025 15:31:36	Aminul Mobile Sales & Servicing Center		The Sonali Taj, Tajpur Bazar, Osmaninagar						Mobile Phone	aminul-mobile-sales-servicing-center																	
@@ -1528,8 +1472,7 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Adamjee Investors	0821 723052	House 90, Road 3, Uposhohor						Money Exchange	adamjee-investors																	
 07/10/2025 15:31:36	National Money Exchange	0821 722520	Modhubon (3rd Floor), Bondor Bazar						Money Exchange	national-money-exchange																	
 07/10/2025 15:31:36	Hoque Money Exchange	+880 821 716680, +8801712607140	56, Sufia Mansion, Taltola, Sylhet						Money Exchange	hoque-money-exchange																	
-07/10/2025 15:31:36	One Stop Solution	+8801711345531	7th floor Sylhet Millennium, zindabazar	limonsyl@gmail.com	forexnodepositbonus.org	https://www.facebook.com/Forex-No-Deposit-Bonus-878072012554433/	forex training center	10am - 7pm	Money Exchange	one-stop-solution																	
-07/10/2025 15:31:36	Sylhet Foreign Money Exchange	01711975337	Station Road Railgate Sylhet	nazmulsyl123@gmail.com			International Money Exchanger	10.00 am -06.00 pm(Friday closed)	Money Exchange	sylhet-foreign-money-exchange																	
+07/10/2025 15:31:36	Sylhet Foreign Money Exchange	01711975337	Station Road Railgate Sylhet	nazmulsyl123@gmail.com				10.00 am -06.00 pm(Friday closed)	Money Exchange	sylhet-foreign-money-exchange																	
 07/10/2025 15:31:36	Charukali		Mirboxtula, Sylhet						Music & Fine Art	charukali																	
 07/10/2025 15:31:36	Nazrul Academy		Zindabazar, Sylhet						Music & Fine Art	nazrul-academy																	
 07/10/2025 15:31:36	Prantik		Stadium Market Area						Music & Fine Art	prantik																	
@@ -1565,8 +1508,8 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Bangladesh Pratidin	01712 540420	Nehar Market (3rd Floor), East Zindabazar, Sylhet						News Agency	bangladesh-pratidin																	
 07/10/2025 15:31:36	Sylhet View 24	01616 440 095, 01791 567 387	Nehar Market, Level-4, East Zindabazar, Sylhet						News Agency	sylhet-view-24																	
 07/10/2025 15:31:36	Daily Surma	01717509036	Sylhet						News Agency	daily-surma																	
-07/10/2025 15:31:36	Ajkerkagoj24	01711000214	Shahi Eidgah, Sylhet	ajkerkagoj24@gmail.com	http://www.ajkerkagoj24.net	facebook/ajkerkagoj	news portal		News Agency	ajkerkagoj24																	
-07/10/2025 15:31:36	Sylhet Today		Zindabazar, Sylhet	info@sylhettoday.com	sylhettoday.com	twitter.coylhettoday	News Service	24 hrs	News Agency	sylhet-today																	
+07/10/2025 15:31:36	Ajkerkagoj24	01711000214	Shahi Eidgah, Sylhet	ajkerkagoj24@gmail.com	http://www.ajkerkagoj24.net	facebook/ajkerkagoj			News Agency	ajkerkagoj24																	
+07/10/2025 15:31:36	Sylhet Today		Zindabazar, Sylhet	info@sylhettoday.com	sylhettoday.com	twitter.coylhettoday		24 hrs	News Agency	sylhet-today																	
 07/10/2025 15:31:36	Angikar Janakallayan Sangstha (AJS)	0821 716076	22 Tatipara						NGO	angikar-janakallayan-sangstha-ajs																	
 07/10/2025 15:31:36	Association For Integrated Development (AID)	0821 761448	62 Green House, East Shaplabag, Tilagor						NGO	association-for-integrated-development-aid																	
 07/10/2025 15:31:36	Association of Development Agencies in Bangladesh	0821 71296	1 Banashree Residential Area, Ambarkhana						NGO	association-of-development-agencies-in-bangladesh																	
@@ -1788,7 +1731,7 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Capital Pharmacy	+880 1713-310210	Capital Pharmacy, N2, Sylhet, Bangladesh						Pharmacy	capital-pharmacy																	
 07/10/2025 15:31:36	Naz Pharmacy	+880 1611-998589	Naz Pharmacy, Sylhet - Sunamganj Hwy, Sylhet 3100, Bangladesh						Pharmacy	naz-pharmacy																	
 07/10/2025 15:31:36	Al-Amin Pharmacy	+880 1729-532803	Al-Amin Pharmacy, Al Barakat Mansion, Kadamtoli Point, Sylhet 3100, Bangladesh						Pharmacy	alamin-pharmacy																	
-07/10/2025 15:31:36	Mahin Pharmacy	01615029601,02997700154	Ongobir Road, Dhakhin Surma, Sylhet	dr.ataur11@gmail.com			Doctors, Chackup, medicine,	Morning:10 am - 11 pm	Pharmacy	mahin-pharmacy																	
+07/10/2025 15:31:36	Mahin Pharmacy	01615029601,02997700154	Ongobir Road, Dhakhin Surma, Sylhet	dr.ataur11@gmail.com				Morning:10 am - 11 pm	Pharmacy	mahin-pharmacy																	
 07/10/2025 15:31:36	Sylheti Wedding Photography & Events	01716543368, 01616543368	Zindabazar, Sylhet, Sylhet Division, Bangladesh						Photography	sylheti-wedding-photography-events																	
 07/10/2025 15:31:36	Alochaya Digital Photo Studio	01716687174, 01739896969	76 Samad Plaza, West Bazar						Photography	alochaya-digital-photo-studio																	
 07/10/2025 15:31:36	Focus Colour Lab and Photography	0821 722947, 01711920456	Sylhet Millennium, Zindabazar						Photography	focus-colour-lab-and-photography																	
@@ -1867,7 +1810,7 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	RR Printers	01712100062	Muktijudha Songsod Goli, Zindabazar, Sylhet						Printing & Packaging	rr-printers																	
 07/10/2025 15:31:36	Classic Jalalia Printing & Packaging	01716128268	Waves A 70, Amberkhana, Sylhet						Printing & Packaging	classic-jalalia-printing-packaging																	
 07/10/2025 15:31:36	Graphics Zone Offset Press	01713806858, 01713814734	Surma Tower, Sylhet						Printing & Packaging	graphics-zone-offset-press																	
-07/10/2025 15:31:36	Platinum IT	01716-262631	Taltola Point Provah, 18 Mirjajangal Rd, Sylhet 3100	platinumit.sylhet@gmail.com	http://www.platinumitbd.com/	https://www.facebook.com/platinumitsylbd/	Digital Marketing,Training,Website & Graphic Design,Press Printing,UV Printing,Laser Cutting	9 am to 9 pm	Printing & Packaging	platinum-it																	
+07/10/2025 15:31:36	Platinum IT	01716-262631	Taltola Point Provah, 18 Mirjajangal Rd, Sylhet 3100	platinumit.sylhet@gmail.com		https://www.facebook.com/platinumitsylbd/	Digital Marketing,Training,Website & Graphic Design,Press Printing,UV Printing,Laser Cutting	9 am to 9 pm	Printing & Packaging	platinum-it																	
 07/10/2025 15:31:36	Al-Amin Model City	0821 816119, 0171127096	Laladighir Par, Lamabazar						Property Development	alamin-model-city																	
 07/10/2025 15:31:36	Ark Real Estate	0821 813254	Nahar Tower (2nd Floor), Noyasorok						Property Development	ark-real-estate																	
 07/10/2025 15:31:36	BD Sthapona	017121661208	Nahar Tower(3rd Floor), Noyashorok						Property Development	bd-sthapona																	
@@ -1893,7 +1836,7 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Optimum Real Estate	0821 719402, 01711923345	29 Chayanir, VIP Road, Lamabazar, Sylhet						Property Development	optimum-real-estate																	
 07/10/2025 15:31:36	Dreamland Property Developer	0821 726344, 01712 328 822	Udichi, Anamika-30/A, East Shahi Eidgah, Sylhet						Property Development	dreamland-property-developer																	
 07/10/2025 15:31:36	Holy Urban Properties	01713486327	Sylhet Airport Road, Sylhet						Property Development	holy-urban-properties																	
-07/10/2025 15:31:36	Contractor Muslim Uddin	01726002667	Shajalal Upashahar	null	null	null	Property developer		Property Development	contractor-muslim-uddin																	
+07/10/2025 15:31:36	Contractor Muslim Uddin	01726002667	Shajalal Upashahar	null	null				Property Development	contractor-muslim-uddin																	
 07/10/2025 15:31:36	Al-Hamra Holiday Home	0821 719076	Al-Hamra Shopping City (9th Floor), Zindabazar						Property Rental & Management	alhamra-holiday-home																	
 07/10/2025 15:31:36	Al-Modina Housing Estate	01711941052	Hotel Al-Modina & Residential (2nd floor)						Property Rental & Management	almodina-housing-estate																	
 07/10/2025 15:31:36	Land City	01711365165	Dorshon Deuri, Ambarkhana						Property Rental & Management	land-city																	
@@ -1955,7 +1898,7 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Sip Coffee	+8801711371118	Nayasarak Road, Sylhet						Restaurant	sip-coffee																	
 07/10/2025 15:31:36	Big Bite	+8801732900666	Kumarpara, Sylhet						Restaurant	big-bite																	
 07/10/2025 15:31:36	Bhujon Bari Restaurant	+8801793670 000	Jallarpar Road, Zindabazar, Sylhet						Restaurant	bhujon-bari-restaurant																	
-07/10/2025 15:31:36	Kazi Asparagus Food Island	+880 1712317111	684 East Zindabazar, Sylhet 3100	null	null	https://www.facebook.com/pages/category/Cafeteria/Kazi-Asparagus-Food-Island-Sylhet-405050886767327/	Fast Food Restaurant	11:00am - 23:00pm	Restaurant	kazi-asparagus-food-island																	
+07/10/2025 15:31:36	Kazi Asparagus Food Island	+880 1712317111	684 East Zindabazar, Sylhet 3100	null	null	https://www.facebook.com/pages/category/Cafeteria/Kazi-Asparagus-Food-Island-Sylhet-405050886767327/		11:00am - 23:00pm	Restaurant	kazi-asparagus-food-island																	
 07/10/2025 15:31:36	Royal Chef Restaurant & Party Center	+880 1972-723096	758, Royal Chef Restaurant & Party Center, Mirza Jangal Rd, Sylhet 3100, Bangladesh		http://restaurant-10840.business.site/				Restaurant	royal-chef-restaurant-party-center																	
 07/10/2025 15:31:36	Kebab Garden	+880 1766-008874	Al-Amin Complex, 2nd Floor, Hazrat Shahjalal Rd, Sylhet 3100, Bangladesh		https://kebabgarden.business.site/				Restaurant	kebab-garden																	
 07/10/2025 15:31:36	Platinum Lounge	+880 1710-272539	Kumarpara Complex, Kumarpara Rd, Sylhet 3100, Bangladesh		http://www.facebook.com/PlatinumLoungeSylhet				Restaurant	platinum-lounge																	
@@ -1991,7 +1934,7 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Inayah's Cafe & Restaurant	+880 1710-933359	Tamabil road, BIDC Point,Khadim Para,Shahporan, Shahporan Rd, Sylhet 3100, Bangladesh				Inayah's Cafe & Restaurant, our dream was to bring a place where you can enjoy your meal in a toxic free environment, away from city pollution. We planned to make it simple tiny restaurant but we were not satisfied with it as a consequence of our dissatisfaction here we are!. A big place with an outdoor restaurant where you can enjoy from a sip of coffee to a full meal anytime from 12 pm-10:30 pm.	12-10:30 pm	Restaurant	inayahs-cafe-restaurant																	
 07/10/2025 15:31:36	Qabab Garden	+880 1766-008874	Al-Amin Complex, 2nd Floor, Hazrat Shahjalal Rd, Sylhet 3100, Bangladesh		https://kebabgardenbd.com/		We are the only restaurant is Sylhet Division who is serving Original UK style Beef Doner Kebab. We also serve Chicken Doner Kebab. We have many types of Kebabs in our menu. We also do Tandoori Chicken, Grilled Chicken, Pizza and many more. Check our menu for full details.	12-11 pm	Restaurant	qabab-garden																	
 07/10/2025 15:31:36	Sylhet Dine	+880 1722-334477	Sylhet, Bangladesh						Restaurant	sylhet-dine																	
-07/10/2025 15:31:36	Unoon Restaurant	+880 1308-609065	Sylhet 3100, Bangladesh				Unoon is ready to make your tastebud boom. Have a wonderful experience with well-cooked, amazing food items. Grab your favorite tidbits and enjoy the mood. Unoon will be a place for you to spend some quality time with friends and family. It has a very relaxing sitting area to spend time as long as you want.	12-11 pm	Restaurant	unoon-restaurant																	
+07/10/2025 15:31:36	Unoon Restaurant	+880 1308-609065	Sylhet 3100, Bangladesh					12-11 pm	Restaurant	unoon-restaurant																	
 07/10/2025 15:31:36	Sylhet Nights	07944 705155	81(c Cavell St, London E1 2BQ				A kitchen packed with vigour and energy, Sylhet Nights is far from your ordinary South Asian takeaway. From its mouth watering and incomparable curries to its specialised innovations like 'The Jal'Crazy Burger', Sylhet Nights is an eccentric and original fusion kitchen in its truest form. The takeaway serves traditional and authentic cuisine like no other, with customers rejoicing In its excellence; one saying that its signature dishes are delectable to say the least. Based in the heart of Whitechapel, Sylhet Nights has quickly become a staple establishment And has acquired a vast base of loyal, regular guests. Visit Sylhet Nights soon if you are longing for your desi cravings to be fulfilled.	6 pm-12 am	Restaurant	sylhet-nights																	
 07/10/2025 15:31:36	SEASONS Restaurant & Cafe	+880 1799-309539	Bihongo, 25/A Kazitula Rd, Sylhet 3100, Bangladesh				SEASONS Restaurant & Cafe is a Continental & Indian Contemporary Fusion Restaurant located in the heart of Sylhet City at Bihongo 25/A, Nayasarak.	12-11 pm	Restaurant	seasons-restaurant-cafe																	
 07/10/2025 15:31:36	Casablanca Restaurant	+880 1937-776655	Star Pacific Building, Dargah Gate, Sylhet 3100, Bangladesh		http://www.hotelstarpacific.com/			Open 24 hours	Restaurant	casablanca-restaurant																	
@@ -2022,7 +1965,7 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Spice Opera	+880 1942-306050	Level- 01, Al Madani Tower, Sylhet 3100, Bangladesh				Spice Opera is a multi cuisine restaurent where customer finds authentic continental food alongside with chinese and indian food also.	12:30-11:30 pm	Restaurant	spice-opera																	
 07/10/2025 15:31:36	Canvas Dine	+880 1799-798674	Dhopadighir Uttarpar, 3100, Bangladesh					11 am-11 pm	Restaurant	canvas-dine																	
 07/10/2025 15:31:36	President Restaurant	+880 1714-725272	Sylhet, Bangladesh					7 am-12 pm	Restaurant	president-restaurant																	
-07/10/2025 15:31:36	OZONE	+880 1993-314852	Ritz Tower, Hazrat Shahjalal Rd, Sylhet 3100, Bangladesh		http://www.noorjahangrand.com/		Restaurant	9 am-12 am	Restaurant	ozone																	
+07/10/2025 15:31:36	OZONE	+880 1993-314852	Ritz Tower, Hazrat Shahjalal Rd, Sylhet 3100, Bangladesh		http://www.noorjahangrand.com/			9 am-12 am	Restaurant	ozone																	
 07/10/2025 15:31:36	Turkish Express Sylhet	+880 1310-237171	Chef's table, Sylhet, Bangladesh					11 am-11 pm	Restaurant	turkish-express-sylhet																	
 07/10/2025 15:31:36	Garden Palace	+880 1576-443387	Rd, Hazi Noor Mohammad Rd, Sylhet, Bangladesh		https://www.facebook.com/gardenpalace.sylhet		Escape to a serene oasis and indulge your senses at our garden restaurant! Nestled in the heart of nature, our tranquil setting is the perfect place to unwind and enjoy a delicious meal.  Immerse yourself in the peaceful surroundings, breathe in the fresh air, and let the sounds of nature soothe your soul. Our beautifully landscaped gardens provide the ideal backdrop for a relaxing dining experience.  Savor the taste of our exquisite cuisine, made with only the freshest, locally-sourced ingredients. Our talented chefs create dishes that are as beautiful as they are delicious, with a menu that celebrates the natural flavors from around the world.	12 pm-12 am	Restaurant	garden-palace																	
 07/10/2025 15:31:36	Buffet Paradise Restaurant & Party Center	+880 1717-767490	Al Hamra Shopping City, Sylhet 3100, Bangladesh					11 am-10 pm	Restaurant	buffet-paradise-restaurant-party-center																	
@@ -2141,37 +2084,243 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Planet Security and Logistics Service 	0821 711723, 01678033828	Rangdhono-6, Airport Road, Chowkidekhi, Sylhet						Security service	planet-security-and-logistics-service																	
 07/10/2025 15:31:36	US-BD Security Services Pvt 	01712273870	Khyrun Bhabon (3rd floor), Mirboxtula, Sylhet						Security service	usbd-security-services-pvt																	
 07/10/2025 15:31:36	CCTV Zone Sylhet	01747514243	Housing Estate,Sylhet 3100	md.salimurrahman@yahoo.com			CC Camera, IP Camera, Wi-Fi Camera, Finger printer	8am - 10pm	Security service	cctv-zone-sylhet																	
-07/10/2025 15:31:36	Abir Shoes	01730114102	54 City Super Market						Shoe Store	abir-shoes																	
-07/10/2025 15:31:36	Anika Shoes	001718631991, 01731105154	81,67 Hasan Market, Bondor Bazar						Shoe Store	anika-shoes																	
-07/10/2025 15:31:36	Armani Shoes	01711343151	23 Blue Water Shopping City, Zindabazar						Shoe Store	armani-shoes																	
-07/10/2025 15:31:36	Bata	0821 718283	Municipal Market, Bondor Bazar						Shoe Store	bata																	
-07/10/2025 15:31:36	Best Shoes	01715574450	Zindabazar						Shoe Store	best-shoes																	
-07/10/2025 15:31:36	Excellent Shoes	0821 713279, 0821 715797	Zindabazar						Shoe Store	excellent-shoes																	
-07/10/2025 15:31:36	Fortuna Shoes 		7/8 Sylhet Millennium, Zindabazar						Shoe Store	fortuna-shoes																	
-07/10/2025 15:31:36	Jahid Shoes	01715932299	120 Kakoli Shoping Center						Shoe Store	jahid-shoes																	
-07/10/2025 15:31:36	Rasel Shoe Store	01711101577, 001717021084	3 Janata Market, Noya Bondor Bazar						Shoe Store	rasel-shoe-store																	
-07/10/2025 15:31:36	Shirin Shoe Store	01711059654	22 Al-Marzan Shoping Center, Zindabazar						Shoe Store	shirin-shoe-store																	
-07/10/2025 15:31:36	The New Libat Shoes	0821 814617	24 London Mansion, Zindabazar						Shoe Store	the-new-libat-shoes																	
-07/10/2025 15:31:36	Long Life		507 City Center (4th Floor), Zindabazar						Shoe Store	long-life																	
-07/10/2025 15:31:36	Kicks		3 Blue Water Shopping City, Zindabazar						Shoe Store	kicks																	
-07/10/2025 15:31:36	Zisan Shoes		19 Blue Water Shopping City, Zindabazar						Shoe Store	zisan-shoes																	
-07/10/2025 15:31:36	National Shoes		Zindabazar Point						Shoe Store	national-shoes																	
-07/10/2025 15:31:36	Paye Paye		Zindabazar Point						Shoe Store	paye-paye																	
-07/10/2025 15:31:36	Sanim Shoe's		18 Blue Water Shopping Center, Zindabazar						Shoe Store	sanim-shoes																	
-07/10/2025 15:31:36	Moharaja Shoes		510 City Center (4th Floor), Zindabazar						Shoe Store	moharaja-shoes																	
-07/10/2025 15:31:36	Confidence Shoes		529 City Center (4th Floor), Zindabazar						Shoe Store	confidence-shoes																	
-07/10/2025 15:31:36	Bright Shoes		10 BlueWater Shopping City, Zindabazar						Shoe Store	bright-shoes																	
-07/10/2025 15:31:36	New Janata Shoe Store		Zindabazar point						Shoe Store	new-janata-shoe-store																	
-07/10/2025 15:31:36	Janata Exclusive		24-25 Blue Water Shopping City, Zindabazar						Shoe Store	janata-exclusive																	
-07/10/2025 15:31:36	Hafsa Shoes		7 Blue Water Shopping City, Zindabazar						Shoe Store	hafsa-shoes																	
-07/10/2025 15:31:36	M n S Shoes		2 Blue Water Shopping City, Zindabazar						Shoe Store	m-n-s-shoes																	
-07/10/2025 15:31:36	Step Up Shoes		5 Blue Water Shopping City, Zindabazar						Shoe Store	step-up-shoes																	
-07/10/2025 15:31:36	Vision Shoes		506 City Center (4th Floor), Zindabazar						Shoe Store	vision-shoes																	
-07/10/2025 15:31:36	Jennys		City Center (4th Floor), Zindabazar						Shoe Store	jennys																	
-07/10/2025 15:31:36	Manik Shoes		530 City Center (4th Floor), Zindabazar						Shoe Store	manik-shoes																	
-07/10/2025 15:31:36	Apex Showroom Shibgonj	01716871861	West Shibgonj, Tamabil Road, Sylhet						Shoe Store	apex-showroom-shibgonj																	
-07/10/2025 15:31:36	 Raj Shoes	01767257269	1/Kha, Jalalabad House, Zindabazar, Sylhet						Shoe Store	raj-shoes																	
-07/10/2025 15:31:36	Footing		6 Blue Water Shopping City, Zindabazar						Shoe Store	footing																	
+07/10/2025 15:31:36	Alif Enterprise	01722593940, 01912416624	Shah Nimatra Market, Upojilla Chottor						Shopping / Kitchenware	alif-enterprise																	
+07/10/2025 15:31:36	Monno Creamic	0821 710226	230-231 Lotif Center (2nd Floor), Zindabazar						Shopping / Kitchenware	monno-creamic																	
+07/10/2025 15:31:36	Mumu Crockeries	01712044597	Latif Centre, Zindabazar						Shopping / Kitchenware	mumu-crockeries																	
+07/10/2025 15:31:36	Noor Traders	0821 718491	Naya Sarak, Manikpir Road						Shopping / Kitchenware	noor-traders																	
+07/10/2025 15:31:36	Lamico Ceramics		140-142 Al-Hamra Shopping City, Zindabazar						Shopping / Kitchenware	lamico-ceramics																	
+07/10/2025 15:31:36	Barakah Crockeries & Gift	01723409555	Sunamgonj Road, Darson Dewry, Amberkhana, Sylhet						Shopping / Kitchenware	barakah-crockeries-gift																	
+07/10/2025 15:31:36	SNP Sports	+880 821 721259, +8801711479478	5-6-7 London Mansion, Zindabazar, Sylhet 3100						Shopping / Mens Clothing	snp-sports																	
+07/10/2025 15:31:36	Desh Panjabi House		Sukria Market (3rd Floor), Zindabazar						Shopping / Mens Clothing	desh-panjabi-house																	
+07/10/2025 15:31:36	Panjabi Mela		239 Blue Water Shopping City (3rd Floor), Zindabazar						Shopping / Mens Clothing	panjabi-mela																	
+07/10/2025 15:31:36	Emon Emporium	0821 719286	Sonarpara, Tamabil Road Shibgonj						Shopping / Mens Clothing	emon-emporium																	
+07/10/2025 15:31:36	Khaled Fashion	01813651588	172 Madhban Super Market						Shopping / Mens Clothing	khaled-fashion																	
+07/10/2025 15:31:36	Ema Fashion	01715141201, 01726307619	17A Kazi Mansion, Zindabazar						Shopping / Mens Clothing	ema-fashion																	
+07/10/2025 15:31:36	Abdul kadir	01711575962	Miliplaza						Shopping / Mens Clothing	abdul-kadir																	
+07/10/2025 15:31:36	D4U Gents	01711736169	211 Blue Water Shopping City(2nd flr), Zindabazar						Shopping / Mens Clothing	d4u-gents																	
+07/10/2025 15:31:36	Desire	01715142817	303 Sylhet City Center (2nd Floor), Zindabazar						Shopping / Mens Clothing	desire																	
+07/10/2025 15:31:36	Display	01811199959, 01714330525	Kazi Mansion						Shopping / Mens Clothing	display																	
+07/10/2025 15:31:36	Farha Fashion for Man	03598877788, 01712124952	95 Sylhet Millennium (2nd Floor), Zindabazar						Shopping / Mens Clothing	farha-fashion-for-man																	
+07/10/2025 15:31:36	Fashion Gallery	01711360823	4 Kaniz Plaza, Zindabazar						Shopping / Mens Clothing	fashion-gallery																	
+07/10/2025 15:31:36	Gents Arts	01711983128	92, Sylhet Millennium (2nd Floor), Zindabazar						Shopping / Mens Clothing	gents-arts																	
+07/10/2025 15:31:36	Gents Land	01716464823, 01916631014	323 Blue Water Shopping City(3rd floor),Zindabazar						Shopping / Mens Clothing	gents-land																	
+07/10/2025 15:31:36	Gents World	01716469259	4/5 Wahid View, Zindabazar						Shopping / Mens Clothing	gents-world																	
+07/10/2025 15:31:36	Golden Man		East Zindabazar						Shopping / Mens Clothing	golden-man																	
+07/10/2025 15:31:36	Hoq's Fashion	01711700467, 01715465497	2A Kazi Manshion, Zindabazar						Shopping / Mens Clothing	hoqs-fashion																	
+07/10/2025 15:31:36	Istiak T-Shirt Collection	01712082850	274,75 Madhoban Super Market, Bondar Bazar						Shopping / Mens Clothing	istiak-tshirt-collection																	
+07/10/2025 15:31:36	Lubnan Ethnic Wear	0821 720157	304 Sylhet City Centre (2nd Floor), Zindabazar						Shopping / Mens Clothing	lubnan-ethnic-wear																	
+07/10/2025 15:31:36	Man Mart	01716295495	Sukria Market, Zindabazar						Shopping / Mens Clothing	man-mart																	
+07/10/2025 15:31:36	Men's Hut		14A Kazi Mansion, Zindabazar						Shopping / Mens Clothing	mens-hut																	
+07/10/2025 15:31:36	One Touch Fashion Wear	01712042801, 0152427883	11A Kazi Mansion, Zindabazar						Shopping / Mens Clothing	one-touch-fashion-wear																	
+07/10/2025 15:31:36	Rafin	017118994766	Kaji Mansion, Zindabazar						Shopping / Mens Clothing	rafin																	
+07/10/2025 15:31:36	Time Fashion	01711355126	Wahid View, Zindabazar						Shopping / Mens Clothing	time-fashion																	
+07/10/2025 15:31:36	Zero-2	01712769486	East Zindabazar						Shopping / Mens Clothing	zero2																	
+07/10/2025 15:31:36	Golden Dice		303 Kakoli Shopping Centre (2nd Floor), Zindabazar						Shopping / Mens Clothing	golden-dice																	
+07/10/2025 15:31:36	Maa Bostraloy		225 Kakoli Shopping Center (2nd floor), Zindabazar						Shopping / Mens Clothing	maa-bostraloy																	
+07/10/2025 15:31:36	Regent Fashion	01715939991	318 Blue Water Shopping City (3rd Floor), Zindabazar						Shopping / Mens Clothing	regent-fashion																	
+07/10/2025 15:31:36	Mad House		343-344 Blue Water Shopping City (3rd Floor), Zindabazar						Shopping / Mens Clothing	mad-house																	
+07/10/2025 15:31:36	Playback		216 Blue Water Shopping Center (2nd Floor), Zindabazar						Shopping / Mens Clothing	playback																	
+07/10/2025 15:31:36	Debenhams		340 Blue Water Shopping Center, Zindabazar						Shopping / Mens Clothing	debenhams																	
+07/10/2025 15:31:36	Max Corner		214 Blue Water Shopping Center (2nd Floor), Zindabazar						Shopping / Mens Clothing	max-corner																	
+07/10/2025 15:31:36	Model's		342 Blue Water Shopping Center (3rd Floor), Zindabazar						Shopping / Mens Clothing	models																	
+07/10/2025 15:31:36	Robin Style		227 Blue Water Shopping Center (2nd Floor), Zindabazar						Shopping / Mens Clothing	robin-style																	
+07/10/2025 15:31:36	Art Gallery		336 Blue Water Shopping Center (3rd Floor), Zindabazar						Shopping / Mens Clothing	art-gallery																	
+07/10/2025 15:31:36	Next Wear		321 Blue Water Shopping Center (3rd Floor), Zindabazar						Shopping / Mens Clothing	next-wear																	
+07/10/2025 15:31:36	Faster		244 Blue Water Shopping City, Zindabazar						Shopping / Mens Clothing	faster																	
+07/10/2025 15:31:36	Satarupa Fabrics		105 City Center, Zindabazar						Shopping / Mens Clothing	satarupa-fabrics																	
+07/10/2025 15:31:36	Rock Land		217 Blue Water Shopping City (2nd Floor), Zindabazar						Shopping / Mens Clothing	rock-land																	
+07/10/2025 15:31:36	Shirt Touch		225 Blue Water Shopping City (2nd Floor), Zindabazar						Shopping / Mens Clothing	shirt-touch																	
+07/10/2025 15:31:36	Hudson		230 Blue Water Shopping City (2ndFloor), Zindabazar						Shopping / Mens Clothing	hudson																	
+07/10/2025 15:31:36	Blue Eye Fashion		243 Blue Water Shopping City (2nd Floor), Zindabazar						Shopping / Mens Clothing	blue-eye-fashion																	
+07/10/2025 15:31:36	Life Style		234 Blue Water Shopping City (2nd Floor), Zindabazar						Shopping / Mens Clothing	life-style																	
+07/10/2025 15:31:36	Top Shop		361 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Mens Clothing	top-shop																	
+07/10/2025 15:31:36	Fashion Palace		314-315 Blue Water Shopping City (4th Floor), Zindabazar						Shopping / Mens Clothing	fashion-palace																	
+07/10/2025 15:31:36	River Island		226 Blue Water Shopping City (2nd Floor), Zindabazar						Shopping / Mens Clothing	river-island																	
+07/10/2025 15:31:36	Bhs		201 Blue Water Shopping City (2nd Floor), Zindabazar						Shopping / Mens Clothing	bhs																	
+07/10/2025 15:31:36	D2		316 City Center (2nd Floor), Zindabazar						Shopping / Mens Clothing	d2																	
+07/10/2025 15:31:36	Uthso Fashion		246 Blue Water Shopping city (2nd Floor), Zindabazar						Shopping / Mens Clothing	uthso-fashion																	
+07/10/2025 15:31:36	Cotton Line		313 City Center (2nd Floor), Zindabazar						Shopping / Mens Clothing	cotton-line																	
+07/10/2025 15:31:36	Emporium		337 Blue Water Shopping City (3rd Floor), Zindabazar						Shopping / Mens Clothing	emporium																	
+07/10/2025 15:31:36	Rich Man	0821 720157	Latif Center (2nd Floor), Zindabazar						Shopping / Mens Clothing	rich-man																	
+07/10/2025 15:31:36	Signature Gallery		321 Blue Water Shopping City (3rd Floor), Zindabazar						Shopping / Mens Clothing	signature-gallery																	
+07/10/2025 15:31:36	Nice Collection		322 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Mens Clothing	nice-collection																	
+07/10/2025 15:31:36	Manz Park		322 City Center (3rd Floor), Zindabazar						Shopping / Mens Clothing	manz-park																	
+07/10/2025 15:31:36	S.K Collection		231 Blue Water Shopping City (3rd Floor), Zindabazar						Shopping / Mens Clothing	sk-collection																	
+07/10/2025 15:31:36	New One Man		332 Al-Hmara Shopping City (2nd Floor), Zindabazar						Shopping / Mens Clothing	new-one-man																	
+07/10/2025 15:31:36	Gents Museum		327 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Mens Clothing	gents-museum																	
+07/10/2025 15:31:36	Aero Mans World		343-345 Al-Hamra Shopping City (3rd Floor), Zindabazar						Shopping / Mens Clothing	aero-mans-world																	
+07/10/2025 15:31:36	GAP		324 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Mens Clothing	gap																	
+07/10/2025 15:31:36	Nayeem's		373 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Mens Clothing	nayeems																	
+07/10/2025 15:31:36	Blue Fashion House	01710444943	Lotif Monjil, Modina Market, Sylhet						Shopping / Mens Clothing	blue-fashion-house																	
+07/10/2025 15:31:36	Next Collection for Man & Kids	01715084255	187 Modhuban Super Market (1st floor)						Shopping / Mens Clothing	next-collection-for-man-kids																	
+07/10/2025 15:31:36	Colours	01712987431	205 - 206, Shukria Market (1st Floor), Zinda Bazar, Sylhet						Shopping / Mens Clothing	colours																	
+07/10/2025 15:31:36	New Jahurun's		301 City Center (4th Floor), Zindabazar						Shopping / Mens Clothing	new-jahuruns																	
+07/10/2025 15:31:36	Apon		338-339 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Mens Clothing	apon																	
+07/10/2025 15:31:36	Asia		379 Al-Hamra Shopping City (3rd Floor), Zindabazar						Shopping / Mens Clothing	asia																	
+07/10/2025 15:31:36	X-Plore		Zindabazar Road, Baruthkhana						Shopping / Mens Clothing	xplore																	
+07/10/2025 15:31:36	Meharaj Panjabi		310 Blue Water Shopping Center (3rd Floor), Zindabazar						Shopping / Mens Clothing	meharaj-panjabi																	
+07/10/2025 15:31:36	Max Kraft		354 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Mens Clothing	max-kraft																	
+07/10/2025 15:31:36	Nobabi Panjabi House		313 City Center (3rd Floor), Zindabazar						Shopping / Mens Clothing	nobabi-panjabi-house																	
+07/10/2025 15:31:36	VIP Aarong		311-312 Blue Water Shopping City (4th Floor), Zindabazar						Shopping / Mens Clothing	vip-aarong																	
+07/10/2025 15:31:36	Ibrahim Panjabi		371 Al-Hamra Shopping City (3rd Floor), Zindabazar						Shopping / Mens Clothing	ibrahim-panjabi																	
+07/10/2025 15:31:36	Panjabi House	01717129523, 01715860596	216 Shukria Market (2nd floor), Zindabazar, Sylhet						Shopping / Mens Clothing	panjabi-house																	
+07/10/2025 15:31:36	FINESSE Lifestyle	+8801998685230	Elegant Shopping Mall (1st floor), Zindabzar, Sylhet	finessebangladesh@gmail.com	www.finessebd.com	https://www.facebook.com/finessebyako/		10am - 8pm	Shopping / Mens Clothing	finesse-lifestyle																	
+07/10/2025 15:31:36	Easy Fashion 	01759-882529	8/A Kumarpara main road,Naiorpool,Sylhet-3100	easyfashionsylhet@gmail.com	easyfashion.com.bd	https://www.facebook.com/easyfashion.bd/		9.30 AM	Shopping / Mens Clothing	easy-fashion																	
+07/10/2025 15:31:36	Ruhama Collection	01781442249	shahporan uposhohor, road no-05, khadimnagar, Shahporan, Sylhet	ruhamacollection2022@gmail.com		www.facebook.com/ruhamacollection2022		10am-10pm	Shopping / Mens Clothing	ruhama-collection																	
+07/10/2025 15:31:36	T-Shirt Maker	+8801670154652	6th Floor, Akther Shopping city, Modina Market, Pathantula, Sylhet	tshirtforsylhet@gmail.com	cozy-corner.xyz	fb.me/bdtshirtmaker	We do custom T-Shirts, Hoodie, Polo, Jersey	11am to 9pm	Shopping / Mens Clothing	tshirt-maker																	
+07/10/2025 15:31:36	Jeans 4 U	01797862861	Lamabazar	Jeans4ulamabazar@gmail.com			Jeans, formal pants, sports trousers, twill pants, polo t shirts, zip polo t shirts, ribbed shirts		Shopping / Mens Clothing	jeans-4-u																	
+07/10/2025 15:31:36	Abir Shoes	01730114102	54 City Super Market						Shopping / Shoe Store	abir-shoes																	
+07/10/2025 15:31:36	Anika Shoes	001718631991, 01731105154	81,67 Hasan Market, Bondor Bazar						Shopping / Shoe Store	anika-shoes																	
+07/10/2025 15:31:36	Armani Shoes	01711343151	23 Blue Water Shopping City, Zindabazar						Shopping / Shoe Store	armani-shoes																	
+07/10/2025 15:31:36	Bata	0821 718283	Municipal Market, Bondor Bazar						Shopping / Shoe Store	bata																	
+07/10/2025 15:31:36	Best Shoes	01715574450	Zindabazar						Shopping / Shoe Store	best-shoes																	
+07/10/2025 15:31:36	Excellent Shoes	0821 713279, 0821 715797	Zindabazar						Shopping / Shoe Store	excellent-shoes																	
+07/10/2025 15:31:36	Fortuna Shoes 		7/8 Sylhet Millennium, Zindabazar						Shopping / Shoe Store	fortuna-shoes																	
+07/10/2025 15:31:36	Jahid Shoes	01715932299	120 Kakoli Shoping Center						Shopping / Shoe Store	jahid-shoes																	
+07/10/2025 15:31:36	Rasel Shoe Store	01711101577, 001717021084	3 Janata Market, Noya Bondor Bazar						Shopping / Shoe Store	rasel-shoe-store																	
+07/10/2025 15:31:36	Shirin Shoe Store	01711059654	22 Al-Marzan Shoping Center, Zindabazar						Shopping / Shoe Store	shirin-shoe-store																	
+07/10/2025 15:31:36	The New Libat Shoes	0821 814617	24 London Mansion, Zindabazar						Shopping / Shoe Store	the-new-libat-shoes																	
+07/10/2025 15:31:36	Long Life		507 City Center (4th Floor), Zindabazar						Shopping / Shoe Store	long-life																	
+07/10/2025 15:31:36	Kicks		3 Blue Water Shopping City, Zindabazar						Shopping / Shoe Store	kicks																	
+07/10/2025 15:31:36	Zisan Shoes		19 Blue Water Shopping City, Zindabazar						Shopping / Shoe Store	zisan-shoes																	
+07/10/2025 15:31:36	National Shoes		Zindabazar Point						Shopping / Shoe Store	national-shoes																	
+07/10/2025 15:31:36	Paye Paye		Zindabazar Point						Shopping / Shoe Store	paye-paye																	
+07/10/2025 15:31:36	Sanim Shoe's		18 Blue Water Shopping Center, Zindabazar						Shopping / Shoe Store	sanim-shoes																	
+07/10/2025 15:31:36	Moharaja Shoes		510 City Center (4th Floor), Zindabazar						Shopping / Shoe Store	moharaja-shoes																	
+07/10/2025 15:31:36	Confidence Shoes		529 City Center (4th Floor), Zindabazar						Shopping / Shoe Store	confidence-shoes																	
+07/10/2025 15:31:36	Bright Shoes		10 BlueWater Shopping City, Zindabazar						Shopping / Shoe Store	bright-shoes																	
+07/10/2025 15:31:36	New Janata Shoe Store		Zindabazar point						Shopping / Shoe Store	new-janata-shoe-store																	
+07/10/2025 15:31:36	Janata Exclusive		24-25 Blue Water Shopping City, Zindabazar						Shopping / Shoe Store	janata-exclusive																	
+07/10/2025 15:31:36	Hafsa Shoes		7 Blue Water Shopping City, Zindabazar						Shopping / Shoe Store	hafsa-shoes																	
+07/10/2025 15:31:36	M n S Shoes		2 Blue Water Shopping City, Zindabazar						Shopping / Shoe Store	m-n-s-shoes																	
+07/10/2025 15:31:36	Step Up Shoes		5 Blue Water Shopping City, Zindabazar						Shopping / Shoe Store	step-up-shoes																	
+07/10/2025 15:31:36	Vision Shoes		506 City Center (4th Floor), Zindabazar						Shopping / Shoe Store	vision-shoes																	
+07/10/2025 15:31:36	Jennys		City Center (4th Floor), Zindabazar						Shopping / Shoe Store	jennys																	
+07/10/2025 15:31:36	Manik Shoes		530 City Center (4th Floor), Zindabazar						Shopping / Shoe Store	manik-shoes																	
+07/10/2025 15:31:36	Apex Showroom Shibgonj	01716871861	West Shibgonj, Tamabil Road, Sylhet						Shopping / Shoe Store	apex-showroom-shibgonj																	
+07/10/2025 15:31:36	 Raj Shoes	01767257269	1/Kha, Jalalabad House, Zindabazar, Sylhet						Shopping / Shoe Store	raj-shoes																	
+07/10/2025 15:31:36	Footing		6 Blue Water Shopping City, Zindabazar						Shopping / Shoe Store	footing																	
+07/10/2025 15:31:36	Maha	0821 727325, 0821 715420	Nayasarak Road, Sylhet						Shopping / Womens Clothing	maha																	
+07/10/2025 15:31:36	SHE	0821 720860	Nayasarak Road, Sylhet						Shopping / Womens Clothing	she																	
+07/10/2025 15:31:36	Mujahid Fabrics		128 Blue Water Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	mujahid-fabrics																	
+07/10/2025 15:31:36	MAA Jamdani Sarees		244 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	maa-jamdani-sarees																	
+07/10/2025 15:31:36	Anjum	01728 646532	Shop no. 348, 352 (2nd Floor), Al Hamra Shopping City, Zindabazar, Sylhet 3100						Shopping / Womens Clothing	anjum																	
+07/10/2025 15:31:36	Shammi Ladies Tailors & Embroidery		203 Kakoli Shopping Center (2nd Floor), Zindabazar						Shopping / Womens Clothing	shammi-ladies-tailors-embroidery																	
+07/10/2025 15:31:36	Farzana Fashion	01711921246	City Centre, Zindabazar						Shopping / Womens Clothing	farzana-fashion																	
+07/10/2025 15:31:36	Maa-mony Fashion	0821 710039	110-118 Latif Center, Zindabazar						Shopping / Womens Clothing	maamony-fashion																	
+07/10/2025 15:31:36	Mahima Fashion	01712110788, 01717947025	142 Hasan Market, Bondor Bazar						Shopping / Womens Clothing	mahima-fashion																	
+07/10/2025 15:31:36	Prime Fashion	01711114177	276 Al-Hamra Shopping City, Zindabazar						Shopping / Womens Clothing	prime-fashion																	
+07/10/2025 15:31:36	Sumi Fashion	01722061735, 01818040308	Mahamud Ali Road, Goalabazar						Shopping / Womens Clothing	sumi-fashion																	
+07/10/2025 15:31:36	Uma Sharee Centre	01722615108	50 Sylhet Millennium (2nd floor), Zindabazar						Shopping / Womens Clothing	uma-sharee-centre																	
+07/10/2025 15:31:36	Aachol		62 Galleria Shopping Complex, Zindabazar						Shopping / Womens Clothing	aachol																	
+07/10/2025 15:31:36	Achal Private 	0821 722457	Al-Hamra, Zindabazar						Shopping / Womens Clothing	achal-private																	
+07/10/2025 15:31:36	Agra Readymade	0821 714028	29 Modhubon Super Market, Bondor Bazar						Shopping / Womens Clothing	agra-readymade																	
+07/10/2025 15:31:36	Anisha Sharis	01711447681	24 Hasan Market, Bandar Bazar						Shopping / Womens Clothing	anisha-sharis																	
+07/10/2025 15:31:36	Ayesha Emporium	0821 723672	257 Al-Hamra Zindabazar						Shopping / Womens Clothing	ayesha-emporium																	
+07/10/2025 15:31:36	Biraj Sharee	01718865519, 01711950972	203 City Center, Zindabazar						Shopping / Womens Clothing	biraj-sharee																	
+07/10/2025 15:31:36	Dip Saree Collection	01715140882	202-208 Al-Hamra Shopping City Zinda Bazar						Shopping / Womens Clothing	dip-saree-collection																	
+07/10/2025 15:31:36	Elegance	01747915856	Hotel Anurag (1st Floor), Dhupadighi North						Shopping / Womens Clothing	elegance																	
+07/10/2025 15:31:36	Jhajo Monipuri Shari Ghor	01711952860, 01711156806	Khaled Menshion, VIP Road, Lamabazar						Shopping / Womens Clothing	jhajo-monipuri-shari-ghor																	
+07/10/2025 15:31:36	Logon	01711245178	33 Sylhet Millennium (2nd Floor), Zindabazar						Shopping / Womens Clothing	logon																	
+07/10/2025 15:31:36	 Acs Cloth Store	01818742311, 01716812675	Goalabazar						Shopping / Womens Clothing	acs-cloth-store																	
+07/10/2025 15:31:36	 Mohammed Ali & Brothers	01716468424	33/34 Hasan Market, Bandar Bazar						Shopping / Womens Clothing	mohammed-ali-brothers																	
+07/10/2025 15:31:36	Momin Garments	0171041168	48 Al-Amin, Chara Digi Par, Mozlish Amin						Shopping / Womens Clothing	momin-garments																	
+07/10/2025 15:31:36	Nazma Readymade	01712059165	110 Shukria Market, Zindabazar						Shopping / Womens Clothing	nazma-readymade																	
+07/10/2025 15:31:36	New Rongila Sarees	01675864107, 01920925036	108-109 Blue Water Shopping City, Zindabazar						Shopping / Womens Clothing	new-rongila-sarees																	
+07/10/2025 15:31:36	New Styling Lady	01716767593	44 Blue Water Soping City, Zinda Bazar						Shopping / Womens Clothing	new-styling-lady																	
+07/10/2025 15:31:36	Nids Ladies Fashion	01726015855	731 Hawker Market, Laldigir Par						Shopping / Womens Clothing	nids-ladies-fashion																	
+07/10/2025 15:31:36	Raj Konna	01711064604	56/57(2nd Floor), Sylhet Millennium						Shopping / Womens Clothing	raj-konna																	
+07/10/2025 15:31:36	Rongila	01715009218	145 Blue Water Shopping City, Zindabazar						Shopping / Womens Clothing	rongila																	
+07/10/2025 15:31:36	Shamima Bostro Bitan	0821 713427, 01715645548	417/18 Laldhighi Market, Row 4						Shopping / Womens Clothing	shamima-bostro-bitan																	
+07/10/2025 15:31:36	Sharee Bazar	0821 710391, 0821 710392	44 Sylhet Millennium (2nd Floor), Zindabazar						Shopping / Womens Clothing	sharee-bazar																	
+07/10/2025 15:31:36	Shareeka	0821 060540	136 Blue Water Shoping City, Zindabazar						Shopping / Womens Clothing	shareeka																	
+07/10/2025 15:31:36	Sulaiman Bastra Bitan		127 Sukria Market, Zindabazar						Shopping / Womens Clothing	sulaiman-bastra-bitan																	
+07/10/2025 15:31:36	Century Fabrics		214 Kakoli Shopping Center, Zindabazar						Shopping / Womens Clothing	century-fabrics																	
+07/10/2025 15:31:36	Tanni Collection		224 Kakoli Shopping Center, Zindabazar						Shopping / Womens Clothing	tanni-collection																	
+07/10/2025 15:31:36	Beauty Bostro House		Kakoli Shopping Center (2nd floor), Zindabazar						Shopping / Womens Clothing	beauty-bostro-house																	
+07/10/2025 15:31:36	Saima Fabrics		122 Blue Water Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	saima-fabrics																	
+07/10/2025 15:31:36	Style Max		315 Kakoli Shopping Center (3rd Floor), Zindabazar						Shopping / Womens Clothing	style-max																	
+07/10/2025 15:31:36	Tahera Saree Center	01717802323	212 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	tahera-saree-center																	
+07/10/2025 15:31:36	Saree Mela	01732158601	216 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	saree-mela																	
+07/10/2025 15:31:36	Mahnaz Saree Center		213 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	mahnaz-saree-center																	
+07/10/2025 15:31:36	Alpona Saree Gor		219 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	alpona-saree-gor																	
+07/10/2025 15:31:36	Sonia Saree Gor		218 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	sonia-saree-gor																	
+07/10/2025 15:31:36	Ali Sari Center		217 Al-Hamra Shopping Center (2nd Floor), Zindabazar						Shopping / Womens Clothing	ali-sari-center																	
+07/10/2025 15:31:36	Labony		362 Al-Hamra Shopping Center, Zindabazar						Shopping / Womens Clothing	labony																	
+07/10/2025 15:31:36	Shuvo Fashion		355 Al-Hamra Shopping Center (2nd Floor), Zindabazar						Shopping / Womens Clothing	shuvo-fashion																	
+07/10/2025 15:31:36	G.M. Fabrics		127 City Center, Zindabazar						Shopping / Womens Clothing	gm-fabrics																	
+07/10/2025 15:31:36	Zilbab Saree Center		102-103 City Center, Zindabazar						Shopping / Womens Clothing	zilbab-saree-center																	
+07/10/2025 15:31:36	Ruposhi Sarees		103-104 Blue Water Shopping Center (1st Floor), Zindabazar						Shopping / Womens Clothing	ruposhi-sarees																	
+07/10/2025 15:31:36	Shuktara Fabrics		112 Blue Water Shopping City (2nd floor), Zindabazar						Shopping / Womens Clothing	shuktara-fabrics																	
+07/10/2025 15:31:36	Sheuly Fashion		342-344 Alhamra Shopping Center, Zindabazar						Shopping / Womens Clothing	sheuly-fashion																	
+07/10/2025 15:31:36	Safari		209 Blue Water Shopping Center (2nd Floor), Zindabazar						Shopping / Womens Clothing	safari																	
+07/10/2025 15:31:36	Ononna Saree		101 Blue Water Shopping Center (2nd Floor), Zindabazar						Shopping / Womens Clothing	ononna-saree																	
+07/10/2025 15:31:36	Noborupa Saree Gor		131 Blue Water Shopping Center (2nd Floor), Zindabazar						Shopping / Womens Clothing	noborupa-saree-gor																	
+07/10/2025 15:31:36	Neha Fashion		210 Blue Water Shopping Center (2nd Floor), Zindabazar						Shopping / Womens Clothing	neha-fashion																	
+07/10/2025 15:31:36	Tamaraz Fashion		317 City Center (3rd Floor), Zindabazar						Shopping / Womens Clothing	tamaraz-fashion																	
+07/10/2025 15:31:36	Bombay Looks		215 Blue Water Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	bombay-looks																	
+07/10/2025 15:31:36	Zex Textile		103-104 Blue Water Shopping Center, Zindabazar						Shopping / Womens Clothing	zex-textile																	
+07/10/2025 15:31:36	Ehaan Fabrics		113 Blue Water Shopping Center (2nd Floor), Zindabazar						Shopping / Womens Clothing	ehaan-fabrics																	
+07/10/2025 15:31:36	Moharani Saree Ghar		204 City Center (2nd Floor), Zindabazar						Shopping / Womens Clothing	moharani-saree-ghar																	
+07/10/2025 15:31:36	Green Apple		245-246 Blue Water Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	green-apple																	
+07/10/2025 15:31:36	Fun Time		240 Blue Water Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	fun-time																	
+07/10/2025 15:31:36	Mouri Fashion		377 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	mouri-fashion																	
+07/10/2025 15:31:36	Sumaiya Fashion		349 Al-Hamra Shopping City, Zindabazar						Shopping / Womens Clothing	sumaiya-fashion																	
+07/10/2025 15:31:36	Mone Rakho Saree Ghar		256 Al-Hamra Shopping City, Zindabazar						Shopping / Womens Clothing	mone-rakho-saree-ghar																	
+07/10/2025 15:31:36	Mother Emporium		255 Al-Hamra Shopping City, Zindabazar						Shopping / Womens Clothing	mother-emporium																	
+07/10/2025 15:31:36	Karachi Bazar & Bombay Bazar		233 Al-Hamra Shopping City (1st Floor), Zindabazar						Shopping / Womens Clothing	karachi-bazar-bombay-bazar																	
+07/10/2025 15:31:36	Shokh		315 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	shokh																	
+07/10/2025 15:31:36	Parasmoni		121 Blue Water Shopping City (1st Floor), Zindabazar						Shopping / Womens Clothing	parasmoni																	
+07/10/2025 15:31:36	Mahin & Joy Fabrics		120 Blue Water Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	mahin-joy-fabrics																	
+07/10/2025 15:31:36	Young Lady		220 Blue Water Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	young-lady																	
+07/10/2025 15:31:36	Ohe Textile		221 City Center, Zindabazar						Shopping / Womens Clothing	ohe-textile																	
+07/10/2025 15:31:36	Nur Fabrics 3	01711312266	Blue Water Shopping City (1st Floor), Zindabazar, Sylhet						Shopping / Womens Clothing	nur-fabrics-3																	
+07/10/2025 15:31:36	Shopno Fabrics		123 City Center, Zindabazar						Shopping / Womens Clothing	shopno-fabrics																	
+07/10/2025 15:31:36	Shosti Sarees		203 City Center(2nd Floor), Zindabazar						Shopping / Womens Clothing	shosti-sarees																	
+07/10/2025 15:31:36	. New Haji Sunai Miah Fabrics		229-231 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	new-haji-sunai-miah-fabrics																	
+07/10/2025 15:31:36	Tahmina Fashion		320 City Center (3rd Floor), Zindabazar						Shopping / Womens Clothing	tahmina-fashion																	
+07/10/2025 15:31:36	Labonno Fabrics		124 City Center, Zindabazar						Shopping / Womens Clothing	labonno-fabrics																	
+07/10/2025 15:31:36	The City Saree Center		15 Modhubon Super Market, Bondorbazar						Shopping / Womens Clothing	the-city-saree-center																	
+07/10/2025 15:31:36	Al-Nur Saree Center		220 City Center (2nd Floor), Zindabazar						Shopping / Womens Clothing	alnur-saree-center																	
+07/10/2025 15:31:36	Snahalata		119 City Center (1st Floor), Zindabazar						Shopping / Womens Clothing	snahalata																	
+07/10/2025 15:31:36	Shopno Mela Fabrics		227 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	shopno-mela-fabrics																	
+07/10/2025 15:31:36	Zaine		347 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	zaine																	
+07/10/2025 15:31:36	Sabiha Sarees		246 Al-Hamra Shopping City, Zindabazar						Shopping / Womens Clothing	sabiha-sarees																	
+07/10/2025 15:31:36	Ria Textile		238-239 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	ria-textile																	
+07/10/2025 15:31:36	Mayesha Sarees		248 Al-Hamra Shopping City, Zindabazar						Shopping / Womens Clothing	mayesha-sarees																	
+07/10/2025 15:31:36	Prime Textiles		252 Al-Hamra Shopping City, Zindabazar						Shopping / Womens Clothing	prime-textiles																	
+07/10/2025 15:31:36	Rahma Collection		369-371 Al-Hamra Shopping City (3rd Floor), Zindabazar						Shopping / Womens Clothing	rahma-collection																	
+07/10/2025 15:31:36	Moriom Saree Ghor		249 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	moriom-saree-ghor																	
+07/10/2025 15:31:36	Mollika		128-129 City Center, Zindabazar						Shopping / Womens Clothing	mollika																	
+07/10/2025 15:31:36	Adunika		339 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	adunika																	
+07/10/2025 15:31:36	Rangila		251-253 Al-Hamra Shopping City (1st Floor), Zindabazar						Shopping / Womens Clothing	rangila																	
+07/10/2025 15:31:36	Al-Arafah Saree Ghor		258 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	alarafah-saree-ghor																	
+07/10/2025 15:31:36	Stitch	01715603365	Khoirun plaza, Zindabazar						Shopping / Womens Clothing	stitch																	
+07/10/2025 15:31:36	Fine Fabrics	+880 1712132665	112 Latif Center, Zindabazar, Sylhet 3100						Shopping / Womens Clothing	fine-fabrics																	
+07/10/2025 15:31:36	Dwip Sharee Collection	+880 1715140882	202-204, Al Hamra Shopping City, Zindabazar, Sylhet 3100						Shopping / Womens Clothing	dwip-sharee-collection																	
+07/10/2025 15:31:36	Moni Mukta	+880 1711362183	78 Sylhet Millenium, (2nd Floor), Zindabazar, Sylhet 3100						Shopping / Womens Clothing	moni-mukta																	
+07/10/2025 15:31:36	Moni Mukta Readymade	+880 1711175725	123 Shukria Market (Ground Floor), Zindabazar, Sylhet 3100						Shopping / Womens Clothing	moni-mukta-readymade																	
+07/10/2025 15:31:36	Suti Palli	00880 1711376209	Abas-11, Sylmart Complex, Noyasarak, East Zindabazar, Sylhet						Shopping / Womens Clothing	suti-palli																	
+07/10/2025 15:31:36	Fast Track Fabric	+8801711182158	3 Box mansion Zindabazar East, Sylhet.						Shopping / Womens Clothing	fast-track-fabric																	
+07/10/2025 15:31:36	Baby Corder/Ladies Corner	0821 716566, 01712016556	63/63 A, Modhubon Super Market (Ground Floor), Bondor Bazar, Sylhet						Shopping / Womens Clothing	baby-corderladies-corner																	
+07/10/2025 15:31:36	Priyoti	01912140079, 01912140080	Shapnil 3, Mirzajangal, Sylhet						Shopping / Womens Clothing	priyoti																	
+07/10/2025 15:31:36	Bombay Sharees	0821 2833942, 01711 407313	265 Al Hamra Shopping City, Zindabazar, Sylhet						Shopping / Womens Clothing	bombay-sharees																	
+07/10/2025 15:31:36	Anamica Sharee Center	01711337742, 06054011639	259/260 Alhamra Shopping City, Zindabazar, Sylhet						Shopping / Womens Clothing	anamica-sharee-center																	
+07/10/2025 15:31:36	Al Borak Cloth Store	01711388479, 01726241710	6-7 Mobarak Tower, Lal Dighir Par, Sylhet						Shopping / Womens Clothing	al-borak-cloth-store																	
+07/10/2025 15:31:36	Fatima Cloth Store	0821 723853, 01711326845	110/115 Madhubon Super Market (2nd Floor), Bandar Bazar, Sylhet						Shopping / Womens Clothing	fatima-cloth-store																	
+07/10/2025 15:31:36	Top Secret		229 Kakoli shopping Center (2nd Floor), Zindabazar						Shopping / Womens Clothing	top-secret																	
+07/10/2025 15:31:36	Sheetol		213 Blue Water Shopping City (3rd Floor), Zindabazar						Shopping / Womens Clothing	sheetol																	
+07/10/2025 15:31:36	Zara		200 Blue Water Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	zara																	
+07/10/2025 15:31:36	New Look		320 Al-Hamra Shopping City (2nd Floor), Zindabazar						Shopping / Womens Clothing	new-look																	
+07/10/2025 15:31:36	Shakil Fashion		340 Al-Hamra Shopping City (3rd Floor), Zindabazar						Shopping / Womens Clothing	shakil-fashion																	
+07/10/2025 15:31:36	Awlia Cloth Store	01711129242, 01911509791	115 Hasan Market, Bondor Bazar, Sylhet						Shopping / Womens Clothing	awlia-cloth-store																	
+07/10/2025 15:31:36	Artisti Collection	0821 4012094	A/9 Kumarpara Rd, Sylhet						Shopping / Womens Clothing	artisti-collection																	
+07/10/2025 15:31:36	The New Al-Amin Cloth Store	0821 718801, 01711995099	21 Madhuban Super Market, Bandar Bazar, Sylhet 3100						Shopping / Womens Clothing	the-new-alamin-cloth-store																	
+07/10/2025 15:31:36	Excellency Fashion House	0821 729041	Kumarpara Road, Sylhet						Shopping / Womens Clothing	excellency-fashion-house																	
+07/10/2025 15:31:36	Al-Hamra Shopping City	0821 719612, 01830062744	Zindabazar, Sylhet, Sylhet Division, Bangladesh						Shopping Mall	alhamra-shopping-city																	
+07/10/2025 15:31:36	Kakoli Shopping Center	0821 717888	Zindabazar						Shopping Mall	kakoli-shopping-center																	
+07/10/2025 15:31:36	Karimullah Market	0821 714555, 01715021320	Bondor Bazar						Shopping Mall	karimullah-market																	
+07/10/2025 15:31:36	West World Shopping City	0821 711238, 0821 810092	Zindabazar						Shopping Mall	west-world-shopping-city																	
 07/10/2025 15:31:36	Nevadia Technology	01751326878	Galleria Shopping Complex (5th Floor), Zindabazar, Sylhet						Software Development & Training	nevadia-technology																	
 07/10/2025 15:31:36	Recon IT	01763100446	Reaz Mension (2nd Floor), Subid Bazar						Software Development & Training	recon-it																	
 07/10/2025 15:31:36	CS IT Solution	01716388177	10 Century Market, Amberkhana						Software Development & Training	cs-it-solution																	
@@ -2209,8 +2358,7 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	PL Software Solution 	01717818374	Rajib Sorony 1, Niloy 2, Shamimabad, Bagbari						Software Development & Training	pl-software-solution																	
 07/10/2025 15:31:36	Morning Bird Computer	01714608750, 01714486057	Reaz Mansion, Subid Bazar						Software Development & Training	morning-bird-computer																	
 07/10/2025 15:31:36	Sylhost IT	01676020742	86/1 Shuvechcha, Miah Fazil Chisth, Subidbazar						Software Development & Training	sylhost-it																	
-07/10/2025 15:31:36	Startup Sylhet	01646033269	Surovi, Rajpara,Tilagor, Sylhet	Startupsylhet@gmail.com	www.startupsylhet.com	www.facebook.cotartupsyl	Job Placement, Skills development		Software Development & Training	startup-sylhet																	
-07/10/2025 15:31:36	Infinity Flame Soft	+8801675870047	417-418 (3rd floor), Rongmohol Tower Bondor Bazar, Sylhet	info@infinityflamesoft.com	www.infinityflamesoft.com	https://www.facebook.com/pg/infinity.flame.soft.7		11:00	Software Development & Training	infinity-flame-soft																	
+07/10/2025 15:31:36	Infinity Flame Soft	+8801675870047	417-418 (3rd floor), Rongmohol Tower Bondor Bazar, Sylhet	info@infinityflamesoft.com	www.infinityflamesoft.com	https://www.facebook.com/pg/infinity.flame.soft.7			Software Development & Training	infinity-flame-soft																	
 07/10/2025 15:31:36	Tresify Lab	01747-000348	4th Floor, Alapon Saista Complex, Sylhet	info@tresifylab.com	https://tresifylab.com	https://www.facebook.com/tresifylab	Web Design, Web Development, Digital Marketing, SEO, Cyber Security		Software Development & Training	tresify-lab																	
 07/10/2025 15:31:36	Profession IT	+8801816396167	1st Floor, Roni Plaza, Bondor Bazar, Sylhet	info@professionit.com	https://www.professionit.com	fb.com/professionit	IT Agency & Institute	10am	Software Development & Training	profession-it																	
 07/10/2025 15:31:36	Ab Nahid Agency	+8801616411360	Level 8, Al Hamra Shopping City, Sylhet	info@abnahid.com	https://www.abnahid.com	https://www.facebook.com/abnahidagency	Web Development Service, Seo Service, Wordpress development	10am to 8pm	Software Development & Training	ab-nahid-agency																	
@@ -2235,10 +2383,6 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Lokonath Store		VIP Rd, Sylhet						Super Store	lokonath-store																	
 07/10/2025 15:31:36	Hannan Store		Sylhet						Super Store	hannan-store																	
 07/10/2025 15:31:36	Fiza & Co.		Shahi Eidgah, Sylhet						Super Store	fiza-co																	
-09/10/2025 14:03:37	Shwapno - Housing Estate		48 Housing Estate Road, Sylhet						Supermarket	shwapno-housing-estate																	
-09/10/2025 14:03:37	Shwapno - Pathantola	01640 865556	Sunrise Tower, Sylhet					9am - 10pm	Supermarket	shwapno-pathantola																	
-09/10/2025 14:03:37	Shawpno - Hawapara	01335 094771	Hawapara Road Sylhet					8am - 11:30pm	Supermarket	shawpno-hawapara																	
-07/10/2025 15:31:36	Shwapno - Uposhor	01624751954	Shahjalal Upashahar Main Rd, Sylhet						Supermarket	shwapno-uposhor																	
 07/10/2025 15:31:36	RFL Best Buy		Sylhet						Super Store	rfl-best-buy																	
 07/10/2025 15:31:36	Haque Varities Store		Shahjalal Upashahar Main Rd, Sylhet						Super Store	haque-varities-store																	
 07/10/2025 15:31:36	Sami General Store		Sylhet						Super Store	sami-general-store																	
@@ -2261,6 +2405,10 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Maya Departmental Store		Kadamtali Bus Station, Sylhet						Super Store	maya-departmental-store																	
 07/10/2025 15:31:36	Koreshi Departmental Store		Shahjalal Upashahar, Sylhet						Super Store	koreshi-departmental-store																	
 07/10/2025 15:31:36	Walidai Departmental Store		D Block, Sylhet						Super Store	walidai-departmental-store																	
+09/10/2025 14:03:37	Shwapno - Housing Estate		48 Housing Estate Road, Sylhet						Supermarket	shwapno-housing-estate																	
+09/10/2025 14:03:37	Shwapno - Pathantola	01640 865556	Sunrise Tower, Sylhet					9am - 10pm	Supermarket	shwapno-pathantola																	
+09/10/2025 14:03:37	Shawpno - Hawapara	01335 094771	Hawapara Road Sylhet					8am - 11:30pm	Supermarket	shawpno-hawapara																	
+07/10/2025 15:31:36	Shwapno - Uposhor	01624751954	Shahjalal Upashahar Main Rd, Sylhet						Supermarket	shwapno-uposhor																	
 07/10/2025 15:31:36	Decent Tailors	0821 2832676	107 Modhubon Supermarket (1st Floor)						Tailor	decent-tailors																	
 07/10/2025 15:31:36	DM Tailors	01712 040386	Shabuj Biponi (1st Floor)						Tailor	dm-tailors																	
 07/10/2025 15:31:36	Islam Tailors and Training Centre	01712 651040	52 Paira, Dorson Deuri,Darga Mohila						Tailor	islam-tailors-and-training-centre																	
@@ -2366,9 +2514,9 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Dubai Travels & Tours	01917182444 ,01713659682, 0821 840147	Azad Market Kadamtali Sylhet						Travel	dubai-travels-tours																	
 07/10/2025 15:31:36	Travel Bound International	01717389463	Idris Market (1st floor), Zindabazar, Sylhet						Travel	travel-bound-international																	
 07/10/2025 15:31:36	Al-Marzan Consultancy	0821 762217, 01776220126	11/1 Nobarun, Sonar Para, Uposhohor Road, Shibgonj, Sylhet						Travel	almarzan-consultancy																	
-07/10/2025 15:31:36	Voyager Tours & Travels	01746134099	Bongobor Road, Dakshin Surma, Sylhet 3100	voyagertours01@gmail.com	null	https://www.facebook.com/voyagertours01/?ref=page_internal	Tour Operator and Tour Agency	9.00am - 5.00pm	Travel	voyager-tours-travels																	
-07/10/2025 15:31:36	Fahima Tourism Network	+8801712891967	Raza Mansion Zinda bazar, Sylhet, Bangladesh	mmuktheruddin@gmail.com	www.fahimatourism.com	Muhammad mukther uddin	Package tour	9am - 6pm	Travel	fahima-tourism-network																	
-07/10/2025 15:31:36	Tuhin Travels	01713816777	301 Surma Tower, VIP Road, Taltola	tuhinoverseas@gmail.com	n/a	n/a	gulf visa prossing	10am - 4pm	Travel	tuhin-travels																	
+07/10/2025 15:31:36	Voyager Tours & Travels	01746134099	Bongobor Road, Dakshin Surma, Sylhet 3100	voyagertours01@gmail.com		https://www.facebook.com/voyagertours01/?ref=page_internal	Tour Operator and Tour Agency	9.00am - 5.00pm	Travel	voyager-tours-travels																	
+07/10/2025 15:31:36	Fahima Tourism Network	+8801712891967	Raza Mansion Zinda bazar, Sylhet, Bangladesh	mmuktheruddin@gmail.com	www.fahimatourism.com		Package tour	9am - 6pm	Travel	fahima-tourism-network																	
+07/10/2025 15:31:36	Tuhin Travels	01713816777	301 Surma Tower, VIP Road, Taltola	tuhinoverseas@gmail.com			Gulf visa prossing	10am - 4pm	Travel	tuhin-travels																	
 07/10/2025 15:31:36	Visa Aid International	+8801818-032601	Rahim Tower, 2nd Floor, Subhanighat, Sylhet.	visaaidsylhet@gmail.com	https://visaaidinternational.com/	https://www.facebook.com/visaaidinternational	Visa Application, Air Ticket, Hotel Booking, Translation and Notarized	09:00 AM to 05:00 PM	Travel	visa-aid-international																	
 07/10/2025 15:31:36	studytravelsbd	01939611898	New Oriental Shopping Center(2rd Floor) 3100 Sylhet, Sylhet Division, Bangladesh	studyinfom@gmail.com	https://studytravelsbd.com/	https://www.facebook.cotudytravelsbd	Best Education and Travels Consultant.	10am to 5pm	Travel	studytravelsbd																	
 07/10/2025 15:31:36	Travel One BD	01334912893	542, Lift-04, West World Shopping City , Zindabazar	service@travelonebd.com	Travelone.com.bd	https://www.facebook.com/Travelonebdsylhet	Student Visa, Visit Visa, Work Permit , Hajj Umrah, Air Ticket, Local Tour	Saturday To Thursday From 11 AM to 8 PM	Travel	travel-one-bd																	
@@ -2433,7 +2581,7 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	IELTS Centre	01757099403	Hill Tower (2nd Floor), Airport Road, Amberkhana, Sylhet						Tution & Coaching	ielts-centre																	
 07/10/2025 15:31:36	LEXIS	01716159261	Ananda Tower (5th floor), Jail Road, Sylhet						Tution & Coaching	lexis																	
 07/10/2025 15:31:36	Nucleus Coaching Centre	+8801611800300, +880175565126	Syllmark Tower, Shibgonj Point, Shibgonj, Sylhet						Tution & Coaching	nucleus-coaching-centre																	
-07/10/2025 15:31:36	Tahmidul Azom Sany	+8801792303227	Physics, SUST 28th batch	tasanyphy01773@gmail.com			Teacher		Tution & Coaching	tahmidul-azom-sany																	
+07/10/2025 15:31:36	G.C.C. Approved Medical Centres Association	0821 725822	Hotel Polash Building (Ground Floor), Amberkhana						Uncategorised	gcc-approved-medical-centres-association																	
 07/10/2025 15:31:36	Bishal	0821 717052	Sukria Market (1st Floor), Zindabazar						Uncategorised	bishal																	
 07/10/2025 15:31:36	Deshi Pushak Shilpo	01712916384	Mirzazangal						Uncategorised	deshi-pushak-shilpo																	
 07/10/2025 15:31:36	Leather Choice	01714507147	21(1st Floor) Sylhet Millennium						Uncategorised	leather-choice																	
@@ -2517,31 +2665,6 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Jas Motors 		Subhanighat						Uncategorised	jas-motors																	
 07/10/2025 15:31:36	Riyad Auto	+880 1716905997	Noyasarak, Manikpeer Road, Sylhet						Uncategorised	riyad-auto																	
 07/10/2025 15:31:36	Automatic Vehicle Location & Security System	01914328156	Sylhet Millenium (Floor 9), Zindabazar						Uncategorised	automatic-vehicle-location-security-system																	
-07/10/2025 15:31:36	Brothers Auto Engineering Works	01716292452, 01674456172	Dhupadighir Par						Work Shop	brothers-auto-engineering-works																	
-07/10/2025 15:31:36	Dhaka Engineering Worshop	01921818570	Bangobir Road						Work Shop	dhaka-engineering-worshop																	
-07/10/2025 15:31:36	Habib Engineering Workshop	0822 956169, 01715018742	Highway Road						Work Shop	habib-engineering-workshop																	
-07/10/2025 15:31:36	Jalalabad Auto Care and Servicing Centre	0821 2833152, 0193777410	Plot A, Block B, Kumar Para						Work Shop	jalalabad-auto-care-and-servicing-centre																	
-07/10/2025 15:31:36	Millenium Engineering Workshop	01712329617	Jagnnathpur Bazar, East Point						Work Shop	millenium-engineering-workshop																	
-07/10/2025 15:31:36	Navana CNG 	0821 814424	Osmani Airport Road, Choukidekhi						Work Shop	navana-cng																	
-07/10/2025 15:31:36	Popular Auto Works	0821 811991	57 Inner Circular VIP Road, Purana Paltan Line						Work Shop	popular-auto-works																	
-07/10/2025 15:31:36	Jalalabad Auto Care & Servicing Centre		Plot A/1, Block B, Kumarpara Point						Bank ATM	jalalabad-auto-care-servicing-centre																	
-07/10/2025 15:31:36	Dutch Bangla Bank ATM		Osmani Medical Road, Kazolshah						Bank ATM	dutch-bangla-bank-atm																	
-07/10/2025 15:31:36	Standard Chartered Bank ATM		Mirzajungal						Bank ATM	standard-chartered-bank-atm																	
-07/10/2025 15:31:36	Islami Bank ATM		mirzajungal						Bank ATM	islami-bank-atm																	
-07/10/2025 15:31:36	Standard Chartered ATM		Hazrat Shahjalal Rd, Dorga Gate						Bank ATM	standard-chartered-atm																	
-07/10/2025 15:31:36	AB Bank Limited	0821715736	Raj Manjil, Dargah Gate, Sylhet						Bank ATM	ab-bank-limited																	
-07/10/2025 15:31:36	HSBC ATM		Hazrat Shahjalal Rd, Sylhet						Bank ATM	hsbc-atm																	
-07/10/2025 15:31:36	BRAC Bank Limited ATM	01736935650	BRAC Bank ATM,Pallabi Trade Center,Subidbazar,Sunamganj Road,Sylhet						Bank ATM	brac-bank-limited-atm																	
-07/10/2025 15:31:36	Dutch-Bangla Bank Limited ATM		Hazrat Shahjalal Rd, Sylhet						Bank ATM	dutchbangla-bank-limited-atm																	
-07/10/2025 15:31:36	Dhaka Bank Limited ATM		West World Shopping City, Zindabazar, Jallarpar Rd, Sylhet						Bank ATM	dhaka-bank-limited-atm																	
-07/10/2025 15:31:36	Dutch-Bangla Bank Limited Fast Track		Mobarak Monjil, Dargah Gate, Sylhet						Bank ATM	dutchbangla-bank-limited-fast-track																	
-07/10/2025 15:31:36	Rupali Bank Limited ATM		Rikabi Bazar Rd, Sylhet						Bank ATM	rupali-bank-limited-atm																	
-07/10/2025 15:31:36	City Bank ATM		Ideal Hospital and Cardiac Centre Building, Lamabazar Rd, Sylhet						Bank ATM	city-bank-atm																	
-07/10/2025 15:31:36	AB Bank  ATM		Lamabazar Rd, Sylhet						Bank ATM	ab-bank-atm																	
-07/10/2025 15:31:36	United Commercial Bank Limited ATM		Lamabazar Rd, Sylhet						Bank ATM	united-commercial-bank-limited-atm																	
-07/10/2025 15:31:36	Southeast Bank Limited ATM		Lamabazar Rd, Sylhet						Bank ATM	southeast-bank-limited-atm																	
-07/10/2025 15:31:36	Eastern Bank Limited ATM		Dargah Gate, Sylhet						Bank ATM	eastern-bank-limited-atm																	
-07/10/2025 15:31:36	AB Bank Limited ATM		Medical College Rd, Sylhet						Bank ATM	ab-bank-limited-atm																	
 07/10/2025 15:31:36	Master Watch & Co.	0821 716490, 01715747754	Sukria Market, Zindabazar						Uncategorised	master-watch-co																	
 07/10/2025 15:31:36	Eye Fashion & Watch Co	01819650577	Shop 2, Garden Tower, Zindabazar						Uncategorised	eye-fashion-watch-co																	
 07/10/2025 15:31:36	Misha Leather Corner		104 Kakoli Shopping Center (Ground Floor), Zindabazar						Uncategorised	misha-leather-corner																	
@@ -2570,9 +2693,6 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Idea Kitchen & Home Decor	01711376486, 01711363123	Patantula (Near Londoni Road)						Uncategorised	idea-kitchen-home-decor																	
 07/10/2025 15:31:36	Idea Interior	+8801711376486	Patantula, Sylhet						Uncategorised	idea-interior																	
 07/10/2025 15:31:36	Al-Mokka Cap & Ator House	0821 811248	29/2 Kudrot Ullah Market						Uncategorised	almokka-cap-ator-house																	
-07/10/2025 15:31:36	Hason Raja Museum	0821 714323	Raja Kunjo, Jallar Par Road, Zindabazar						Museum	hason-raja-museum																	
-07/10/2025 15:31:36	Muktijoddah Songshad		Zindabazar						Museum	muktijoddah-songshad																	
-07/10/2025 15:31:36	Osmani Museum		Nur Manjil, Noya Sorak						Museum	osmani-museum																	
 07/10/2025 15:31:36	Ananda Recording Centre	01711462146	Zindabazar						Uncategorised	ananda-recording-centre																	
 07/10/2025 15:31:36	MA VCD Recording Center	01715519161	Tikorpara						Uncategorised	ma-vcd-recording-center																	
 07/10/2025 15:31:36	Milon CD Bazar	01716072814	8 Chondrika Tower, Taltolla						Uncategorised	milon-cd-bazar																	
@@ -2584,9 +2704,6 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Holy City	01712346854	Alif Center, Subhanighat, Bishaw Road						Uncategorised	holy-city																	
 07/10/2025 15:31:36	Nahim & Nahid Paribahan	01715396346	Kathaltoli Bazar, Sylhet						Uncategorised	nahim-nahid-paribahan																	
 07/10/2025 15:31:36	Shohag Paribahan	00821717296, 01711835685	Dargha Gate, Sylhet						Uncategorised	shohag-paribahan																	
-07/10/2025 15:31:36	Khadimnagar National Park		Khadim Nagar						Uncategorised	khadimnagar-national-park																	
-07/10/2025 15:31:36	Lawachara National Park		Lawachara, Kamalganj Upazila, Moulvibazar, Sylhet Division, Bangladesh						Uncategorised	lawachara-national-park																	
-07/10/2025 15:31:36	Rema-Kelenga Wildlife Sanctuary		Rema Kalenge, Habiganj, Bangladesh						Uncategorised	remakelenga-wildlife-sanctuary																	
 07/10/2025 15:31:36	Sylhet Railway Station	01611 704294, 0821 716061	Train Station Way, Sylhet						Uncategorised	sylhet-railway-station																	
 07/10/2025 15:31:36	OSMO Water Health Technology	01762414356	Dr Foyez Complex, Chicknagool, Jaintapur, Sylhet						Uncategorised	osmo-water-health-technology																	
 07/10/2025 15:31:36	Solid Drinking Water	01716206259	Al-Monzil, New Bazar, Akhalia, Sylhet						Uncategorised	solid-drinking-water																	
@@ -2605,30 +2722,9 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Mutual Trust Bank Securities 	0821 2830319, 04499103928	Sylhet City Center (8th Floor), Zindabazar						Uncategorised	mutual-trust-bank-securities																	
 07/10/2025 15:31:36	SR Capital 	0821 714442	B3 Galleria Shopping Complex, Zindabazar						Uncategorised	sr-capital																	
 07/10/2025 15:31:36	Times Securities 	0821 2830857	Sylhet Millennium (5th Floor), Zindabazar						Uncategorised	times-securities																	
-07/10/2025 15:31:36	Al-Hamra Shopping City	0821 719612, 01830062744	Zindabazar, Sylhet, Sylhet Division, Bangladesh						Shopping Mall	alhamra-shopping-city																	
-07/10/2025 15:31:36	Kakoli Shopping Center	0821 717888	Zindabazar						Shopping Mall	kakoli-shopping-center																	
-07/10/2025 15:31:36	Karimullah Market	0821 714555, 01715021320	Bondor Bazar						Shopping Mall	karimullah-market																	
-07/10/2025 15:31:36	West World Shopping City	0821 711238, 0821 810092	Zindabazar						Shopping Mall	west-world-shopping-city																	
 07/10/2025 15:31:36	Masud & Sons	01726213911	Station Road, Sylhet						Uncategorised	masud-sons																	
 07/10/2025 15:31:36	Liton Taxi Service	01716687950	Sylhet						Uncategorised	liton-taxi-service																	
 07/10/2025 15:31:36	Robi CNG Taxi	01714726785	Bishwanath						Uncategorised	robi-cng-taxi																	
-07/10/2025 15:31:36	Maloni Chora Tea Estate	0821 719133, 0821 719144	Maloni Chora						Tea Garden	maloni-chora-tea-estate																	
-07/10/2025 15:31:36	Ahmed Tea Company	0821 716552, 0821 718815	Sylhet						Tea Garden	ahmed-tea-company																	
-07/10/2025 15:31:36	Ali Bahar Tea Estates	0821 713395, 0821 720122	Sylhet						Tea Garden	ali-bahar-tea-estates																	
-07/10/2025 15:31:36	Kali Tea Estates	0821 716660	Sylhet						Tea Garden	kali-tea-estates																	
-07/10/2025 15:31:36	Gobindo Pur Tea Estates	0821 714605	Sylhet						Tea Garden	gobindo-pur-tea-estates																	
-07/10/2025 15:31:36	Gems Finlay Tea Estates	0821 715245	Sylhet						Tea Garden	gems-finlay-tea-estates																	
-07/10/2025 15:31:36	Dawondi Tea Estates	0821 715206	Sylhet						Tea Garden	dawondi-tea-estates																	
-07/10/2025 15:31:36	Tara Pur Tea Estates	0821 713479	Sylhet						Tea Garden	tara-pur-tea-estates																	
-07/10/2025 15:31:36	Fulbari Tea Estates	0821 718815	Sylhet						Tea Garden	fulbari-tea-estates																	
-07/10/2025 15:31:36	Borojan Tea Estates	0821 760947	Sylhet						Tea Garden	borojan-tea-estates																	
-07/10/2025 15:31:36	Mathiura Tea Company 	0821 761082, 01711800360	Sylhet						Tea Garden	mathiura-tea-company																	
-07/10/2025 15:31:36	Maloni Chora	0821 717177	Srimongol						Tea Garden	maloni-chora																	
-07/10/2025 15:31:36	Lakkatura Tea Estates	0821 716216	Lakkatura						Tea Garden	lakkatura-tea-estates																	
-07/10/2025 15:31:36	Siraj Nogor Tea Estates	0821 714204	Sylhet						Tea Garden	siraj-nogor-tea-estates																	
-07/10/2025 15:31:36	Mumin Chora Tea Estates	0821 761082	Sylhet						Tea Garden	mumin-chora-tea-estates																	
-07/10/2025 15:31:36	Adventure World Amusement Park		Salutikor Rd, Sylhet						Theme Park	adventure-world-amusement-park																	
-07/10/2025 15:31:36	Dreamland Amusement & Water Park	0821 840727	Dreamland Park Rd, Sylhet						Theme Park	dreamland-amusement-water-park																	
 07/10/2025 15:31:36	Salam Enterprise	01727413930	12 Bitul Aman Market (2nd floor)						Uncategorised	salam-enterprise																	
 07/10/2025 15:31:36	Ma-Moni Varities Store	01712689528	37 Notun Market (1st Floor), East Laldighir par						Uncategorised	mamoni-varities-store																	
 07/10/2025 15:31:36	Ali and Sons	01711800369	Sylhet Plaza, D 9/10 (First Floor), Zindabazar						Uncategorised	ali-and-sons																	
@@ -2642,10 +2738,6 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	TV Station	0821 714666	Sylhet						Uncategorised	tv-station																	
 07/10/2025 15:31:36	Ahmed Furniture & Saw Mill	0821 716974	Electric Supply Road, Ambarkhana						Uncategorised	ahmed-furniture-saw-mill																	
 07/10/2025 15:31:36	Kabir Steel Re-Rolling Mills 	04434441011, 01819271122	Shobok 18, East Mirabazar, Dadapir Road						Uncategorised	kabir-steel-rerolling-mills																	
-07/10/2025 15:31:36	Bonani Tea 	0821 718381	Amjad Ali Road, Kalighat						Uncategorised	bonani-tea																	
-07/10/2025 15:31:36	Burjan Tea Estate 	0821 715519	Khadimnagr						Tea Garden	burjan-tea-estate																	
-07/10/2025 15:31:36	Jafflong Tea Garden	0821 715219	Goainghat, Howapara						Tea Garden	jafflong-tea-garden																	
-07/10/2025 15:31:36	M. Ahmed Tea & Lands Co. 	0821 716552	Dargamoholla						Tea Garden	m-ahmed-tea-lands-co																	
 07/10/2025 15:31:36	Totally 3D Solution	01711473180	Shreejony, 31 Bhatalia						Uncategorised	totally-3d-solution																	
 07/10/2025 15:31:36	Banglalink	029885770, 01911310900	Liakot Bhaban (2nd floor), Jallar Par, Zindabazar						Uncategorised	banglalink																	
 07/10/2025 15:31:36	Citycell	01199121121	Garden Tower, Shahjalal Bridge, Link Road						Uncategorised	citycell																	
@@ -2671,25 +2763,20 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Ummah Immigration Service	0821 710392	Sylhet Millenium (6th Floor), Zindabazar						Uncategorised	ummah-immigration-service																	
 07/10/2025 15:31:36	Macquarie Society	01764544974	Sylhet						Uncategorised	macquarie-society																	
 07/10/2025 15:31:36	Immigration and Legal Advisory Service	01737844244, 01673633146, 08212831959	Dallas Super Market (1st Floor) Jail Road, Sylhet						Uncategorised	immigration-and-legal-advisory-service																	
-07/10/2025 15:31:36	A-Z Immigration Advisory Service	+88001765-022891	201 garden tower 1st floor Shahjalal Uposhahar, Sylhet						Uncategorised	az-immigration-advisory-service																	
 07/10/2025 15:31:36	MP Air International	01711012611, 01611012611	21 Galaria Shopping City (Ground Floor), Zindabazar, Sylhet						Uncategorised	mp-air-international																	
 07/10/2025 15:31:36	Canada Visa Application Centre	09606777888	Nirvana Inn (7th Floor), Mirza Jungle Road, Ramerdhigir par, Sylhet						Uncategorised	canada-visa-application-centre																	
 07/10/2025 15:31:36	Dhar Enterprise	01711828813	Dharga Gate, Sylhet						Uncategorised	dhar-enterprise																	
 07/10/2025 15:31:36	Whiteheart Consultancy	00821729148, 01759529667	338 Rose View complex. uposhore Sylhet						Uncategorised	whiteheart-consultancy																	
-07/10/2025 15:31:36	The Newham Welfare Trust	0181 9652834	House 4, Rd 24, Block D, Uposhohar						Uncategorised	the-newham-welfare-trust																	
 07/10/2025 15:31:36	Pradhikar	01925698569	Sylhet Agricultural University, Baluchar, Sylhet						Uncategorised	pradhikar																	
 07/10/2025 15:31:36	Zam Zam Charitable Trust	+880 821 814847	23 Mowsumi, Mirabazar, Sylhet						Uncategorised	zam-zam-charitable-trust																	
-07/10/2025 15:31:36	Foyjul Ali Shah	01726656669	Baramchal, Kulaura, Moulvibazar	foyjulalishah@gmail.com	https://bctimesbd.blogspot.com/	https://www.facebook.com/FASJournalist/	Journalist	24 hrs	Uncategorised	foyjul-ali-shah																	
-07/10/2025 15:31:36	Marina scientific store's	01818887051	32, idris market, zindabazar, sylhet	Ah.mithu87@gmail.com	null		Surgical, scientific, medical items retailer and supplier	10am - 9pm	Uncategorised	marina-scientific-stores																	
+07/10/2025 15:31:36	Marina scientific store	01818887051	32, idris market, zindabazar, sylhet	Ah.mithu87@gmail.com			Surgical, scientific, medical items retailer and supplier	10am - 9pm	Uncategorised	marina-scientific-store																	
 07/10/2025 15:31:36	Doctor's Surgical & Medicine	01955660055	Emergency Gate, Osmani Medical Road,Kajal Shah,Sylhet-3100				Surgical Supplier	24 Hours	Uncategorised	doctors-surgical-medicine																	
 07/10/2025 15:31:36	Web Design BD	+8801711000214	Sylhet	bdwebexperts@gmail.com	Web-designbd.com	Facebook.com/bestwebdesignbd	WEB Design & Hosting	Always Open	Uncategorised	web-design-bd																	
-07/10/2025 15:31:36	Tony Khan Hotel Management Institute	+00821710321 (Telephone) +8801958417657 (Admission/Front Desk) +8801958417658 (Office)	JC Trust House (2nd floor), Fazil Chist, Subidbazar (East), Sylhet, 3100	info@tkhmibd.com	http://tkhmibd.com/	https://www.facebook.com/tkhmibd/	Hotel Management Institute, Culinary Arts, Chef Course, Waiter & Housekeeping Course	10am to 5pm	Uncategorised	tony-khan-hotel-management-institute																	
-07/10/2025 15:31:36	NA Youth Force	01715871707	Torongo Mojumdari	nayf.govtbd@gmail.com	https://nayouthforcegovt.bd.com	Na Youth Force	Public Security Force	24	Uncategorised	na-youth-force																	
+07/10/2025 15:31:36	Tony Khan Hotel Management Institute	+00821710321	JC Trust House (2nd floor), Fazil Chist, Subidbazar (East), Sylhet, 3100	info@tkhmibd.com	http://tkhmibd.com/	https://www.facebook.com/tkhmibd/	Hotel Management Institute, Culinary Arts, Chef Course, Waiter & Housekeeping Course	10am to 5pm	Uncategorised	tony-khan-hotel-management-institute																	
 07/10/2025 15:31:36	Print Point	01747915051	7, Bashir Complex, (1st Floor) Jame Masjid Rood, Bandar Bazar, Sylhet	printpointsyl@gmail.com		https://web.facebook.com/printpointsyl/	All Printing Solution	10 AM To 10 PM	Uncategorised	print-point																	
 07/10/2025 15:31:36	Jalalabad Electric	01754390104	Jalalabad Market, North Beanibazar, Sylhet 3170	10.00 am		https://www.facebook.com/103548985443628/posts/105308431934350/?app=fbl	Electronic Wholesaler	1p	Uncategorised	jalalabad-electric																	
 07/10/2025 15:31:36	Online Tuition and Programming	01729379229	Online	shawon.majid@gmail.com	https://github.cohawon-majid	www.facebook.cohawon.majid	Physics, Chemistry, Math, ICT, C, C++, Java	24/7	Uncategorised	online-tuition-and-programming																	
 07/10/2025 15:31:36	Irfan Infinity World	+8801309808791	Irfan Infinity World, Shah-Jalal Market(A/2), Lakeshore Road Lakeshore Bazar, 3134	irfan.s.1926@gmail.com	https://irfaninfinityworld.business.site/	https://www.facebook.com/Irfan1926/		10:00 am - 10:00 pm	Uncategorised	irfan-infinity-world																	
-07/10/2025 15:31:36	Sylhet Online Service	01728176115	Kuarpar, VIP Road, Sylhet	service@soscombd.com	www.soscombd.com	Fb.cooscombd	Online Service	10 AM to 10 PM	Uncategorised	sylhet-online-service																	
 07/10/2025 15:31:36	Tan'z Bakery	01328031959	Block E, Road 1, Shahjalal Upashahar Main Rd, 3100	tanzbakery@gmail.com	instagram.com/tanz_bakery	facebook.com/tanzbakery	Best Cake Shop in sylhet	Thursday 10 AM–10 PM Friday 10 AM–10 PM Saturday 10 AM–10 PM Sunday 10 AM–10 PM Monday 10 AM–10 PM Tuesday 10 AM–10 PM Wednesday 10 AM–10 PM	Uncategorised	tanz-bakery																	
 07/10/2025 15:31:36	Darul Ihsan University	0821 2832684, 0821 283268	Galleria Complex (3rd Floor), West Zindabazar, Sylhet						University	darul-ihsan-university																	
 07/10/2025 15:31:36	Institute of Business & Information Technology	0821 722408	Al-Hamra (5th Floor), Zindabazar, Sylhet						University	institute-of-business-information-technology																	
@@ -2746,123 +2833,10 @@ Timestamp	Business Name	Contact numbers	Business address	Email address	Web Addre
 07/10/2025 15:31:36	Relax Hair Dresser	01711363248	Zindabazar Point						Wellbeing & Beauty	relax-hair-dresser																	
 07/10/2025 15:31:36	Trends Men's Salon	01718197279	Electric Supply Road, Amborkhana						Wellbeing & Beauty	trends-mens-salon																	
 07/10/2025 15:31:36	Skin Care & Lazer Center	08212832152	Kharun Bhaban (1st Floor), Mirboxtula						Wellbeing & Beauty	skin-care-lazer-center																	
-07/10/2025 15:31:36	UK Products	01719450890	Multiplan City, Upashahar, Sylhet		null	https://m.facebook.com/ukproductssylhet/	Cosmetics & Food		Wellbeing & Beauty	uk-products																	
-07/10/2025 15:31:36	Parkway Hospital Patient Assistance Center	01988777733	Manru Shopping City, 4th floor,Chowhatta, Sylhet	sylhet@parkwayhealth.net	www.parkwayhospitals.com		We provide, Health Checkup, Doctor appointment, Hospital appointment, Cost Estimation, Medical Visa, Air ambulance Service 24/7	10am - 6pm	Wellbeing & Beauty	parkway-hospital-patient-assistance-center																	
-07/10/2025 15:31:36	Kaif		170 Al-Hamra Shopping City, Zindabazar						Womens Clothing	kaif																	
-07/10/2025 15:31:36	Maha	0821 727325, 0821 715420	Nayasarak Road, Sylhet						Womens Clothing	maha																	
-07/10/2025 15:31:36	SHE	0821 720860	Nayasarak Road, Sylhet						Womens Clothing	she																	
-07/10/2025 15:31:36	Mujahid Fabrics		128 Blue Water Shopping City (2nd Floor), Zindabazar						Womens Clothing	mujahid-fabrics																	
-07/10/2025 15:31:36	MAA Jamdani Sarees		244 Al-Hamra Shopping City (2nd Floor), Zindabazar						Womens Clothing	maa-jamdani-sarees																	
-07/10/2025 15:31:36	Anjum	01728 646532	Shop no. 348, 352 (2nd Floor), Al Hamra Shopping City, Zindabazar, Sylhet 3100						Womens Clothing	anjum																	
-07/10/2025 15:31:36	Shammi Ladies Tailors & Embroidery		203 Kakoli Shopping Center (2nd Floor), Zindabazar						Womens Clothing	shammi-ladies-tailors-embroidery																	
-07/10/2025 15:31:36	Farzana Fashion	01711921246	City Centre, Zindabazar						Womens Clothing	farzana-fashion																	
-07/10/2025 15:31:36	Maa-mony Fashion	0821 710039	110-118 Latif Center, Zindabazar						Womens Clothing	maamony-fashion																	
-07/10/2025 15:31:36	Mahima Fashion	01712110788, 01717947025	142 Hasan Market, Bondor Bazar						Womens Clothing	mahima-fashion																	
-07/10/2025 15:31:36	Prime Fashion	01711114177	276 Al-Hamra Shopping City, Zindabazar						Womens Clothing	prime-fashion																	
-07/10/2025 15:31:36	Sumi Fashion	01722061735, 01818040308	Mahamud Ali Road, Goalabazar						Womens Clothing	sumi-fashion																	
-07/10/2025 15:31:36	Uma Sharee Centre	01722615108	50 Sylhet Millennium (2nd floor), Zindabazar						Womens Clothing	uma-sharee-centre																	
-07/10/2025 15:31:36	Aachol		62 Galleria Shopping Complex, Zindabazar						Womens Clothing	aachol																	
-07/10/2025 15:31:36	Achal Private 	0821 722457	Al-Hamra, Zindabazar						Womens Clothing	achal-private																	
-07/10/2025 15:31:36	Agra Readymade	0821 714028	29 Modhubon Super Market, Bondor Bazar						Womens Clothing	agra-readymade																	
-07/10/2025 15:31:36	Anisha Sharis	01711447681	24 Hasan Market, Bandar Bazar						Womens Clothing	anisha-sharis																	
-07/10/2025 15:31:36	Ayesha Emporium	0821 723672	257 Al-Hamra Zindabazar						Womens Clothing	ayesha-emporium																	
-07/10/2025 15:31:36	Biraj Sharee	01718865519, 01711950972	203 City Center, Zindabazar						Womens Clothing	biraj-sharee																	
-07/10/2025 15:31:36	Dip Saree Collection	01715140882	202-208 Al-Hamra Shopping City Zinda Bazar						Womens Clothing	dip-saree-collection																	
-07/10/2025 15:31:36	Elegance	01747915856	Hotel Anurag (1st Floor), Dhupadighi North						Womens Clothing	elegance																	
-07/10/2025 15:31:36	Jhajo Monipuri Shari Ghor	01711952860, 01711156806	Khaled Menshion, VIP Road, Lamabazar						Womens Clothing	jhajo-monipuri-shari-ghor																	
-07/10/2025 15:31:36	Logon	01711245178	33 Sylhet Millennium (2nd Floor), Zindabazar						Womens Clothing	logon																	
-07/10/2025 15:31:36	 Acs Cloth Store	01818742311, 01716812675	Goalabazar						Womens Clothing	acs-cloth-store																	
-07/10/2025 15:31:36	 Mohammed Ali & Brothers	01716468424	33/34 Hasan Market, Bandar Bazar						Womens Clothing	mohammed-ali-brothers																	
-07/10/2025 15:31:36	Momin Garments	0171041168	48 Al-Amin, Chara Digi Par, Mozlish Amin						Womens Clothing	momin-garments																	
-07/10/2025 15:31:36	Nazma Readymade	01712059165	110 Shukria Market, Zindabazar						Womens Clothing	nazma-readymade																	
-07/10/2025 15:31:36	New Rongila Sarees	01675864107, 01920925036	108-109 Blue Water Shopping City, Zindabazar						Womens Clothing	new-rongila-sarees																	
-07/10/2025 15:31:36	New Styling Lady	01716767593	44 Blue Water Soping City, Zinda Bazar						Womens Clothing	new-styling-lady																	
-07/10/2025 15:31:36	Nids Ladies Fashion	01726015855	731 Hawker Market, Laldigir Par						Womens Clothing	nids-ladies-fashion																	
-07/10/2025 15:31:36	Raj Konna	01711064604	56/57(2nd Floor), Sylhet Millennium						Womens Clothing	raj-konna																	
-07/10/2025 15:31:36	Rongila	01715009218	145 Blue Water Shopping City, Zindabazar						Womens Clothing	rongila																	
-07/10/2025 15:31:36	Shamima Bostro Bitan	0821 713427, 01715645548	417/18 Laldhighi Market, Row 4						Womens Clothing	shamima-bostro-bitan																	
-07/10/2025 15:31:36	Sharee Bazar	0821 710391, 0821 710392	44 Sylhet Millennium (2nd Floor), Zindabazar						Womens Clothing	sharee-bazar																	
-07/10/2025 15:31:36	Shareeka	0821 060540	136 Blue Water Shoping City, Zindabazar						Womens Clothing	shareeka																	
-07/10/2025 15:31:36	Sulaiman Bastra Bitan		127 Sukria Market, Zindabazar						Womens Clothing	sulaiman-bastra-bitan																	
-07/10/2025 15:31:36	Century Fabrics		214 Kakoli Shopping Center, Zindabazar						Womens Clothing	century-fabrics																	
-07/10/2025 15:31:36	Tanni Collection		224 Kakoli Shopping Center, Zindabazar						Womens Clothing	tanni-collection																	
-07/10/2025 15:31:36	Beauty Bostro House		Kakoli Shopping Center (2nd floor), Zindabazar						Womens Clothing	beauty-bostro-house																	
-07/10/2025 15:31:36	Saima Fabrics		122 Blue Water Shopping City (2nd Floor), Zindabazar						Womens Clothing	saima-fabrics																	
-07/10/2025 15:31:36	Style Max		315 Kakoli Shopping Center (3rd Floor), Zindabazar						Womens Clothing	style-max																	
-07/10/2025 15:31:36	Tahera Saree Center	01717802323	212 Al-Hamra Shopping City (2nd Floor), Zindabazar						Womens Clothing	tahera-saree-center																	
-07/10/2025 15:31:36	Saree Mela	01732158601	216 Al-Hamra Shopping City (2nd Floor), Zindabazar						Womens Clothing	saree-mela																	
-07/10/2025 15:31:36	Mahnaz Saree Center		213 Al-Hamra Shopping City (2nd Floor), Zindabazar						Womens Clothing	mahnaz-saree-center																	
-07/10/2025 15:31:36	Alpona Saree Gor		219 Al-Hamra Shopping City (2nd Floor), Zindabazar						Womens Clothing	alpona-saree-gor																	
-07/10/2025 15:31:36	Sonia Saree Gor		218 Al-Hamra Shopping City (2nd Floor), Zindabazar						Womens Clothing	sonia-saree-gor																	
-07/10/2025 15:31:36	Ali Sari Center		217 Al-Hamra Shopping Center (2nd Floor), Zindabazar						Womens Clothing	ali-sari-center																	
-07/10/2025 15:31:36	Labony		362 Al-Hamra Shopping Center, Zindabazar						Womens Clothing	labony																	
-07/10/2025 15:31:36	Shuvo Fashion		355 Al-Hamra Shopping Center (2nd Floor), Zindabazar						Womens Clothing	shuvo-fashion																	
-07/10/2025 15:31:36	G.M. Fabrics		127 City Center, Zindabazar						Womens Clothing	gm-fabrics																	
-07/10/2025 15:31:36	Zilbab Saree Center		102-103 City Center, Zindabazar						Womens Clothing	zilbab-saree-center																	
-07/10/2025 15:31:36	Ruposhi Sarees		103-104 Blue Water Shopping Center (1st Floor), Zindabazar						Womens Clothing	ruposhi-sarees																	
-07/10/2025 15:31:36	Shuktara Fabrics		112 Blue Water Shopping City (2nd floor), Zindabazar						Womens Clothing	shuktara-fabrics																	
-07/10/2025 15:31:36	Sheuly Fashion		342-344 Alhamra Shopping Center, Zindabazar						Womens Clothing	sheuly-fashion																	
-07/10/2025 15:31:36	Safari		209 Blue Water Shopping Center (2nd Floor), Zindabazar						Womens Clothing	safari																	
-07/10/2025 15:31:36	Ononna Saree		101 Blue Water Shopping Center (2nd Floor), Zindabazar						Womens Clothing	ononna-saree																	
-07/10/2025 15:31:36	Noborupa Saree Gor		131 Blue Water Shopping Center (2nd Floor), Zindabazar						Womens Clothing	noborupa-saree-gor																	
-07/10/2025 15:31:36	Neha Fashion		210 Blue Water Shopping Center (2nd Floor), Zindabazar						Womens Clothing	neha-fashion																	
-07/10/2025 15:31:36	Tamaraz Fashion		317 City Center (3rd Floor), Zindabazar						Womens Clothing	tamaraz-fashion																	
-07/10/2025 15:31:36	Bombay Looks		215 Blue Water Shopping City (2nd Floor), Zindabazar						Womens Clothing	bombay-looks																	
-07/10/2025 15:31:36	Zex Textile		103-104 Blue Water Shopping Center, Zindabazar						Womens Clothing	zex-textile																	
-07/10/2025 15:31:36	Ehaan Fabrics		113 Blue Water Shopping Center (2nd Floor), Zindabazar						Womens Clothing	ehaan-fabrics																	
-07/10/2025 15:31:36	Moharani Saree Ghar		204 City Center (2nd Floor), Zindabazar						Womens Clothing	moharani-saree-ghar																	
-07/10/2025 15:31:36	Green Apple		245-246 Blue Water Shopping City (2nd Floor), Zindabazar						Womens Clothing	green-apple																	
-07/10/2025 15:31:36	Fun Time		240 Blue Water Shopping City (2nd Floor), Zindabazar						Womens Clothing	fun-time																	
-07/10/2025 15:31:36	Mouri Fashion		377 Al-Hamra Shopping City (2nd Floor), Zindabazar						Womens Clothing	mouri-fashion																	
-07/10/2025 15:31:36	Sumaiya Fashion		349 Al-Hamra Shopping City, Zindabazar						Womens Clothing	sumaiya-fashion																	
-07/10/2025 15:31:36	Mone Rakho Saree Ghar		256 Al-Hamra Shopping City, Zindabazar						Womens Clothing	mone-rakho-saree-ghar																	
-07/10/2025 15:31:36	Mother Emporium		255 Al-Hamra Shopping City, Zindabazar						Womens Clothing	mother-emporium																	
-07/10/2025 15:31:36	Karachi Bazar & Bombay Bazar		233 Al-Hamra Shopping City (1st Floor), Zindabazar						Womens Clothing	karachi-bazar-bombay-bazar																	
-07/10/2025 15:31:36	Shokh		315 Al-Hamra Shopping City (2nd Floor), Zindabazar						Womens Clothing	shokh																	
-07/10/2025 15:31:36	Parasmoni		121 Blue Water Shopping City (1st Floor), Zindabazar						Womens Clothing	parasmoni																	
-07/10/2025 15:31:36	Mahin & Joy Fabrics		120 Blue Water Shopping City (2nd Floor), Zindabazar						Womens Clothing	mahin-joy-fabrics																	
-07/10/2025 15:31:36	Young Lady		220 Blue Water Shopping City (2nd Floor), Zindabazar						Womens Clothing	young-lady																	
-07/10/2025 15:31:36	Ohe Textile		221 City Center, Zindabazar						Womens Clothing	ohe-textile																	
-07/10/2025 15:31:36	Nur Fabrics 3	01711312266	Blue Water Shopping City (1st Floor), Zindabazar, Sylhet						Womens Clothing	nur-fabrics-3																	
-07/10/2025 15:31:36	Shopno Fabrics		123 City Center, Zindabazar						Womens Clothing	shopno-fabrics																	
-07/10/2025 15:31:36	Shosti Sarees		203 City Center(2nd Floor), Zindabazar						Womens Clothing	shosti-sarees																	
-07/10/2025 15:31:36	. New Haji Sunai Miah Fabrics		229-231 Al-Hamra Shopping City (2nd Floor), Zindabazar						Womens Clothing	new-haji-sunai-miah-fabrics																	
-07/10/2025 15:31:36	Tahmina Fashion		320 City Center (3rd Floor), Zindabazar						Womens Clothing	tahmina-fashion																	
-07/10/2025 15:31:36	Labonno Fabrics		124 City Center, Zindabazar						Womens Clothing	labonno-fabrics																	
-07/10/2025 15:31:36	The City Saree Center		15 Modhubon Super Market, Bondorbazar						Womens Clothing	the-city-saree-center																	
-07/10/2025 15:31:36	Al-Nur Saree Center		220 City Center (2nd Floor), Zindabazar						Womens Clothing	alnur-saree-center																	
-07/10/2025 15:31:36	Snahalata		119 City Center (1st Floor), Zindabazar						Womens Clothing	snahalata																	
-07/10/2025 15:31:36	Shopno Mela Fabrics		227 Al-Hamra Shopping City (2nd Floor), Zindabazar						Womens Clothing	shopno-mela-fabrics																	
-07/10/2025 15:31:36	Zaine		347 Al-Hamra Shopping City (2nd Floor), Zindabazar						Womens Clothing	zaine																	
-07/10/2025 15:31:36	Sabiha Sarees		246 Al-Hamra Shopping City, Zindabazar						Womens Clothing	sabiha-sarees																	
-07/10/2025 15:31:36	Ria Textile		238-239 Al-Hamra Shopping City (2nd Floor), Zindabazar						Womens Clothing	ria-textile																	
-07/10/2025 15:31:36	Mayesha Sarees		248 Al-Hamra Shopping City, Zindabazar						Womens Clothing	mayesha-sarees																	
-07/10/2025 15:31:36	Prime Textiles		252 Al-Hamra Shopping City, Zindabazar						Womens Clothing	prime-textiles																	
-07/10/2025 15:31:36	Rahma Collection		369-371 Al-Hamra Shopping City (3rd Floor), Zindabazar						Womens Clothing	rahma-collection																	
-07/10/2025 15:31:36	Moriom Saree Ghor		249 Al-Hamra Shopping City (2nd Floor), Zindabazar						Womens Clothing	moriom-saree-ghor																	
-07/10/2025 15:31:36	Mollika		128-129 City Center, Zindabazar						Womens Clothing	mollika																	
-07/10/2025 15:31:36	Adunika		339 Al-Hamra Shopping City (2nd Floor), Zindabazar						Womens Clothing	adunika																	
-07/10/2025 15:31:36	Rangila		251-253 Al-Hamra Shopping City (1st Floor), Zindabazar						Womens Clothing	rangila																	
-07/10/2025 15:31:36	Al-Arafah Saree Ghor		258 Al-Hamra Shopping City (2nd Floor), Zindabazar						Womens Clothing	alarafah-saree-ghor																	
-07/10/2025 15:31:36	Stitch	01715603365	Khoirun plaza, Zindabazar						Womens Clothing	stitch																	
-07/10/2025 15:31:36	Fine Fabrics	+880 1712132665	112 Latif Center, Zindabazar, Sylhet 3100						Womens Clothing	fine-fabrics																	
-07/10/2025 15:31:36	Dwip Sharee Collection	+880 1715140882	202-204, Al Hamra Shopping City, Zindabazar, Sylhet 3100						Womens Clothing	dwip-sharee-collection																	
-07/10/2025 15:31:36	Moni Mukta	+880 1711362183	78 Sylhet Millenium, (2nd Floor), Zindabazar, Sylhet 3100						Womens Clothing	moni-mukta																	
-07/10/2025 15:31:36	Moni Mukta Readymade	+880 1711175725	123 Shukria Market (Ground Floor), Zindabazar, Sylhet 3100						Womens Clothing	moni-mukta-readymade																	
-07/10/2025 15:31:36	Suti Palli	00880 1711376209	Abas-11, Sylmart Complex, Noyasarak, East Zindabazar, Sylhet						Womens Clothing	suti-palli																	
-07/10/2025 15:31:36	Fast Track Fabric	+8801711182158	3 Box mansion Zindabazar East, Sylhet.						Womens Clothing	fast-track-fabric																	
-07/10/2025 15:31:36	Baby Corder/Ladies Corner	0821 716566, 01712016556	63/63 A, Modhubon Super Market (Ground Floor), Bondor Bazar, Sylhet						Womens Clothing	baby-corderladies-corner																	
-07/10/2025 15:31:36	Priyoti	01912140079, 01912140080	Shapnil 3, Mirzajangal, Sylhet						Womens Clothing	priyoti																	
-07/10/2025 15:31:36	Bombay Sharees	0821 2833942, 01711 407313	265 Al Hamra Shopping City, Zindabazar, Sylhet						Womens Clothing	bombay-sharees																	
-07/10/2025 15:31:36	Anamica Sharee Center	01711337742, 06054011639	259/260 Alhamra Shopping City, Zindabazar, Sylhet						Womens Clothing	anamica-sharee-center																	
-07/10/2025 15:31:36	Al Borak Cloth Store	01711388479, 01726241710	6-7 Mobarak Tower, Lal Dighir Par, Sylhet						Womens Clothing	al-borak-cloth-store																	
-07/10/2025 15:31:36	Fatima Cloth Store	0821 723853, 01711326845	110/115 Madhubon Super Market (2nd Floor), Bandar Bazar, Sylhet						Womens Clothing	fatima-cloth-store																	
-07/10/2025 15:31:36	Top Secret		229 Kakoli shopping Center (2nd Floor), Zindabazar						Womens Clothing	top-secret																	
-07/10/2025 15:31:36	Sheetol		213 Blue Water Shopping City (3rd Floor), Zindabazar						Womens Clothing	sheetol																	
-07/10/2025 15:31:36	Zara		200 Blue Water Shopping City (2nd Floor), Zindabazar						Womens Clothing	zara																	
-07/10/2025 15:31:36	New Look		320 Al-Hamra Shopping City (2nd Floor), Zindabazar						Womens Clothing	new-look																	
-07/10/2025 15:31:36	Shakil Fashion		340 Al-Hamra Shopping City (3rd Floor), Zindabazar						Womens Clothing	shakil-fashion																	
-07/10/2025 15:31:36	Awlia Cloth Store	01711129242, 01911509791	115 Hasan Market, Bondor Bazar, Sylhet						Womens Clothing	awlia-cloth-store																	
-07/10/2025 15:31:36	Artisti Collection	0821 4012094	A/9 Kumarpara Rd, Sylhet						Womens Clothing	artisti-collection																	
-07/10/2025 15:31:36	The New Al-Amin Cloth Store	0821 718801, 01711995099	21 Madhuban Super Market, Bandar Bazar, Sylhet 3100						Womens Clothing	the-new-alamin-cloth-store																	
-07/10/2025 15:31:36	Excellency Fashion House	0821 729041	Kumarpara Road, Sylhet						Womens Clothing	excellency-fashion-house																	
+07/10/2025 15:31:36	Brothers Auto Engineering Works	01716292452, 01674456172	Dhupadighir Par						Work Shop	brothers-auto-engineering-works																	
+07/10/2025 15:31:36	Dhaka Engineering Worshop	01921818570	Bangobir Road						Work Shop	dhaka-engineering-worshop																	
+07/10/2025 15:31:36	Habib Engineering Workshop	0822 956169, 01715018742	Highway Road						Work Shop	habib-engineering-workshop																	
+07/10/2025 15:31:36	Jalalabad Auto Care and Servicing Centre	0821 2833152, 0193777410	Plot A, Block B, Kumar Para						Work Shop	jalalabad-auto-care-and-servicing-centre																	
+07/10/2025 15:31:36	Millenium Engineering Workshop	01712329617	Jagnnathpur Bazar, East Point						Work Shop	millenium-engineering-workshop																	
+07/10/2025 15:31:36	Navana CNG 	0821 814424	Osmani Airport Road, Choukidekhi						Work Shop	navana-cng																	
+07/10/2025 15:31:36	Popular Auto Works	0821 811991	57 Inner Circular VIP Road, Purana Paltan Line						Work Shop	popular-auto-works																	

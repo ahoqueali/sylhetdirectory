@@ -180,11 +180,21 @@ public class DirectoryBuilder {
     }
 
     private static String getCategoryPath(String category){
-        return category.replaceAll(",", "-")
-        .replaceAll("/", "-")
-        .replaceAll(" &", "")
-        .replaceAll(" ", "-")
-        .toLowerCase();
+
+        StringBuilder builder = new StringBuilder(category);
+
+        if(category.contains("/")){
+            int i = category.indexOf("/");
+            builder.setCharAt(i-1, ':');
+            builder.setCharAt(+i, ':');
+        }
+        return builder.toString()
+                .replaceAll(",", "-")
+                .replaceAll("/", "-")
+                .replaceAll(" &", "")
+                .replaceAll(" ", "-")
+                .replaceAll(":", "")
+                .toLowerCase();
 
     }
 
@@ -390,6 +400,7 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
                             .map(line -> line.replaceAll("listing-address", listing.getAddress()))
                             .map(line -> line.replaceAll("listing-contact", getContactsWithTracking(listing.getContact())))
                             .map(line -> line.replaceAll("listing-facebook", getFacebookHtml(listing.getFacebook())))
+                            .map(line -> line.replaceAll("listing-service", getServiceHtml(listing.getService())))
                             .map(line -> line.replaceAll("listing-category", listing.getCategory()))
                             .map(line -> line.replaceAll("category-slug", listing.getCategory()
                                     .replace(" &", "")
@@ -438,6 +449,10 @@ private static void createFile(Path indexFile, char letter, List<Listing> listin
     private static String getFacebookHtml(String facebook){
         if(!facebook.isEmpty()) return "<p><a role='button' class='btn btn-primary' href='"+ facebook +"' class='badge badge-primary'>Facebook</a><p>";
         return "";
+    }
+
+    private static String getServiceHtml(String service){
+        return "<p>" + service + "</p>";
     }
 
     public static List<Listing> loadListings(final String listingsCsv) {
